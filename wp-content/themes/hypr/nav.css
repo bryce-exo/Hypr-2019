@@ -1,0 +1,553 @@
+@media only screen and (max-width: 980px) {
+  /* line 8, sass/nav.scss */
+  #main-header {
+    background-color: transparent !important;
+  }
+}
+
+/* line 17, sass/nav.scss */
+#main-header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 28px;
+  height: 2px;
+  left: none;
+  width: 83%;
+  background: linear-gradient(45deg, #f13e9d, #3488da);
+  opacity: 1;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+@media only screen and (max-width: 980px) {
+  /* line 17, sass/nav.scss */
+  #main-header:after {
+    width: 100%;
+    top: 37px;
+    -moz-transform: translateX(90px);
+    -ms-transform: translateX(90px);
+    -webkit-transform: translateX(90px);
+    transform: translateX(90px);
+    z-index: 100;
+    display: none;
+  }
+}
+
+/* line 40, sass/nav.scss */
+#main-header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 28px;
+  width: 10%;
+  height: 2px;
+  background-color: #F13E9D;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+@media only screen and (max-width: 980px) {
+  /* line 40, sass/nav.scss */
+  #main-header:before {
+    width: 20px;
+    top: 37px;
+    z-index: 100;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  /* line 63, sass/nav.scss */
+  #et-top-navigation {
+    z-index: 110;
+    width: 100%;
+  }
+  /* line 68, sass/nav.scss */
+  #et-top-navigation:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    height: 2px;
+    z-index: 30;
+    width: 100%;
+    background: linear-gradient(45deg, #f13e9d, #3488da);
+    opacity: 1;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -moz-transform: scaleX(0) translateX(0px);
+    -ms-transform: scaleX(0) translateX(0px);
+    -webkit-transform: scaleX(0) translateX(0px);
+    transform: scaleX(0) translateX(0px);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  /* line 88, sass/nav.scss */
+  #et-top-navigation:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    height: 2px;
+    z-index: 30;
+    width: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #F13E9D;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+}
+
+/* line 108, sass/nav.scss */
+.logo_container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 113, sass/nav.scss */
+.et_fullwidth_nav #main-header .container {
+  padding-right: 12%;
+  padding-left: 12%;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 121, sass/nav.scss */
+.et_header_style_left .logo_container {
+  position: absolute;
+  top: 16px;
+  left: 12%;
+  width: 60px;
+  overflow: hidden;
+  height: 60px;
+}
+@media only screen and (max-width: 1220px) {
+  /* line 121, sass/nav.scss */
+  .et_header_style_left .logo_container {
+    left: 11.5%;
+  }
+}
+@media only screen and (max-width: 1520px) {
+  /* line 121, sass/nav.scss */
+  .et_header_style_left .logo_container {
+    width: 50px;
+    height: 50px;
+    left: 11.7%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* line 121, sass/nav.scss */
+  .et_header_style_left .logo_container {
+    left: 11.5%;
+    margin-left: 8px;
+    background-position: center 7px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 121, sass/nav.scss */
+  .et_header_style_left .logo_container {
+    width: 50px;
+    height: 50px;
+    top: 27px;
+    left: 30px;
+    z-index: 20;
+  }
+}
+
+/* line 158, sass/nav.scss */
+.logo_container a {
+  background-image: url(/wp-content/themes/hypr/assets/img/global/logo.svg);
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  -webkit-transform: translateX(-200px);
+  transform: translateX(-200px);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 179, sass/nav.scss */
+#quadmenu {
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  opacity: 0;
+}
+
+/* line 184, sass/nav.scss */
+#et-secondary-menu {
+  -moz-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+/* line 190, sass/nav.scss */
+body.pageload #main-header:before {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+/* line 198, sass/nav.scss */
+body.pageload .logo_container a {
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+@media only screen and (max-width: 980px) {
+  /* line 198, sass/nav.scss */
+  body.pageload .logo_container a {
+    -moz-transition-delay: 1.5s;
+    -o-transition-delay: 1.5s;
+    -webkit-transition-delay: 1.5s;
+    transition-delay: 1.5s;
+  }
+}
+/* line 208, sass/nav.scss */
+body.pageload #main-header:after {
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -moz-transition-delay: 1.4s;
+  -o-transition-delay: 1.4s;
+  -webkit-transition-delay: 1.4s;
+  transition-delay: 1.4s;
+}
+/* line 216, sass/nav.scss */
+body.pageload #quadmenu {
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  -moz-transition-delay: 1.7s;
+  -o-transition-delay: 1.7s;
+  -webkit-transition-delay: 1.7s;
+  transition-delay: 1.7s;
+}
+/* line 223, sass/nav.scss */
+body.pageload #et-secondary-menu {
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  -moz-transition-delay: 1.7s;
+  -o-transition-delay: 1.7s;
+  -webkit-transition-delay: 1.7s;
+  transition-delay: 1.7s;
+}
+@media only screen and (max-width: 980px) {
+  /* line 234, sass/nav.scss */
+  body.pageload #et-top-navigation:after {
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -moz-transform: scaleX(1) translateX(90px);
+    -ms-transform: scaleX(1) translateX(90px);
+    -webkit-transform: scaleX(1) translateX(90px);
+    transform: scaleX(1) translateX(90px);
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+  }
+}
+
+/* line 251, sass/nav.scss */
+#logo {
+  float: none;
+  display: none;
+}
+
+/* line 256, sass/nav.scss */
+.logo_helper {
+  display: none !important;
+}
+
+/* line 260, sass/nav.scss */
+#top-header {
+  background-color: transparent;
+}
+
+/* line 264, sass/nav.scss */
+#et-secondary-menu {
+  margin: 0 auto;
+  float: none;
+  width: 100%;
+  position: absolute;
+  top: 8px;
+  overflow: hidden;
+  left: 0px;
+}
+
+/* line 274, sass/nav.scss */
+#et-secondary-nav {
+  max-width: 100%;
+  margin: 0 13%;
+  display: block;
+  text-align: right;
+}
+
+/* line 284, sass/nav.scss */
+#et_mobile_nav_menu .et_mobile_menu {
+  background-color: black !important;
+  top: 0px;
+  border: none;
+  display: block;
+  opacity: 0;
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  z-index: 10;
+  padding-top: 76px;
+  overflow: hidden;
+  min-height: 100vh;
+}
+/* line 300, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav .mobile_menu_bar {
+  text-align: center;
+  background-color: black;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+  color: white;
+  width: 33px;
+  height: 33px;
+  border: 2px solid white;
+  position: absolute;
+  right: 20px;
+  padding: 0;
+  z-index: 110;
+}
+/* line 314, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav .mobile_menu_bar:before {
+  color: white;
+  font-size: 30px;
+}
+/* line 323, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav .et_mobile_menu #quadmenu {
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transition-delay: 0;
+  -o-transition-delay: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+/* line 332, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar:before {
+  content: "\4d";
+}
+/* line 336, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav.opened .et_mobile_menu {
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: .8;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 340, sass/nav.scss */
+#et_mobile_nav_menu .mobile_nav.opened .et_mobile_menu #quadmenu {
+  opacity: 1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* line 359, sass/nav.scss */
+#et-info, #et-secondary-menu > ul > li a {
+  font-family: "Titillium";
+  text-transform: uppercase;
+}
+
+/* line 364, sass/nav.scss */
+#quadmenu .quadmenu-navbar-nav {
+  margin-top: 4px !important;
+}
+
+/* line 368, sass/nav.scss */
+.quadmenu-navbar-nav li:last-child .quadmenu-item-content {
+  padding: 4px 10px !important;
+  margin-top: 10px;
+  background-color: transparent !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: 2px solid #F13E9D;
+  -moz-box-shadow: 0 0 0px #F13E9D;
+  -webkit-box-shadow: 0 0 0px #F13E9D;
+  box-shadow: 0 0 0px #F13E9D;
+  -moz-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+}
+/* line 379, sass/nav.scss */
+.quadmenu-navbar-nav li:last-child .quadmenu-item-content:hover {
+  -moz-box-shadow: 0 0 13px #F13E9D;
+  -webkit-box-shadow: 0 0 13px #F13E9D;
+  box-shadow: 0 0 13px #F13E9D;
+  -moz-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+}
+
+/* line 387, sass/nav.scss */
+#top-header .container {
+  padding-top: 0px;
+}
+
+/* line 391, sass/nav.scss */
+.et-fixed-header {
+  top: 0px !important;
+  background-color: #082452 !important;
+}
+
+/* line 398, sass/nav.scss */
+body.admin-bar .et-fixed-header {
+  top: 32px !important;
+}
+
+/* line 403, sass/nav.scss */
+.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
+  padding-top: 30px !important;
+}
+
+/* line 407, sass/nav.scss */
+.et-fixed-header#top-header a {
+  color: white !important;
+}
+
+/* line 411, sass/nav.scss */
+#top-menu-nav {
+  padding-top: 10px !important;
+}
+
+/* line 419, sass/nav.scss */
+body.et_fixed_nav.et_secondary_nav_enabled #main-header, body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
+  top: 0px !important;
+}
+
+/* line 423, sass/nav.scss */
+body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
+  top: 32px !important;
+}
