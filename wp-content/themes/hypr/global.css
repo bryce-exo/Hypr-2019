@@ -1,0 +1,43 @@
+/* line 6, sass/global.scss */
+#main-footer {
+  display: none;
+}
+
+/* line 11, sass/global.scss */
+.et_pb_section {
+  padding-top: 0px !important;
+}
+
+/* line 18, sass/global.scss */
+#s4 {
+  background-size: cover;
+}
+@media only screen and (max-width: 980px) {
+  /* line 20, sass/global.scss */
+  #s4 .et_pb_column_3_5 {
+    padding: 200px 60px 0px 60px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 27, sass/global.scss */
+  #s4 .et_pb_column_2_5 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* line 35, sass/global.scss */
+#s5 {
+  padding-bottom: 80px !important;
+}
+
+@media only screen and (max-width: 980px) {
+  /* line 40, sass/global.scss */
+  .et_pb_slider {
+    max-width: 80% !important;
+  }
+  /* line 49, sass/global.scss */
+  .et_pb_slider .et_pb_container {
+    padding-top: 60px;
+  }
+}

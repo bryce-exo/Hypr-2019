@@ -1,0 +1,54 @@
+@import "compass/css3/transform";
+@import "compass/css3"; 
+
+
+
+#main-footer{
+	display: none;
+}
+
+
+.et_pb_section{
+	padding-top: 0px!important;
+}
+
+
+
+
+#s4{
+	background-size: cover;
+	.et_pb_column_3_5{
+		@media only screen and (max-width: 980px){
+			padding: 200px 60px 0px 60px;
+
+		}
+	}
+
+	.et_pb_column_2_5{
+		@media only screen and (max-width: 980px){
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+}
+
+#s5{
+	padding-bottom: 80px!important;
+}
+
+
+.et_pb_slider{
+	@media only screen and (max-width: 980px){
+		max-width: 80%!important;
+
+		.et_pb_slide_description{
+			
+
+		}
+
+		.et_pb_container{
+			padding-top: 60px;
+
+		}
+	}
+}
