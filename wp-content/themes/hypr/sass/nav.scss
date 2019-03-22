@@ -23,11 +23,11 @@
         height: 2px;
         left: none;
         width: 83%;
-        background: linear-gradient(45deg, #F13E9D, #3488DA);
+       
         opacity: 1;
-        @include transition(.2s all ease-in-out);
-        @include transform-origin(top, left);
-        @include transform(scaleX(0));
+        background: linear-gradient(-45deg, #F13E9D, #3488DA);
+        @include border-radius(4px);
+        @include transition-delay(0s);
         @media only screen and (max-width: 980px){
             width: 100%;
             top: 37px;
@@ -46,15 +46,34 @@
     width: 10%;
     height: 2px;
     background-color: #F13E9D;
+    @include border-radius(4px);
     @include transition(.2s all ease-in-out);
     @include transform-origin(top, left);
-    @include transform(scaleX(0));
+    @include transition-delay(0s);
+    
 
     @media only screen and (max-width: 980px){
         width: 20px;
         top: 37px;
         z-index: 100;
         display: none;
+    }
+}
+
+#main-header:hover{
+    
+    &:after{
+        background: linear-gradient(-45deg, #3488DA, #3488DA 45%, #fff 50%, #F13E9D 55%, #F13E9D);
+        background-size: 400% 400%;
+        @include animation(Gradient 5s ease infinite);
+        @include box-shadow(0 0 15px rgba(255,255,255,.5));
+        @include transition-delay(.1s); 
+    }
+
+    &:before{
+     @include box-shadow(0 0 15px rgba(255,255,255,.5));
+     @include transition(.2s all ease-in-out); 
+     @include transition-delay(0s);  
     }
 }
 
@@ -139,7 +158,7 @@
 
  @media only screen and (min-width: 1920px){
   
-  left: 11.5%;
+  left: 12%;
   margin-left: 8px;
   ;
   
@@ -189,10 +208,8 @@
 
 body.pageload{
     #main-header:before{
-        @include transition(.2s all ease-in-out);
-        @include transform-origin(top, left);
-        @include transform(scaleX(1));
-        @include transition-delay(1s);
+        
+        
 
     }  
 
@@ -207,10 +224,7 @@ body.pageload{
     } 
 
     #main-header:after{
-        @include transition(.5s all ease-in-out);
-        @include transform-origin(top, left);
-        @include transform(scaleX(1));
-        @include transition-delay(1.4s);
+        
 
     }
 
@@ -281,7 +295,7 @@ body.pageload{
 
 #et-secondary-nav{
     max-width: 100%;
-        margin: 0 13%;
+        margin: 0 12.7%;
         display: block;
         text-align: right;
 }
