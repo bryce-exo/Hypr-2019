@@ -129,69 +129,79 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 67, sass/global.scss */
 .content-section h1 {
   margin-top: 40px;
+  line-height: 2.2rem;
 }
-/* line 70, sass/global.scss */
-.content-section h1, .content-section h2, .content-section h3, .content-section h4, .content-section h5, .content-section h6 {
+/* line 72, sass/global.scss */
+.content-section h2 {
+  line-height: 2rem;
+}
+/* line 75, sass/global.scss */
+.content-section h1, .content-section h2, .content-section h3, .content-section h4 {
   margin-bottom: 20px;
 }
-/* line 74, sass/global.scss */
+/* line 79, sass/global.scss */
 .content-section .et_pb_button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+/* line 87, sass/global.scss */
+.masthead-section .et_pb_image, .masthead-section .et_pb_button {
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 768px) {
-  /* line 83, sass/global.scss */
+  /* line 94, sass/global.scss */
   #et-info {
     float: right !important;
   }
 }
-/* line 105, sass/global.scss */
+/* line 116, sass/global.scss */
 .et_pb_image {
   overflow: hidden !important;
   height: 100%;
 }
 
-/* line 109, sass/global.scss */
+/* line 120, sass/global.scss */
 .et_pb_image_wrap, .et_pb_image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-/* line 120, sass/global.scss */
+/* line 131, sass/global.scss */
 .et_pb_video {
   height: 100%;
 }
 
-/* line 127, sass/global.scss */
+/* line 138, sass/global.scss */
 .et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
   width: 100% !important;
   max-width: 100% !important;
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 132, sass/global.scss */
+  /* line 143, sass/global.scss */
   .et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
     padding: 0px !important;
     margin: 0px !important;
   }
 }
 @media (min-width: 981px) {
-  /* line 141, sass/global.scss */
+  /* line 152, sass/global.scss */
   .et_pb_gutters3 .et_pb_column_1_2, .et_pb_gutters3.et_pb_row .et_pb_column_1_2 {
     margin-right: 0px;
     width: 50%;
   }
 }
 @media only screen and (max-width: 1280px) {
-  /* line 158, sass/global.scss */
+  /* line 169, sass/global.scss */
   .et_pb_column.content-col {
     background-image: none;
     padding: 80px !important;
   }
 
-  /* line 164, sass/global.scss */
+  /* line 175, sass/global.scss */
   .et_pb_column#graphic-col {
     padding: 80px !important;
   }

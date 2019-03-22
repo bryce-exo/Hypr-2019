@@ -66,8 +66,13 @@
 .content-section{
 	h1{
 		margin-top: 40px;
+		line-height: 2.2rem;
 	}
-	h1,h2,h3,h4,h5,h6{
+
+	h2{
+		line-height: 2rem;
+	}
+	h1,h2,h3,h4{
 		margin-bottom: 20px;
 	}
 
@@ -75,6 +80,12 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 
+	}
+}
+
+.masthead-section{
+	.et_pb_image, .et_pb_button{
+		margin-top: 20px;
 	}
 }
 
@@ -176,3 +187,5 @@
 .et_pb_column>.et_pb_module:first-child{
   
 }
+
+
