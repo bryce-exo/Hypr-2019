@@ -8,10 +8,6 @@
   padding-top: 0px !important;
 }
 
-/* line 18, sass/global.scss */
-#s4 {
-  background-size: cover;
-}
 @media only screen and (max-width: 980px) {
   /* line 20, sass/global.scss */
   #s4 .et_pb_column_3_5 {
@@ -40,4 +36,18 @@
   .et_pb_slider .et_pb_container {
     padding-top: 60px;
   }
+}
+
+/* line 58, sass/global.scss */
+.content-section h1 {
+  margin-top: 40px;
+}
+/* line 61, sass/global.scss */
+.content-section h1, .content-section h2, .content-section h3, .content-section h4, .content-section h5, .content-section h6 {
+  margin-bottom: 20px;
+}
+/* line 65, sass/global.scss */
+.content-section .et_pb_button {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
