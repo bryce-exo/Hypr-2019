@@ -63,7 +63,7 @@
 #main-header:hover{
     
     &:after{
-        background: linear-gradient(-45deg, #3488DA, #3488DA 45%, #fff 50%, #F13E9D 55%, #F13E9D);
+        background: linear-gradient(-45deg, #3488DA, #3488DA 49%, #fff 50%, #F13E9D 51%, #F13E9D);
         background-size: 400% 400%;
         @include animation(Gradient 5s ease infinite);
         @include box-shadow(0 0 15px rgba(255,255,255,.5));

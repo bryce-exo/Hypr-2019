@@ -77,7 +77,7 @@
 
 /* line 65, sass/nav.scss */
 #main-header:hover:after {
-  background: linear-gradient(-45deg, #3488da, #3488da 45%, #ffffff 50%, #f13e9d 55%, #f13e9d);
+  background: linear-gradient(-45deg, #3488da, #3488da 49%, #ffffff 50%, #f13e9d 51%, #f13e9d);
   background-size: 400% 400%;
   -moz-animation: Gradient 5s ease infinite;
   -webkit-animation: Gradient 5s ease infinite;

@@ -83,34 +83,61 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
   50% {
     background-position: 100% 50%;
+    -moz-box-shadow: 0 0 14px white;
+    -webkit-box-shadow: 0 0 14px white;
+    box-shadow: 0 0 14px white;
   }
   100% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
 }
 @-moz-keyframes Gradient {
   0% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
   50% {
     background-position: 100% 50%;
+    -moz-box-shadow: 0 0 14px white;
+    -webkit-box-shadow: 0 0 14px white;
+    box-shadow: 0 0 14px white;
   }
   100% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
 }
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
   50% {
     background-position: 100% 50%;
+    -moz-box-shadow: 0 0 14px white;
+    -webkit-box-shadow: 0 0 14px white;
+    box-shadow: 0 0 14px white;
   }
   100% {
     background-position: 0% 50%;
+    -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
   }
 }
 /* line 6, sass/global.scss */
@@ -318,7 +345,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 65, sass/nav.scss */
 #main-header:hover:after {
-  background: linear-gradient(-45deg, #3488da, #3488da 45%, #ffffff 50%, #f13e9d 55%, #f13e9d);
+  background: linear-gradient(-45deg, #3488da, #3488da 49%, #ffffff 50%, #f13e9d 51%, #f13e9d);
   background-size: 400% 400%;
   -moz-animation: Gradient 5s ease infinite;
   -webkit-animation: Gradient 5s ease infinite;
