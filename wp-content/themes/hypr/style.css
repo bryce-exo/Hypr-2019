@@ -204,64 +204,70 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* line 84, sass/global.scss */
+.content-section p {
+  font-family: 'Titillium Web';
+  font-size: 16px;
+  line-height: 22px;
+}
 
-/* line 87, sass/global.scss */
+/* line 92, sass/global.scss */
 .masthead-section .et_pb_image, .masthead-section .et_pb_button {
   margin-top: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 94, sass/global.scss */
+  /* line 99, sass/global.scss */
   #et-info {
     float: right !important;
   }
 }
-/* line 116, sass/global.scss */
+/* line 121, sass/global.scss */
 .et_pb_image {
   overflow: hidden !important;
   height: 100%;
 }
 
-/* line 120, sass/global.scss */
+/* line 125, sass/global.scss */
 .et_pb_image_wrap, .et_pb_image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-/* line 131, sass/global.scss */
+/* line 136, sass/global.scss */
 .et_pb_video {
   height: 100%;
 }
 
-/* line 138, sass/global.scss */
+/* line 143, sass/global.scss */
 .et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
   width: 100% !important;
   max-width: 100% !important;
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 143, sass/global.scss */
+  /* line 148, sass/global.scss */
   .et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
     padding: 0px !important;
     margin: 0px !important;
   }
 }
 @media (min-width: 981px) {
-  /* line 152, sass/global.scss */
+  /* line 157, sass/global.scss */
   .et_pb_gutters3 .et_pb_column_1_2, .et_pb_gutters3.et_pb_row .et_pb_column_1_2 {
     margin-right: 0px;
     width: 50%;
   }
 }
 @media only screen and (max-width: 1280px) {
-  /* line 169, sass/global.scss */
+  /* line 174, sass/global.scss */
   .et_pb_column.content-col {
     background-image: none;
     padding: 80px !important;
   }
 
-  /* line 175, sass/global.scss */
+  /* line 180, sass/global.scss */
   .et_pb_column#graphic-col {
     padding: 80px !important;
   }
