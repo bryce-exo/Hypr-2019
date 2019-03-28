@@ -120,17 +120,15 @@
 }
 .et_pb_image{
   overflow: hidden!important;
-  height: 100%;
+  	
 }
-.et_pb_image_wrap, .et_pb_image img{
+.et_pb_image_wrap, .et_pb_image{
   
   
   
 
   
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+ 
 }
 
 .et_pb_video{
@@ -194,3 +192,25 @@
 }
 
 
+.hover-image-desc{
+	display: block;
+	@include transition(.2s all ease-in-out);
+	max-height: 683px;
+
+	&:hover{
+		display: block;
+		@include transition(.2s all ease-in-out);
+
+		.et_pb_text_inner{
+			@include transition(.2s all ease-in-out);			
+			@include transform(translateY(-100%));
+		}
+
+	}
+
+	.et_pb_text_inner{
+		@include transition(.2s all ease-in-out);			
+		@include transform(translateY(-14px));
+	}
+
+}
