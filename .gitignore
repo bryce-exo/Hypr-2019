@@ -11,10 +11,15 @@ wp-config.php
 !wp-content/
 
 # Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
-wp-content/*
-!wp-content/themes/ 
+wp-content/plugins/*
+wp-content/cache/*
+wp-content/mu-plugins/*
+wp-content/uploads/*
+wp-content/themes/archive/*
+wp-content/themes/Divi/*
+wp-content/themes/index.php
+wp-content/advanced-cache.php
+wp-content/index.php
+wp-content/mysql.sql
 
 
-# Ignore everything in the "themes" directory, except the themes you specify
-wp-content/themes/*
-!wp-content/themes/hypr/

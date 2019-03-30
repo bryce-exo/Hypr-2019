@@ -23,6 +23,9 @@
 }
 
 
+
+
+
 //Default Styles
 $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
 
@@ -30,23 +33,29 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
 	font-size: 80px!important;
 	font-weight: normal!important;
 	margin: 0!important;
-	text-indent: 80px;
-	letter-spacing: 80px;
-	padding-bottom: 20px;
+	text-indent: 20px;
+	letter-spacing: 20px;
+	padding-bottom: 0px;
 	line-height: 90px!important;
+
+	@media only screen and (min-width: 1920px){
+		font-size: 140px!important;
+		line-height: 150px!important;
+		
+	}
 
 	@media only screen and (max-width: 980px){
 		font-size: 60px!important;
-		text-indent: 40px;
-		letter-spacing: 40px;
+		text-indent: 20px;
+		letter-spacing: 20px;
 		line-height: 70px!important;
 	}
 
 	@media only screen and (max-width: 400px){
-		font-size: 40px!important;
+		font-size: 50px!important;
 		line-height: 50px!important;
-		text-indent: 20px;
-		letter-spacing: 20px;
+		text-indent: 10px;
+		letter-spacing: 10px;
 	}
 }
 
@@ -57,6 +66,14 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   text-transform: uppercase!important;
   line-height: 54px!important;
   font-size: 48px!important;
+  color: $secondary-2!important;
+
+
+  @media only screen and (min-width: 1920px){
+  	font-size: 60px!important;
+  	line-height: 70px!important;
+  	
+  }
 
   @media only screen and (max-width: 980px){
   	font-size: 38px!important;
@@ -65,8 +82,8 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   }
 
   @media only screen and (max-width: 400px){
-  	font-size: 28px!important;
-  	line-height: 36px!important;
+  	font-size: 20px!important;
+  	line-height: 26px!important;
   	
   }
 }
@@ -76,6 +93,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: bold!important;
   line-height: 44px!important;
   font-size: 38px!important;
+  color: $secondary-1!important;
 
   @media only screen and (max-width: 980px){
   	font-size: 34px!important;
@@ -95,6 +113,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: normal!important;
   line-height: 32px!important;
   font-size: 25px!important;
+  color: $secondary-2!important;
 }
 
 @mixin h4-titilliumreg() {
@@ -102,6 +121,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: normal!important;
   line-height: 32px!important;
   font-size: 20px!important;
+  color: $secondary-2!important;
 }
 
 @mixin h5-titilliumsemi() {
@@ -109,6 +129,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: bold!important;
   line-height: 24px!important;
   font-size: 16px!important;
+  color: $secondary-2!important;
 }
 
 @mixin h6-rajsemi() {
@@ -116,6 +137,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: bold!important;
   line-height: 24px!important;
   font-size: 16px!important;
+  color: $secondary-2!important;
 }
 
 @mixin p-titilliumreg() {
@@ -123,6 +145,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
   font-weight: normal!important;
   line-height: 24px!important;
   font-size: 16px!important;
+  color: $secondary-2!important;
   
 }
 
@@ -130,7 +153,7 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
 
 .et_pb_section{
 	h1{
-		margin-top: 40px;
+		margin-top: 10px;
 		
 		@include h1-sairabold();
 		
@@ -208,9 +231,29 @@ $saira: "Saira Extra Condensed", "Helvetica", sans-serif!important;
 
 	}
 
+
+	
+
 }
 
 
+#custom-footer{
+	p{
+		color: white!important;
+		span{
+			color: white!important;
+		}
+	}
+}
+
+.masthead-section .et_pb_bg_layout_light{
+	p{
+		color: white!important;
+		span{
+			color: white!important;
+		}
+	}
+}
 
 //Homepage Exceptions
 
@@ -248,4 +291,122 @@ body.home{
 		@include transform(translateY(-14px));
 	}
 
+}
+
+.masthead-section{
+	background-size: 200% auto;
+}
+
+
+//Logo Slider
+
+.slick-list{
+	padding: 20px 0;
+}
+
+.wpls-logo-showcase .wpls-logo-cnt.slick-slide{
+	margin: 0 10px;
+}
+
+.wpls-logo-showcase{
+	padding: 0!important;
+}
+
+.wpls-logo-showcase .slick-dots{
+	display: none!important;
+}
+
+.wpls-logo-showcase button.slick-arrow{
+
+	@include box-shadow(0 0 10px rgba(0,0,0,.3)!important);
+	@include border-radius(100px!important);
+	background-image: none!important;
+	background-color: white!important;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+
+	&.slick-prev{
+		@include transform(translateX(-45px));
+		&:after{
+			background-image: url("/wp-content/themes/hypr/assets/img/global/prev-arrow.svg");
+			background-repeat: no-repeat;
+			background-position: 14px 13px;
+		
+		}
+		
+
+
+	}
+
+	&.slick-next{
+		@include transform(translateX(45px));
+		&:after{
+			background-image: url("/wp-content/themes/hypr/assets/img/global/next-arrow.svg");
+			background-repeat: no-repeat;
+			background-position: 16px 13px;
+		
+		}
+		
+	}
+
+
+	&:after{
+		content: "";
+		text-indent: 0px;
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		
+		@include transform(translate(-50%,-50%));
+		color: black;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+}
+
+.wpls-logo-cnt{
+	@include box-shadow(0 0 10px rgba(0,0,0,.3));
+	@include border-radius(4px);
+	position: relative;
+	
+	.wp-post-image{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		padding: 10px!important;
+		@include transform(translate(-50%,-50%));
+
+
+		
+	}
+
+	@media only screen and (min-width: 2000px){
+		height: 250px!important;	
+	}
+
+
+	@media only screen and (min-width: 1600px){
+		height: 150px!important;	
+	}
+
+	@media only screen and (max-width: 1600px){
+		height: 100px!important;	
+	}
+
+	@media only screen and (max-width: 1400px){
+		height: 60px!important;	
+	}
+
+	@media only screen and (max-width: 1280px){
+		height: 150px!important;	
+	}
+
+	@media only screen and (max-width: 1040px){
+		height: 100px!important;	
+	}
+
+	
 }
