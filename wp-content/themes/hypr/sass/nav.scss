@@ -656,19 +656,38 @@ body.home.pageload{
 }
 
 .quadmenu-navbar-nav li.quadmenu-item-object-button .quadmenu-item-content{
-    padding: 4px 10px!important;
+    padding: 4px 20px!important;
     margin-top: 10px;
-    background-color: transparent!important;
-    text-transform: uppercase;
-    font-size: 12px;
+    background-color: $primary-1!important;
+    
+    font-size: 14px;
     @include border-radius(0px);
-    border: 2px solid #F13E9D;
-    @include box-shadow(0 0 0px #F13E9D);
+    border: 1px solid #F47FBD;
+    @include box-shadow(0 0 5px $primary-1);
     @include transition(.2s all ease-in-out!important);
 
     &:hover{
     @include box-shadow(0 0 13px #F13E9D);    
     @include transition(.2s all ease-in-out!important);
+
+    }
+}
+
+body #page-container .et_pb_button{
+    font-size: 14px;
+    background-color: $secondary-1!important;
+    @include border-radius(4px!important);
+    border: 1px solid #F47FBD!important;
+    @include box-shadow(0 0 5px $primary-1);
+    @include transition(.2s all ease-in-out!important);
+    color: white!important;
+
+
+    &.et_pb_bg_layout_dark{
+
+    }
+
+    &.et_pb_bg_layout_light{
 
     }
 }

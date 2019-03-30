@@ -217,10 +217,10 @@ body.home .et_pb_section_first {
   font-size: 52px !important;
   line-height: 52px !important;
   margin: 0 !important;
-  border: 4px solid #F13E9D;
-  -moz-box-shadow: 0 0 20px #F13E9D;
-  -webkit-box-shadow: 0 0 20px #F13E9D;
-  box-shadow: 0 0 20px #F13E9D;
+  border: 4px solid #f01b70;
+  -moz-box-shadow: 0 0 20px #f01b70;
+  -webkit-box-shadow: 0 0 20px #f01b70;
+  box-shadow: 0 0 20px #f01b70;
   -moz-transform: translateX(-30px) translateY(-30px);
   -ms-transform: translateX(-30px) translateY(-30px);
   -webkit-transform: translateX(-30px) translateY(-30px);
@@ -230,7 +230,7 @@ body.home .et_pb_section_first {
 .et_pb_video_play:before {
   margin-left: 0px;
   display: block;
-  color: #F13E9D;
+  color: #f01b70;
   -moz-transform: translateY(0px) translateX(2px);
   -ms-transform: translateY(0px) translateX(2px);
   -webkit-transform: translateY(0px) translateX(2px);
@@ -736,11 +736,6 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   transform: translateY(-14px);
 }
 
-/* line 296, sass/global.scss */
-.masthead-section {
-  background-size: 200% auto;
-}
-
 /* line 303, sass/global.scss */
 .slick-list {
   padding: 20px 0;
@@ -818,8 +813,19 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   height: 100%;
   text-align: center;
 }
+/* line 369, sass/global.scss */
+.wpls-logo-showcase button.slick-arrow:hover {
+  background-color: transparent !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+}
 
-/* line 370, sass/global.scss */
+/* line 377, sass/global.scss */
 .wpls-logo-cnt {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -829,7 +835,7 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   border-radius: 4px;
   position: relative;
 }
-/* line 375, sass/global.scss */
+/* line 382, sass/global.scss */
 .wpls-logo-cnt .wp-post-image {
   position: absolute;
   left: 50%;
@@ -841,39 +847,39 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 2000px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 250px !important;
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 150px !important;
   }
 }
 @media only screen and (max-width: 1600px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
-    height: 100px !important;
+    height: 130px !important;
   }
 }
 @media only screen and (max-width: 1400px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 60px !important;
   }
 }
 @media only screen and (max-width: 1280px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 150px !important;
   }
 }
 @media only screen and (max-width: 1040px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
-    height: 100px !important;
+    height: 200px !important;
   }
 }
 
@@ -1735,18 +1741,17 @@ body.home.pageload #et-secondary-menu {
 
 /* line 658, sass/nav.scss */
 .quadmenu-navbar-nav li.quadmenu-item-object-button .quadmenu-item-content {
-  padding: 4px 10px !important;
+  padding: 4px 20px !important;
   margin-top: 10px;
-  background-color: transparent !important;
-  text-transform: uppercase;
-  font-size: 12px;
+  background-color: #f01b70 !important;
+  font-size: 14px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-  border: 2px solid #F13E9D;
-  -moz-box-shadow: 0 0 0px #F13E9D;
-  -webkit-box-shadow: 0 0 0px #F13E9D;
-  box-shadow: 0 0 0px #F13E9D;
+  border: 1px solid #F47FBD;
+  -moz-box-shadow: 0 0 5px #f01b70;
+  -webkit-box-shadow: 0 0 5px #f01b70;
+  box-shadow: 0 0 5px #f01b70;
   -moz-transition: all 0.2s !important;
   -o-transition: all 0.2s !important;
   -webkit-transition: all 0.2s !important;
@@ -1763,43 +1768,61 @@ body.home.pageload #et-secondary-menu {
   transition: all 0.2s !important;
 }
 
-/* line 677, sass/nav.scss */
+/* line 676, sass/nav.scss */
+body #page-container .et_pb_button {
+  font-size: 14px;
+  background-color: #7e66a0 !important;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px;
+  border-radius: 4px !important;
+  border: 1px solid #F47FBD !important;
+  -moz-box-shadow: 0 0 5px #f01b70;
+  -webkit-box-shadow: 0 0 5px #f01b70;
+  box-shadow: 0 0 5px #f01b70;
+  -moz-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+  color: white !important;
+}
+
+/* line 696, sass/nav.scss */
 #top-header .container {
   padding-top: 0px;
 }
 
-/* line 681, sass/nav.scss */
+/* line 700, sass/nav.scss */
 .et-fixed-header {
   top: 0px !important;
   background-color: #082452 !important;
 }
 
-/* line 688, sass/nav.scss */
+/* line 707, sass/nav.scss */
 body.admin-bar .et-fixed-header {
   top: 32px !important;
 }
 
-/* line 693, sass/nav.scss */
+/* line 712, sass/nav.scss */
 .et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
   padding-top: 30px !important;
 }
 
-/* line 697, sass/nav.scss */
+/* line 716, sass/nav.scss */
 .et-fixed-header#top-header a {
   color: white !important;
 }
 
-/* line 701, sass/nav.scss */
+/* line 720, sass/nav.scss */
 #top-menu-nav {
   padding-top: 10px !important;
 }
 
-/* line 709, sass/nav.scss */
+/* line 728, sass/nav.scss */
 body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 0px !important;
 }
 @media only screen and (max-width: 980px) {
-  /* line 709, sass/nav.scss */
+  /* line 728, sass/nav.scss */
   body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     height: 80px;
     width: 100%;
@@ -1809,7 +1832,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 722, sass/nav.scss */
+  /* line 741, sass/nav.scss */
   #main-header.et-fixed-header {
     height: 80px;
     width: 100%;
@@ -1818,54 +1841,54 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   }
 }
 
-/* line 731, sass/nav.scss */
+/* line 750, sass/nav.scss */
 body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   top: 32px !important;
 }
 
-/* line 737, sass/nav.scss */
+/* line 756, sass/nav.scss */
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item > .quadmenu-dropdown-menu {
   background-color: transparent;
 }
 
-/* line 741, sass/nav.scss */
+/* line 760, sass/nav.scss */
 #quadmenu * {
   color: white;
 }
 
-/* line 745, sass/nav.scss */
+/* line 764, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
   color: white !important;
 }
 
-/* line 749, sass/nav.scss */
+/* line 768, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu:not(.quadmenu-is-horizontal) .quadmenu-navbar-nav li.quadmenu-item.open > a > .quadmenu-item-content > .quadmenu-caret {
   color: white !important;
   background-color: black !important;
 }
 
-/* line 754, sass/nav.scss */
+/* line 773, sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > .quadmenu-dropdown-menu > ul {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 758, sass/nav.scss */
+/* line 777, sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > a.hoverintent > .quadmenu-item-content > .quadmenu-caret {
   color: #1FF1FC;
 }
 
-/* line 762, sass/nav.scss */
+/* line 781, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
   padding: 10px 10px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 762, sass/nav.scss */
+  /* line 781, sass/nav.scss */
   #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
     padding: 10px 40px;
   }
 }
 
-/* line 770, sass/nav.scss */
+/* line 789, sass/nav.scss */
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item > a > .quadmenu-item-content > .quadmenu-caret:before {
   color: #1FF1FC;
 }

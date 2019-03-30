@@ -407,11 +407,6 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   transform: translateY(-14px);
 }
 
-/* line 296, sass/global.scss */
-.masthead-section {
-  background-size: 200% auto;
-}
-
 /* line 303, sass/global.scss */
 .slick-list {
   padding: 20px 0;
@@ -489,8 +484,19 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   height: 100%;
   text-align: center;
 }
+/* line 369, sass/global.scss */
+.wpls-logo-showcase button.slick-arrow:hover {
+  background-color: transparent !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+}
 
-/* line 370, sass/global.scss */
+/* line 377, sass/global.scss */
 .wpls-logo-cnt {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -500,7 +506,7 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   border-radius: 4px;
   position: relative;
 }
-/* line 375, sass/global.scss */
+/* line 382, sass/global.scss */
 .wpls-logo-cnt .wp-post-image {
   position: absolute;
   left: 50%;
@@ -512,38 +518,38 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 2000px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 250px !important;
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 150px !important;
   }
 }
 @media only screen and (max-width: 1600px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
-    height: 100px !important;
+    height: 130px !important;
   }
 }
 @media only screen and (max-width: 1400px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 60px !important;
   }
 }
 @media only screen and (max-width: 1280px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
     height: 150px !important;
   }
 }
 @media only screen and (max-width: 1040px) {
-  /* line 370, sass/global.scss */
+  /* line 377, sass/global.scss */
   .wpls-logo-cnt {
-    height: 100px !important;
+    height: 200px !important;
   }
 }
