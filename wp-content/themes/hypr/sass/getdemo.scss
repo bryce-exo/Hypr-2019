@@ -1,0 +1,11 @@
+@import "compass/css3/transform";
+@import "compass/css3"; 
+@import "colors";
+@import "typeset";
+
+
+.page-id-127{
+	#main-header, #top-header{
+		display: none;
+	}	
+}

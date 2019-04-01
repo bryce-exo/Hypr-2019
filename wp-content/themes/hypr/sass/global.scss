@@ -184,6 +184,13 @@
 	}
 
 	.et_pb_bg_layout_dark{
+		h1.title{
+			@include h1-title(white);
+			span{
+				@include h1-title(white);
+			}
+		}
+
 		h1{
 			@include h1-sairabold(white);
 			
@@ -307,7 +314,7 @@ body.home{
 //Logo Slider
 
 .slick-list{
-	padding: 20px 0;
+	padding: 20px 0!important;
 }
 
 .wpls-logo-showcase .wpls-logo-cnt.slick-slide{
