@@ -7,5 +7,199 @@
 .page-id-127{
 	#main-header, #top-header{
 		display: none;
+	}
+
+
+	&:before{
+		height: 2px;
+		@include box-shadow(0 0 20px $primary-1);
+		width: 40%;
+		content: "";
+		display: block;
+		@include border-radius(4px);
+		position: absolute;
+		left: 20px;
+		top: 24%;
+		z-index: 0;
+		background-color: $primary-1;
+	}
+
+	&:after{
+		height: 2px;
+		@include box-shadow(0 0 20px $primary-2);
+		width: 40%;
+		content: "";
+		display: block;
+		@include border-radius(4px);
+		position: absolute;
+		right: 20px;
+		top: 40%;
+		z-index: 0;
+		background-color: $primary-2;
+	}
+
+
+	.demo-logo{
+		background: url('/wp-content/themes/hypr/assets/img/global/logo.svg') no-repeat transparent;
+		background-size: 100% auto;
+		height: 70px;
+		width: 83px;
+		text-indent: -10000px;
+		overflow: hidden;
+		display: block;
+	}
+
+	.container{
+		 margin: 30px auto 0px auto;
+	}
+
+	.et_pb_section{
+		
+		.et_pb_row{
+			padding: 0;
+			margin: 20px auto;
+			border: 2px solid $primary-1;
+			@include box-shadow(0 0 10px $primary-1);
+			
+		}
+		.et_pb_column{
+			width: 33.33%;
+			display: inline-block;
+			height: 40px;
+			margin: 0;
+			button,a{
+				width: 100%;
+				background-color: transparent;
+				cursor: pointer;
+				height: 100%;
+				display: block;
+				border: none;
+				padding: 0;
+				text-align: center;
+				margin: 0;
+				text-transform: uppercase;
+				@include h5-titilliumsemi(white);
+				line-height: 40px!important;
+			}
+
+			&:after{
+				content: "";
+				display: block;
+				width: 2px;
+				height: 100%;
+				background-color: $primary-1;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+		 	&.last{
+				&:after{
+					display: none;
+				}
+			}
+
+			&.active{
+				button, a{
+					background-color: $primary-1;
+
+				}
+			}
+		}
+	}
+
+	#switch-content{
+		max-width: 1140px;
+		height: 70vh;
+		overflow: hidden;
+		background-color: white;
+		position: relative;
+		@include border-radius(4px);
+		@include box-shadow(0 0 14px rgba(0,0,0,.5));
+		z-index: 20;
+
+
 	}	
+
+	.switch-container{
+		width: 100%;
+		height: 100%;
+		display: block;
+		visibility: hidden;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+		opacity: 0;
+		
+		@include transition(.2s all ease-in-out);
+		@include transform(scale(1.2,1.2));
+	
+		h1{
+			padding: 0 60px;
+			text-indent: 0px;
+		}
+
+		h1.title{
+			padding-top: 60px;
+		}
+
+		.et_pb_row{
+			width: 100%;
+			padding: 0 60px;
+		}
+
+		&.active{
+			visibility: visible;
+			
+
+
+			&.enter{
+				opacity: 1;
+				@include transform(scale(1,1));
+				@include transition(.5s all ease-in-out);
+				@include transition-delay(.3s);
+			}
+		}
+
+
+
+		
+	}
+
+	#one{
+		background-color: white; 
+
+	}
+
+	#experience{
+		background-color: white; 
+
+		&:before{
+			content: "";
+			display: block;
+			background: url('/wp-content/themes/hypr/assets/img/demo/try-now.png') no-repeat transparent scroll;
+			background-position: center center;
+			background-size: 68% auto;
+			cursor: pointer;
+			padding: 20px;
+			@include border-radius(4px);
+			background-color: $secondary-2;
+			width: 70px;
+			height: 86px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			@include transform(translate(-50%,-50%));
+		}
+	}
+
+	#tour{
+		background-color: white; 
+	}
 }
+
+
+
+
+

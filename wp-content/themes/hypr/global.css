@@ -14,7 +14,7 @@
 }
 
 /* line 35, sass/global.scss */
-.et_pb_section h1 {
+h1 {
   margin-top: 10px;
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -25,27 +25,27 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 35, sass/global.scss */
-  .et_pb_section h1 {
+  h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 35, sass/global.scss */
-  .et_pb_section h1 {
+  h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 35, sass/global.scss */
-  .et_pb_section h1 {
+  h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 40, sass/global.scss */
-.et_pb_section h1 span {
+h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -55,27 +55,28 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 40, sass/global.scss */
-  .et_pb_section h1 span {
+  h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 40, sass/global.scss */
-  .et_pb_section h1 span {
+  h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 40, sass/global.scss */
-  .et_pb_section h1 span {
+  h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
+
 /* line 48, sass/global.scss */
-.et_pb_section h1.title {
+h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -86,14 +87,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 48, sass/global.scss */
-  .et_pb_section h1.title {
+  h1.title {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 48, sass/global.scss */
-  .et_pb_section h1.title {
+  h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -102,7 +103,7 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 48, sass/global.scss */
-  .et_pb_section h1.title {
+  h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -110,7 +111,7 @@
   }
 }
 /* line 50, sass/global.scss */
-.et_pb_section h1.title span {
+h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -121,14 +122,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 50, sass/global.scss */
-  .et_pb_section h1.title span {
+  h1.title span {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 50, sass/global.scss */
-  .et_pb_section h1.title span {
+  h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -137,15 +138,16 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 50, sass/global.scss */
-  .et_pb_section h1.title span {
+  h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
     letter-spacing: 10px;
   }
 }
+
 /* line 55, sass/global.scss */
-.et_pb_section h2 {
+h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -154,20 +156,20 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 55, sass/global.scss */
-  .et_pb_section h2 {
+  h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 55, sass/global.scss */
-  .et_pb_section h2 {
+  h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 59, sass/global.scss */
-.et_pb_section h2 span {
+h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -176,20 +178,21 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 59, sass/global.scss */
-  .et_pb_section h2 span {
+  h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 59, sass/global.scss */
-  .et_pb_section h2 span {
+  h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
+
 /* line 64, sass/global.scss */
-.et_pb_section h3 {
+h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -197,15 +200,16 @@
   color: #7e66a0 !important;
 }
 /* line 66, sass/global.scss */
-.et_pb_section h3 span {
+h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
   font-size: 25px !important;
   color: #7e66a0 !important;
 }
+
 /* line 72, sass/global.scss */
-.et_pb_section h4 {
+h4 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -213,15 +217,16 @@
   color: #011638 !important;
 }
 /* line 74, sass/global.scss */
-.et_pb_section h4 span {
+h4 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
   font-size: 20px !important;
   color: #011638 !important;
 }
+
 /* line 80, sass/global.scss */
-.et_pb_section h5 {
+h5 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -229,15 +234,16 @@
   color: #011638 !important;
 }
 /* line 82, sass/global.scss */
-.et_pb_section h5 span {
+h5 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
   font-size: 14px !important;
   color: #011638 !important;
 }
+
 /* line 88, sass/global.scss */
-.et_pb_section h6 {
+h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -245,15 +251,16 @@
   color: #011638 !important;
 }
 /* line 90, sass/global.scss */
-.et_pb_section h6 span {
+h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
 }
+
 /* line 96, sass/global.scss */
-.et_pb_section p {
+p {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -261,24 +268,27 @@
   color: #011638 !important;
 }
 /* line 98, sass/global.scss */
-.et_pb_section p span {
+p span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
 }
+
 /* line 104, sass/global.scss */
-.et_pb_section h1, .et_pb_section h2, .et_pb_section h3, .et_pb_section h4 {
+h1, h2, h3, h4 {
   margin-bottom: 20px;
 }
+
 /* line 108, sass/global.scss */
-.et_pb_section .et_pb_button {
+.et_pb_button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 /* line 115, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h1 {
+.et_pb_bg_layout_light h1 {
   margin-top: 10px;
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -289,27 +299,27 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 115, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 {
+  .et_pb_bg_layout_light h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 115, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 {
+  .et_pb_bg_layout_light h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 115, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 {
+  .et_pb_bg_layout_light h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 120, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h1 span {
+.et_pb_bg_layout_light h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -319,27 +329,27 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 120, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 span {
+  .et_pb_bg_layout_light h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 120, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 span {
+  .et_pb_bg_layout_light h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 120, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1 span {
+  .et_pb_bg_layout_light h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 128, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h1.title {
+.et_pb_bg_layout_light h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -350,14 +360,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 128, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title {
+  .et_pb_bg_layout_light h1.title {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 128, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title {
+  .et_pb_bg_layout_light h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -366,7 +376,7 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 128, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title {
+  .et_pb_bg_layout_light h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -374,7 +384,7 @@
   }
 }
 /* line 130, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h1.title span {
+.et_pb_bg_layout_light h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -385,14 +395,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 130, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title span {
+  .et_pb_bg_layout_light h1.title span {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 130, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title span {
+  .et_pb_bg_layout_light h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -401,7 +411,7 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 130, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h1.title span {
+  .et_pb_bg_layout_light h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -409,7 +419,7 @@
   }
 }
 /* line 135, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h2 {
+.et_pb_bg_layout_light h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -418,20 +428,20 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 135, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h2 {
+  .et_pb_bg_layout_light h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 135, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h2 {
+  .et_pb_bg_layout_light h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 139, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h2 span {
+.et_pb_bg_layout_light h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -440,20 +450,20 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 139, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h2 span {
+  .et_pb_bg_layout_light h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 139, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_light h2 span {
+  .et_pb_bg_layout_light h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 144, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h3 {
+.et_pb_bg_layout_light h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -461,7 +471,7 @@
   color: #7e66a0 !important;
 }
 /* line 146, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h3 span {
+.et_pb_bg_layout_light h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -469,7 +479,7 @@
   color: #7e66a0 !important;
 }
 /* line 152, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h4 {
+.et_pb_bg_layout_light h4 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -477,7 +487,7 @@
   color: #011638 !important;
 }
 /* line 154, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h4 span {
+.et_pb_bg_layout_light h4 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -485,7 +495,7 @@
   color: #011638 !important;
 }
 /* line 160, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h5 {
+.et_pb_bg_layout_light h5 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -493,7 +503,7 @@
   color: #011638 !important;
 }
 /* line 162, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h5 span {
+.et_pb_bg_layout_light h5 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -501,7 +511,7 @@
   color: #011638 !important;
 }
 /* line 168, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h6 {
+.et_pb_bg_layout_light h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -509,7 +519,7 @@
   color: #011638 !important;
 }
 /* line 170, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light h6 span {
+.et_pb_bg_layout_light h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -517,7 +527,7 @@
   color: #011638 !important;
 }
 /* line 176, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light p {
+.et_pb_bg_layout_light p {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -525,15 +535,16 @@
   color: #011638 !important;
 }
 /* line 178, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_light p span {
+.et_pb_bg_layout_light p span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
 }
+
 /* line 187, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h1.title {
+.et_pb_bg_layout_dark h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -544,14 +555,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 187, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title {
+  .et_pb_bg_layout_dark h1.title {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 187, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title {
+  .et_pb_bg_layout_dark h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -560,7 +571,7 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 187, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title {
+  .et_pb_bg_layout_dark h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -568,7 +579,7 @@
   }
 }
 /* line 189, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h1.title span {
+.et_pb_bg_layout_dark h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -579,14 +590,14 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 189, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title span {
+  .et_pb_bg_layout_dark h1.title span {
     font-size: 140px !important;
     line-height: 150px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 189, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title span {
+  .et_pb_bg_layout_dark h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -595,7 +606,7 @@
 }
 @media only screen and (max-width: 400px) {
   /* line 189, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1.title span {
+  .et_pb_bg_layout_dark h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -603,7 +614,7 @@
   }
 }
 /* line 194, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h1 {
+.et_pb_bg_layout_dark h1 {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -613,27 +624,27 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 194, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 {
+  .et_pb_bg_layout_dark h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 194, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 {
+  .et_pb_bg_layout_dark h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 194, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 {
+  .et_pb_bg_layout_dark h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 197, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h1 span {
+.et_pb_bg_layout_dark h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -643,27 +654,27 @@
 }
 @media only screen and (min-width: 1920px) {
   /* line 197, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 span {
+  .et_pb_bg_layout_dark h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 197, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 span {
+  .et_pb_bg_layout_dark h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 197, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h1 span {
+  .et_pb_bg_layout_dark h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 205, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h2 {
+.et_pb_bg_layout_dark h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -672,20 +683,20 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 205, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h2 {
+  .et_pb_bg_layout_dark h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 205, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h2 {
+  .et_pb_bg_layout_dark h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 209, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h2 span {
+.et_pb_bg_layout_dark h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -694,20 +705,20 @@
 }
 @media only screen and (max-width: 980px) {
   /* line 209, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h2 span {
+  .et_pb_bg_layout_dark h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 209, sass/global.scss */
-  .et_pb_section .et_pb_bg_layout_dark h2 span {
+  .et_pb_bg_layout_dark h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 214, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h3 {
+.et_pb_bg_layout_dark h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -715,7 +726,7 @@
   color: white !important;
 }
 /* line 216, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h3 span {
+.et_pb_bg_layout_dark h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -723,7 +734,7 @@
   color: white !important;
 }
 /* line 222, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h4 {
+.et_pb_bg_layout_dark h4 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -731,7 +742,7 @@
   color: white !important;
 }
 /* line 224, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h4 span {
+.et_pb_bg_layout_dark h4 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -739,7 +750,7 @@
   color: white !important;
 }
 /* line 230, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h5 {
+.et_pb_bg_layout_dark h5 {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -747,7 +758,7 @@
   color: white !important;
 }
 /* line 232, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h5 span {
+.et_pb_bg_layout_dark h5 span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -755,7 +766,7 @@
   color: white !important;
 }
 /* line 238, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h6 {
+.et_pb_bg_layout_dark h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -763,7 +774,7 @@
   color: white !important;
 }
 /* line 240, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark h6 span {
+.et_pb_bg_layout_dark h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -771,7 +782,7 @@
   color: white !important;
 }
 /* line 246, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark p {
+.et_pb_bg_layout_dark p {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -779,7 +790,7 @@
   color: white !important;
 }
 /* line 248, sass/global.scss */
-.et_pb_section .et_pb_bg_layout_dark p span {
+.et_pb_bg_layout_dark p span {
   font-family: "Titillium", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
