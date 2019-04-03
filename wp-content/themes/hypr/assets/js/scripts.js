@@ -8,6 +8,9 @@ jQuery(function($){
 			
 			demo();
 		}
+
+
+		$('#menu-item-154').find('a').attr('href','');
 	}
 
 	

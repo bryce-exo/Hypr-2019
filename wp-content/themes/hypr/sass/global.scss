@@ -434,3 +434,47 @@ body.home{
 
 	
 }
+
+
+body #page-container .et_pb_button, body .et_pb_button{
+    @include h4-titilliumreg(white);
+    
+    @include border-radius(4px!important);
+    
+    
+    @include transition(.2s all ease-in-out!important);
+    padding-top: 6px!important;
+    padding-bottom: 4px!important;
+    line-height: 27px!important;
+
+   &:after{
+    content: "\45";
+    font-size: 21px;
+    line-height: 25px;
+    margin-left: -8px;
+    margin-top: 2px;
+   }
+
+    &:hover{
+       &:after{
+           content: "\45";
+           margin-left: 8px;
+          
+       } 
+    }
+
+
+    &.et_pb_bg_layout_dark{
+        @include h4-titilliumreg(white);
+        background-color: $primary-2!important;
+        border: 1px solid #92EBF0!important;
+        @include box-shadow(0 0 5px $primary-2);
+    }
+
+    &.et_pb_bg_layout_light{
+        @include h4-titilliumreg(white);
+        background-color: $secondary-2!important;
+        border: 1px solid $secondary-2!important;
+        @include box-shadow(0 0 0px $secondary-2);
+    }
+}
