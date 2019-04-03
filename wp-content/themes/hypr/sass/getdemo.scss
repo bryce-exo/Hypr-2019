@@ -4,38 +4,106 @@
 @import "typeset";
 
 
+
+
+
 .page-id-127{
+	overflow-x: hidden;
 	#main-header, #top-header{
 		display: none;
+	}
+
+	.et_pb_section{
+		width: 100%;
+	}
+
+	#page-container{
+		
+	}
+
+
+	.badges{
+
+		position: absolute;
+		bottom: -80px;
+		left: 50%;
+		width: 100%;
+		display: block;
+		height: auto;
+		@include transform(translate(-50%,0%));
+
+		@media only screen and (max-width: 960px){
+			position: relative;
+			bottom: auto;
+			left: auto;
+			margin-top: 40px;
+			@include transform(translate(0,0));
+		}
+
+		.wrap{
+			text-align: center;
+		}
+		a{
+			height: 40px;
+		    width: 150px;
+		    display: inline-block;
+		    background-size: auto 100%;
+		    background-repeat: no-repeat;
+		    margin: 0 0 10px 0;
+		    background-position: center center;
+		}
+	}
+	
+
+	.switch{
+
+			@media only screen and (min-width:960px){
+			width: 960px;
+			left: 50%;
+			top: 45%;
+			position: absolute;
+			@include transform(translate(-50%,-50%));	
+			}
+			
+		
+		
 	}
 
 
 	&:before{
 		height: 2px;
 		@include box-shadow(0 0 20px $primary-1);
-		width: 40%;
+		width: 200px;
 		content: "";
 		display: block;
 		@include border-radius(4px);
 		position: absolute;
-		left: 20px;
-		top: 24%;
+		left:-60px;
+		top: 80px;
 		z-index: 0;
 		background-color: $primary-1;
+
+		@media only screen and (max-width: 960px){
+			top: 80px;
+		}
 	}
 
 	&:after{
 		height: 2px;
 		@include box-shadow(0 0 20px $primary-2);
-		width: 40%;
+		width: 200px;
 		content: "";
 		display: block;
 		@include border-radius(4px);
 		position: absolute;
-		right: 20px;
-		top: 40%;
+		right: -60px;
+		top: 140px;
 		z-index: 0;
 		background-color: $primary-2;
+
+		@media only screen and (max-width: 960px){
+			top: 120px;
+		}
 	}
 
 
@@ -47,26 +115,159 @@
 		text-indent: -10000px;
 		overflow: hidden;
 		display: block;
+
 	}
 
-	.container{
-		 margin: 30px auto 0px auto;
+	.logo-container{
+		padding: 40px!important;
 	}
 
-	.et_pb_section{
-		
-		.et_pb_row{
+
+	.masthead{
+		 margin: 0px auto 0px auto;
+		 background: url('https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/Tunnel_1.jpg')no-repeat transparent scroll!important;
+		 background-position: center center!important;
+		 background-size: cover!important;
+		 min-height: 100vh;
+
+		 @media only screen and (max-width: 960px){
+		 	background-image: none!important;
+		 	background-color: $secondary-2!important;
+		 	min-height: auto;
+		 	height: auto;
+		 	padding-bottom: 60px;
+
+		 }
+
+		 .row{
+		 	max-width: 960px;
+		 	margin: 0 auto;
+		 	padding: 0 40px;
+		 }
+
+		 &:after{
+		 	content: "";
+		 	display: block;
+		 	background: url('/wp-content/themes/hypr/assets/img/demo/mouse-icn.svg')no-repeat transparent scroll;
+		 	background-size: 100% auto;
+		 	position: absolute;
+		 	bottom: 20px;
+		 	left: 50%;
+		 	@include transform(translateX(-50%));
+		 	height: 30px;
+		 	width: 20px;
+
+		 	@media only screen and (max-width:960px){
+		 		display: none;
+		 	}
+		 }
+	}
+
+	.container.videos{
+		max-width: 100%;
+		width: 100%;
+
+		.et_pb_section_video{
+			cursor: pointer;
+		}
+
+		.et_pb_section_video_bg:after{
+				background-color: white;
+			    @include border-radius(100px);
+			    height: 40px;
+			    width: 40px;
+			    
+			    content: "";
+			    color: black;
+			    display: block;
+			    position: absolute;
+			    left: 50%;
+			    top: 50%;
+			    z-index: 20;
+			    overflow: hidden;
+			    
+			    
+			    margin: 0!important;
+			    border: 4px solid $primary-1;
+			    @include box-shadow(0 0 20px $primary-1);
+			    @include transform(translateX(-30px)translateY(-30px));
+				
+				    
+		}
+
+
+		.et_pb_section_video_bg:before{
+	    	margin-left: 0px;
+	    	position: absolute;
+	    	left: 50%;
+	    	top: 50%;
+	    	margin-left: -5px;
+	    	margin-top: -6px;
+	    	display: block;
+	    	color: $primary-1;
+	    	background: url('/wp-content/themes/hypr/assets/img/demo/play-btn.svg') no-repeat transparent scroll;
+	    	background-size: 100% auto;
+	    	width: 40px;
+	    	height: 40px;
+	    	@include transform(translateY(-50%)translateX(-50%));
+	    	content: "";
+	    	z-index: 30;
+	    }
+
+		.text-module{
+			background-color: #031458;
+			color: white;
+			text-align: center;
+			padding-top: 60px;
+
+			h5,h1{
+				color: white!important;
+			}
+
+			p{
+				color: rgba(255,255,255,.5)!important;
+			}
+
+			.wrap{
+				padding: 0 60px;
+			}
+		}
+	}
+
+	.subnav{
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		@include transform(translateX(-50%));
+		z-index: 20;
+		width: 100%;
+
+
+		@media only screen and (max-width: 960px){
+			
+			bottom: auto;
+			top: 0px;
+			.wrap{
+				
+			}
+		}
+		.wrap{
+			
+		}
+		.row{
 			padding: 0;
-			margin: 20px auto;
+			background-color: black;
+
 			border: 2px solid $primary-1;
 			@include box-shadow(0 0 10px $primary-1);
 			
 		}
-		.et_pb_column{
+		.col{
 			width: 33.33%;
 			display: inline-block;
 			height: 40px;
-			margin: 0;
+			margin: 0 -4px 0 0;
+			position: relative;
 			button,a{
 				width: 100%;
 				background-color: transparent;
@@ -106,24 +307,37 @@
 				}
 			}
 		}
+
+
+		background-color: transparent!important;
 	}
 
 	#switch-content{
-		max-width: 1140px;
-		height: 70vh;
+		max-width: 960px;
+		height: 430px;
+		
 		overflow: hidden;
-		background-color: white;
+		
 		position: relative;
 		@include border-radius(4px);
-		@include box-shadow(0 0 14px rgba(0,0,0,.5));
+		
 		z-index: 20;
+
+		@media only screen and (max-width: 960px){
+			height: auto;
+			padding-top: 80px;
+		}
+
+		@media only screen and (min-width:1600px){
+			height: 600px;
+		}
 
 
 	}	
 
 	.switch-container{
 		width: 100%;
-		height: 100%;
+		height: 430px;
 		display: block;
 		visibility: hidden;
 		position: absolute;
@@ -134,23 +348,42 @@
 		
 		@include transition(.2s all ease-in-out);
 		@include transform(scale(1.2,1.2));
-	
-		h1{
-			padding: 0 60px;
+		color: white!important;
+
+		@media only screen and (min-width:1600px){
+			height: 600px;
+		}
+
+		@media only screen and (max-width: 960px){
+			display: none;	
+			height: auto;
+			position: relative;
+			left: auto;
+			top: auto;
+			
+		}
+		h4,h1{
+			padding: 0 0px;
 			text-indent: 0px;
+			color: white!important;
 		}
 
 		h1.title{
 			padding-top: 60px;
+			color: white!important;
 		}
 
 		.et_pb_row{
 			width: 100%;
-			padding: 0 60px;
+			padding: 0 0px;
 		}
 
 		&.active{
 			visibility: visible;
+			
+			@media only screen and (max-width: 960px){
+				display: block;	
+			}
 			
 
 
@@ -168,20 +401,56 @@
 	}
 
 	#one{
-		background-color: white; 
+		background-color: transparent;
+
+		.col-1,.col-2{
+			display: inline-block;
+			width: 50%;
+			margin-right: -4px;
+			vertical-align: top;
+
+			@media only screen and (max-width: 960px){
+				width: 100%;
+			}
+
+		}
+
+		p{
+			@include p-titilliumreg(white);
+
+		} 
+
+		small{
+			@include p-titilliumreg(white);
+			font-size: 10px!important;
+			line-height: 14px!important;
+		}
+
+		.wrap{
+			padding: 0 40px 0 0;
+
+			@media only screen and (max-width:960px){
+				padding: 0;
+			}
+		}
 
 	}
 
 	#experience{
-		background-color: white; 
+		background-color: transparent; 
+		height: 100%;
 
+		li{
+			height: 100%;
+			width: auto;
+		}
 		&:before{
 			content: "";
 			display: block;
 			background: url('/wp-content/themes/hypr/assets/img/demo/try-now.png') no-repeat transparent scroll;
 			background-position: center center;
 			background-size: 68% auto;
-			cursor: pointer;
+			pointer-events: none;
 			padding: 20px;
 			@include border-radius(4px);
 			background-color: $secondary-2;
@@ -191,7 +460,10 @@
 			left: 50%;
 			top: 50%;
 			@include transform(translate(-50%,-50%));
+
 		}
+
+
 	}
 
 	#tour{

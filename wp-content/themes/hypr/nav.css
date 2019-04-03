@@ -5,11 +5,6 @@
   }
 }
 
-/* line 16, sass/nav.scss */
-html, body {
-  background-color: #031458 !important;
-}
-
 /* line 20, sass/nav.scss */
 body.et_fixed_nav.et_secondary_nav_enabled #main-header, body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 0px !important;
