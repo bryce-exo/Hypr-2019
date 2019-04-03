@@ -437,14 +437,14 @@ body.home{
 
 
 body #page-container .et_pb_button, body .et_pb_button{
-    @include h4-titilliumreg(white);
+    @include h5-titilliumsemi(white);
     
     @include border-radius(4px!important);
     
     
     @include transition(.2s all ease-in-out!important);
-    padding-top: 6px!important;
-    padding-bottom: 4px!important;
+    
+    padding: 6px 3em 8px 3em!important;
     line-height: 27px!important;
 
    &:after{
@@ -452,7 +452,7 @@ body #page-container .et_pb_button, body .et_pb_button{
     font-size: 21px;
     line-height: 25px;
     margin-left: -8px;
-    margin-top: 2px;
+    margin-top: 0px;
    }
 
     &:hover{
@@ -465,14 +465,14 @@ body #page-container .et_pb_button, body .et_pb_button{
 
 
     &.et_pb_bg_layout_dark{
-        @include h4-titilliumreg(white);
+        @include h5-titilliumsemi(white);
         background-color: $primary-2!important;
         border: 1px solid #92EBF0!important;
         @include box-shadow(0 0 5px $primary-2);
     }
 
     &.et_pb_bg_layout_light{
-        @include h4-titilliumreg(white);
+        @include h5-titilliumsemi(white);
         background-color: $secondary-2!important;
         border: 1px solid $secondary-2!important;
         @include box-shadow(0 0 0px $secondary-2);
