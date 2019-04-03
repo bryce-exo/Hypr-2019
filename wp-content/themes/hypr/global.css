@@ -3,9 +3,9 @@
   font-family: 'Saira Extra Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/saira-extra-condensed-v4-latin-regular.eot");
+  src: url("fonts/saira-extra-condensed-v4-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Saira ExtraCondensed Regular"), local("SairaExtraCondensed-Regular"), url("../fonts/saira-extra-condensed-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/saira-extra-condensed-v4-latin-regular.woff2") format("woff2"), url("../fonts/saira-extra-condensed-v4-latin-regular.woff") format("woff"), url("../fonts/saira-extra-condensed-v4-latin-regular.ttf") format("truetype"), url("../fonts/saira-extra-condensed-v4-latin-regular.svg#SairaExtraCondensed") format("svg");
+  src: local("Saira ExtraCondensed Regular"), local("SairaExtraCondensed-Regular"), url("fonts/saira-extra-condensed-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/saira-extra-condensed-v4-latin-regular.woff2") format("woff2"), url("fonts/saira-extra-condensed-v4-latin-regular.woff") format("woff"), url("fonts/saira-extra-condensed-v4-latin-regular.ttf") format("truetype"), url("fonts/saira-extra-condensed-v4-latin-regular.svg#SairaExtraCondensed") format("svg");
   /* Legacy iOS */
 }
 /* line 22, sass/global.scss */
