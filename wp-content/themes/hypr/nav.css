@@ -953,39 +953,83 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: white;
 }
 
-/* line 749, sass/nav.scss */
+/* line 753, sass/nav.scss */
+#quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:after {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: transparent;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  content: "";
+  display: block;
+}
+
+/* line 768, sass/nav.scss */
+#quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 771, sass/nav.scss */
+#quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover:after {
+  background-color: #f01b70;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* line 778, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
   color: white !important;
 }
 
-/* line 753, sass/nav.scss */
+/* line 782, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu:not(.quadmenu-is-horizontal) .quadmenu-navbar-nav li.quadmenu-item.open > a > .quadmenu-item-content > .quadmenu-caret {
   color: white !important;
   background-color: black !important;
 }
 
-/* line 758, sass/nav.scss */
+/* line 787, sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > .quadmenu-dropdown-menu > ul {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 762, sass/nav.scss */
+/* line 791, sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > a.hoverintent > .quadmenu-item-content > .quadmenu-caret {
   color: #1FF1FC;
 }
 
-/* line 766, sass/nav.scss */
+/* line 795, sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
   padding: 10px 10px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 766, sass/nav.scss */
+  /* line 795, sass/nav.scss */
   #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
     padding: 10px 40px;
   }
 }
 
-/* line 774, sass/nav.scss */
+/* line 803, sass/nav.scss */
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item > a > .quadmenu-item-content > .quadmenu-caret:before {
   color: #1FF1FC;
 }

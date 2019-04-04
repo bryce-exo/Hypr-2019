@@ -118,7 +118,21 @@ body.home{
 
 .et_pb_image{
   overflow: hidden!important;
-  	
+  	height: 100%;
+}
+
+.et_pb_image_wrap{
+	height: 100%!important;
+	display: block;
+	width: 100%!important;
+	background-color: transparent;
+	overflow: hidden;
+	position: relative;
+
+	img{
+		
+		
+	}
 }
 
 .et_pb_video{
@@ -160,7 +174,7 @@ body.home{
 	.et_pb_section .et_pb_row{
 		padding-left: 60px!important;
 		padding-right: 60px!important;
-		margin: 0!important;
+		margin: 0 auto!important;
 		width: 100%!important;
 		.et_pb_column{
 			margin: 0!important;
@@ -222,4 +236,14 @@ body.home{
 
 .et_pb_column>.et_pb_module:first-child{
   
+}
+
+
+.wpls-logo-showcase.center .slick-center{
+	@include transform(scale(.7,.7)!important);
+}
+
+
+.wpls-logo-slider.center .slick-slide{
+	opacity: 1!important;
 }

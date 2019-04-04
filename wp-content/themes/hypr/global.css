@@ -996,7 +996,7 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   text-align: center;
 }
 /* line 382, sass/global.scss */
-.wpls-logo-showcase button.slick-arrow:hover {
+.wpls-logo-showcase button.slick-arrow:hover, .wpls-logo-showcase button.slick-arrow:active, .wpls-logo-showcase button.slick-arrow:focus {
   background-color: transparent !important;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1027,6 +1027,9 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: auto !important;
+  height: 100%;
+  object-fit: contain;
 }
 @media only screen and (min-width: 2000px) {
   /* line 390, sass/global.scss */
@@ -1065,7 +1068,7 @@ body.home .et_pb_section.et_pb_section_first h1:first-child span {
   }
 }
 
-/* line 439, sass/global.scss */
+/* line 442, sass/global.scss */
 body #page-container .et_pb_button, body .et_pb_button {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -1082,7 +1085,7 @@ body #page-container .et_pb_button, body .et_pb_button {
   padding: 6px 3em 8px 3em !important;
   line-height: 27px !important;
 }
-/* line 450, sass/global.scss */
+/* line 453, sass/global.scss */
 body #page-container .et_pb_button:after, body .et_pb_button:after {
   content: "\45";
   font-size: 21px;
@@ -1090,12 +1093,12 @@ body #page-container .et_pb_button:after, body .et_pb_button:after {
   margin-left: -8px;
   margin-top: 0px;
 }
-/* line 459, sass/global.scss */
+/* line 462, sass/global.scss */
 body #page-container .et_pb_button:hover:after, body .et_pb_button:hover:after {
   content: "\45";
   margin-left: 8px;
 }
-/* line 467, sass/global.scss */
+/* line 470, sass/global.scss */
 body #page-container .et_pb_button.et_pb_bg_layout_dark, body .et_pb_button.et_pb_bg_layout_dark {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -1108,7 +1111,7 @@ body #page-container .et_pb_button.et_pb_bg_layout_dark, body .et_pb_button.et_p
   -webkit-box-shadow: 0 0 5px #1DCAD4;
   box-shadow: 0 0 5px #1DCAD4;
 }
-/* line 474, sass/global.scss */
+/* line 477, sass/global.scss */
 body #page-container .et_pb_button.et_pb_bg_layout_light, body .et_pb_button.et_pb_bg_layout_light {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
