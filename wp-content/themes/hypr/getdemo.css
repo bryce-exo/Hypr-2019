@@ -1,17 +1,17 @@
 /* line 10, sass/getdemo.scss */
-.page-id-127 {
+.page-id-127 #page-container {
   overflow-x: hidden;
 }
 /* line 12, sass/getdemo.scss */
-.page-id-127 #main-header, .page-id-127 #top-header {
+.page-id-127 #page-container #main-header, .page-id-127 #page-container #top-header {
   display: none;
 }
 /* line 16, sass/getdemo.scss */
-.page-id-127 .et_pb_section {
+.page-id-127 #page-container .et_pb_section {
   width: 100%;
 }
 /* line 25, sass/getdemo.scss */
-.page-id-127 .badges {
+.page-id-127 #page-container .badges {
   position: absolute;
   bottom: -80px;
   left: 50%;
@@ -25,7 +25,7 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 25, sass/getdemo.scss */
-  .page-id-127 .badges {
+  .page-id-127 #page-container .badges {
     position: relative;
     bottom: auto;
     left: auto;
@@ -37,11 +37,11 @@
   }
 }
 /* line 43, sass/getdemo.scss */
-.page-id-127 .badges .wrap {
+.page-id-127 #page-container .badges .wrap {
   text-align: center;
 }
 /* line 46, sass/getdemo.scss */
-.page-id-127 .badges a {
+.page-id-127 #page-container .badges a {
   height: 40px;
   width: 150px;
   display: inline-block;
@@ -52,7 +52,7 @@
 }
 @media only screen and (min-width: 960px) {
   /* line 58, sass/getdemo.scss */
-  .page-id-127 .switch {
+  .page-id-127 #page-container .switch {
     width: 960px;
     left: 50%;
     top: 45%;
@@ -64,7 +64,7 @@
   }
 }
 /* line 73, sass/getdemo.scss */
-.page-id-127:before {
+.page-id-127 #page-container:before {
   height: 2px;
   -moz-box-shadow: 0 0 20px #f01b70;
   -webkit-box-shadow: 0 0 20px #f01b70;
@@ -83,12 +83,12 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 73, sass/getdemo.scss */
-  .page-id-127:before {
+  .page-id-127 #page-container:before {
     top: 80px;
   }
 }
 /* line 91, sass/getdemo.scss */
-.page-id-127:after {
+.page-id-127 #page-container:after {
   height: 2px;
   -moz-box-shadow: 0 0 20px #1DCAD4;
   -webkit-box-shadow: 0 0 20px #1DCAD4;
@@ -107,12 +107,12 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 91, sass/getdemo.scss */
-  .page-id-127:after {
+  .page-id-127 #page-container:after {
     top: 120px;
   }
 }
 /* line 110, sass/getdemo.scss */
-.page-id-127 .demo-logo {
+.page-id-127 #page-container .demo-logo {
   background: url("/wp-content/themes/hypr/assets/img/global/logo.svg") no-repeat transparent;
   background-size: 100% auto;
   height: 70px;
@@ -122,11 +122,11 @@
   display: block;
 }
 /* line 121, sass/getdemo.scss */
-.page-id-127 .logo-container {
+.page-id-127 #page-container .logo-container {
   padding: 40px !important;
 }
 /* line 126, sass/getdemo.scss */
-.page-id-127 .masthead {
+.page-id-127 #page-container .masthead {
   margin: 0px auto 0px auto;
   background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/Tunnel_1.jpg") no-repeat transparent scroll !important;
   background-position: center center !important;
@@ -135,7 +135,7 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 126, sass/getdemo.scss */
-  .page-id-127 .masthead {
+  .page-id-127 #page-container .masthead {
     background-image: none !important;
     background-color: #011638 !important;
     min-height: auto;
@@ -144,20 +144,20 @@
   }
 }
 /* line 142, sass/getdemo.scss */
-.page-id-127 .masthead .row {
+.page-id-127 #page-container .masthead .row {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 40px;
 }
 @media only screen and (min-width: 1920px) {
   /* line 142, sass/getdemo.scss */
-  .page-id-127 .masthead .row {
+  .page-id-127 #page-container .masthead .row {
     max-width: 1400px;
     width: 100%;
   }
 }
 /* line 153, sass/getdemo.scss */
-.page-id-127 .masthead:after {
+.page-id-127 #page-container .masthead:after {
   content: "";
   display: block;
   background: url("/wp-content/themes/hypr/assets/img/demo/mouse-icn.svg") no-repeat transparent scroll;
@@ -174,21 +174,21 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 153, sass/getdemo.scss */
-  .page-id-127 .masthead:after {
+  .page-id-127 #page-container .masthead:after {
     display: none;
   }
 }
 /* line 171, sass/getdemo.scss */
-.page-id-127 .container.videos {
+.page-id-127 #page-container .container.videos {
   max-width: 100%;
   width: 100%;
 }
 /* line 175, sass/getdemo.scss */
-.page-id-127 .container.videos .et_pb_section_video {
+.page-id-127 #page-container .container.videos .et_pb_section_video {
   cursor: pointer;
 }
 /* line 179, sass/getdemo.scss */
-.page-id-127 .container.videos .et_pb_section_video_bg:after {
+.page-id-127 #page-container .container.videos .et_pb_section_video_bg:after {
   background-color: white;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -214,7 +214,7 @@
   transform: translateX(-30px) translateY(-30px);
 }
 /* line 204, sass/getdemo.scss */
-.page-id-127 .container.videos .et_pb_section_video_bg:before {
+.page-id-127 #page-container .container.videos .et_pb_section_video_bg:before {
   margin-left: 0px;
   position: absolute;
   left: 50%;
@@ -235,26 +235,26 @@
   z-index: 30;
 }
 /* line 222, sass/getdemo.scss */
-.page-id-127 .container.videos .text-module {
+.page-id-127 #page-container .container.videos .text-module {
   background-color: #031458;
   color: white;
   text-align: center;
   padding-top: 60px;
 }
 /* line 228, sass/getdemo.scss */
-.page-id-127 .container.videos .text-module h5, .page-id-127 .container.videos .text-module h1 {
+.page-id-127 #page-container .container.videos .text-module h5, .page-id-127 #page-container .container.videos .text-module h1 {
   color: white !important;
 }
 /* line 232, sass/getdemo.scss */
-.page-id-127 .container.videos .text-module p {
+.page-id-127 #page-container .container.videos .text-module p {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 /* line 236, sass/getdemo.scss */
-.page-id-127 .container.videos .text-module .wrap {
+.page-id-127 #page-container .container.videos .text-module .wrap {
   padding: 0 60px;
 }
 /* line 242, sass/getdemo.scss */
-.page-id-127 .subnav {
+.page-id-127 #page-container .subnav {
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -268,13 +268,13 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 242, sass/getdemo.scss */
-  .page-id-127 .subnav {
+  .page-id-127 #page-container .subnav {
     bottom: auto;
     top: 0px;
   }
 }
 /* line 262, sass/getdemo.scss */
-.page-id-127 .subnav .row {
+.page-id-127 #page-container .subnav .row {
   padding: 0;
   background-color: black;
   border: 2px solid #f01b70;
@@ -283,7 +283,7 @@
   box-shadow: 0 0 10px #f01b70;
 }
 /* line 270, sass/getdemo.scss */
-.page-id-127 .subnav .col {
+.page-id-127 #page-container .subnav .col {
   width: 33.33%;
   display: inline-block;
   height: 40px;
@@ -291,7 +291,7 @@
   position: relative;
 }
 /* line 276, sass/getdemo.scss */
-.page-id-127 .subnav .col button, .page-id-127 .subnav .col a {
+.page-id-127 #page-container .subnav .col button, .page-id-127 #page-container .subnav .col a {
   width: 100%;
   background-color: transparent;
   cursor: pointer;
@@ -310,7 +310,7 @@
   line-height: 40px !important;
 }
 /* line 291, sass/getdemo.scss */
-.page-id-127 .subnav .col:after {
+.page-id-127 #page-container .subnav .col:after {
   content: "";
   display: block;
   width: 2px;
@@ -321,15 +321,15 @@
   top: 0;
 }
 /* line 303, sass/getdemo.scss */
-.page-id-127 .subnav .col.last:after {
+.page-id-127 #page-container .subnav .col.last:after {
   display: none;
 }
 /* line 309, sass/getdemo.scss */
-.page-id-127 .subnav .col.active button, .page-id-127 .subnav .col.active a {
+.page-id-127 #page-container .subnav .col.active button, .page-id-127 #page-container .subnav .col.active a {
   background-color: #f01b70;
 }
 /* line 320, sass/getdemo.scss */
-.page-id-127 #switch-content {
+.page-id-127 #page-container #switch-content {
   max-width: 960px;
   height: 430px;
   overflow: hidden;
@@ -341,20 +341,20 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 320, sass/getdemo.scss */
-  .page-id-127 #switch-content {
+  .page-id-127 #page-container #switch-content {
     height: auto;
     padding-top: 80px;
   }
 }
 @media only screen and (min-width: 1600px) {
   /* line 320, sass/getdemo.scss */
-  .page-id-127 #switch-content {
+  .page-id-127 #page-container #switch-content {
     height: 600px;
     max-width: 100%;
   }
 }
 /* line 344, sass/getdemo.scss */
-.page-id-127 .switch-container {
+.page-id-127 #page-container .switch-container {
   width: 100%;
   height: 430px;
   display: block;
@@ -376,13 +376,13 @@
 }
 @media only screen and (min-width: 1600px) {
   /* line 344, sass/getdemo.scss */
-  .page-id-127 .switch-container {
+  .page-id-127 #page-container .switch-container {
     height: 600px;
   }
 }
 @media only screen and (max-width: 960px) {
   /* line 344, sass/getdemo.scss */
-  .page-id-127 .switch-container {
+  .page-id-127 #page-container .switch-container {
     display: none;
     height: auto;
     position: relative;
@@ -391,39 +391,39 @@
   }
 }
 /* line 371, sass/getdemo.scss */
-.page-id-127 .switch-container h4, .page-id-127 .switch-container h1 {
+.page-id-127 #page-container .switch-container h4, .page-id-127 #page-container .switch-container h1 {
   padding: 0 0px;
   text-indent: 0px;
   color: white !important;
 }
 @media only screen and (min-width: 1920px) {
   /* line 378, sass/getdemo.scss */
-  .page-id-127 .switch-container h1 {
+  .page-id-127 #page-container .switch-container h1 {
     font-size: 120px !important;
   }
 }
 /* line 384, sass/getdemo.scss */
-.page-id-127 .switch-container h1.title {
+.page-id-127 #page-container .switch-container h1.title {
   padding-top: 60px;
   color: white !important;
 }
 /* line 389, sass/getdemo.scss */
-.page-id-127 .switch-container .et_pb_row {
+.page-id-127 #page-container .switch-container .et_pb_row {
   width: 100%;
   padding: 0 0px;
 }
 /* line 394, sass/getdemo.scss */
-.page-id-127 .switch-container.active {
+.page-id-127 #page-container .switch-container.active {
   visibility: visible;
 }
 @media only screen and (max-width: 960px) {
   /* line 394, sass/getdemo.scss */
-  .page-id-127 .switch-container.active {
+  .page-id-127 #page-container .switch-container.active {
     display: block;
   }
 }
 /* line 403, sass/getdemo.scss */
-.page-id-127 .switch-container.active.enter {
+.page-id-127 #page-container .switch-container.active.enter {
   opacity: 1;
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -439,11 +439,11 @@
   transition-delay: 0.3s;
 }
 /* line 416, sass/getdemo.scss */
-.page-id-127 #one {
+.page-id-127 #page-container #one {
   background-color: transparent;
 }
 /* line 419, sass/getdemo.scss */
-.page-id-127 #one .col-1, .page-id-127 #one .col-2 {
+.page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
   display: inline-block;
   width: 50%;
   margin-right: -4px;
@@ -451,12 +451,12 @@
 }
 @media only screen and (max-width: 960px) {
   /* line 419, sass/getdemo.scss */
-  .page-id-127 #one .col-1, .page-id-127 #one .col-2 {
+  .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
     width: 100%;
   }
 }
 /* line 431, sass/getdemo.scss */
-.page-id-127 #one p {
+.page-id-127 #page-container #one p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -464,7 +464,7 @@
   color: white !important;
 }
 /* line 436, sass/getdemo.scss */
-.page-id-127 #one small {
+.page-id-127 #page-container #one small {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -474,27 +474,27 @@
   line-height: 14px !important;
 }
 /* line 442, sass/getdemo.scss */
-.page-id-127 #one .wrap {
+.page-id-127 #page-container #one .wrap {
   padding: 0 40px 0 0;
 }
 @media only screen and (max-width: 960px) {
   /* line 442, sass/getdemo.scss */
-  .page-id-127 #one .wrap {
+  .page-id-127 #page-container #one .wrap {
     padding: 0;
   }
 }
 /* line 452, sass/getdemo.scss */
-.page-id-127 #experience {
+.page-id-127 #page-container #experience {
   background-color: transparent;
   height: 100%;
 }
 /* line 456, sass/getdemo.scss */
-.page-id-127 #experience li {
+.page-id-127 #page-container #experience li {
   height: 100%;
   width: auto;
 }
 /* line 460, sass/getdemo.scss */
-.page-id-127 #experience:before {
+.page-id-127 #page-container #experience:before {
   content: "";
   display: block;
   background: url("/wp-content/themes/hypr/assets/img/demo/try-now.png") no-repeat transparent scroll;
@@ -517,6 +517,6 @@
   transform: translate(-50%, -50%);
 }
 /* line 482, sass/getdemo.scss */
-.page-id-127 #tour {
+.page-id-127 #page-container #tour {
   background-color: white;
 }
