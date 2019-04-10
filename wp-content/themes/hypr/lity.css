@@ -279,17 +279,17 @@
 }
 
 /* line 252, sass/lity.scss */
-#s11 .et_pb_text_inner {
+#s11 .et_pb_text_inner, #s10 .et_pb_text_inner, #s12 .et_pb_text_inner, #s9 .et_pb_text_inner {
   height: 100%;
   width: 100%;
   position: relative;
 }
 /* line 257, sass/lity.scss */
-#s11 .et_pb_text_inner .et-db #et-boc .et-fb-popover-tinymce, #s11 .et_pb_text_inner .mce-content-body {
+#s11 .et_pb_text_inner .et-db #et-boc .et-fb-popover-tinymce, #s11 .et_pb_text_inner .mce-content-body, #s10 .et_pb_text_inner .et-db #et-boc .et-fb-popover-tinymce, #s10 .et_pb_text_inner .mce-content-body, #s12 .et_pb_text_inner .et-db #et-boc .et-fb-popover-tinymce, #s12 .et_pb_text_inner .mce-content-body, #s9 .et_pb_text_inner .et-db #et-boc .et-fb-popover-tinymce, #s9 .et_pb_text_inner .mce-content-body {
   position: unset;
 }
 /* line 262, sass/lity.scss */
-#s11 .et_pb_text_inner .lity-play-btn {
+#s11 .et_pb_text_inner .lity-play-btn, #s10 .et_pb_text_inner .lity-play-btn, #s12 .et_pb_text_inner .lity-play-btn, #s9 .et_pb_text_inner .lity-play-btn {
   position: absolute;
   left: 50%;
   top: 50%;
