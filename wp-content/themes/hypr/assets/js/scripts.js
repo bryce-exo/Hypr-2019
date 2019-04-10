@@ -10,7 +10,7 @@ jQuery(function($){
 		}
 
 
-		$('#menu-item-154').find('a').attr('href','');
+		$('#menu-item-154').find('a.quadmenu-dropdown-toggle.hoverintent').attr('href','');
 	}
 
 	

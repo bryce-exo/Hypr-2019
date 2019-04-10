@@ -48,7 +48,7 @@ body.home{
 
 		@media only screen and (max-width: 980px){
 			.et_pb_column{
-				padding: 0px 0 100px 0 !important;
+				padding: 200px 0 100px 0 !important;
 			}
 		}
 	}	
@@ -118,7 +118,7 @@ body.home{
 
 .et_pb_image{
   overflow: hidden!important;
-  	height: 100%;
+  	
 }
 
 .et_pb_image_wrap{
@@ -178,6 +178,10 @@ body.home{
 		width: 100%!important;
 		.et_pb_column{
 			margin: 0!important;
+
+			&.et_pb_column_1_5{
+				margin-right: 3.5%!important;
+			}
 			
 		}
 
