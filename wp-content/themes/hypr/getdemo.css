@@ -1,60 +1,522 @@
-/*
-Error: Invalid CSS after "...rflow-x: hidden": expected "{", was ";"
-        on line 16 of /Users/foundry/Dev/client-projects/hypr/wp-content/themes/hypr/sass/getdemo.scss
-
-11: .page-id-127{
-12: 	#page-container{
-13: =======
-14: .page-id-127 #page-container{
-15: >>>>>>> origin/master
-16: 	overflow-x: hidden;
-17: 	#main-header, #top-header{
-18: 		display: none;
-19: 	}
-20: 
-21: 	.et_pb_section{
-
-Backtrace:
-/Users/foundry/Dev/client-projects/hypr/wp-content/themes/hypr/sass/getdemo.scss:16
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
-/usr/local/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/usr/local/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/usr/local/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...rflow-x: hidden\": expected \"{\", was \";\"\A         on line 16 of /Users/foundry/Dev/client-projects/hypr/wp-content/themes/hypr/sass/getdemo.scss\A \A 11: .page-id-127{\A 12: 	#page-container{\A 13: =======\A 14: .page-id-127 #page-container{\A 15: >>>>>>> origin/master\A 16: 	overflow-x: hidden;\A 17: 	#main-header, #top-header{\A 18: 		display: none;\A 19: 	}\A 20: \A 21: 	.et_pb_section{"; }
+/* line 11, sass/getdemo.scss */
+.page-id-127 #page-container {
+  overflow-x: hidden;
+}
+/* line 14, sass/getdemo.scss */
+.page-id-127 #page-container #main-header, .page-id-127 #page-container #top-header {
+  display: none;
+}
+/* line 18, sass/getdemo.scss */
+.page-id-127 #page-container .et_pb_section {
+  width: 100%;
+}
+/* line 27, sass/getdemo.scss */
+.page-id-127 #page-container .badges {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  width: 100%;
+  display: block;
+  height: auto;
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+@media only screen and (max-width: 960px) {
+  /* line 27, sass/getdemo.scss */
+  .page-id-127 #page-container .badges {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-top: 40px;
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/* line 45, sass/getdemo.scss */
+.page-id-127 #page-container .badges .wrap {
+  text-align: center;
+}
+/* line 48, sass/getdemo.scss */
+.page-id-127 #page-container .badges a {
+  height: 40px;
+  width: 150px;
+  display: inline-block;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  margin: 0 0 10px 0;
+  background-position: center center;
+}
+@media only screen and (min-width: 960px) {
+  /* line 60, sass/getdemo.scss */
+  .page-id-127 #page-container .switch {
+    width: 960px;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+/* line 75, sass/getdemo.scss */
+.page-id-127 #page-container:before {
+  height: 2px;
+  -moz-box-shadow: 0 0 20px #f01b70;
+  -webkit-box-shadow: 0 0 20px #f01b70;
+  box-shadow: 0 0 20px #f01b70;
+  width: 200px;
+  content: "";
+  display: block;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: absolute;
+  left: -60px;
+  top: 80px;
+  z-index: 0;
+  background-color: #f01b70;
+}
+@media only screen and (max-width: 960px) {
+  /* line 75, sass/getdemo.scss */
+  .page-id-127 #page-container:before {
+    top: 80px;
+  }
+}
+/* line 93, sass/getdemo.scss */
+.page-id-127 #page-container:after {
+  height: 2px;
+  -moz-box-shadow: 0 0 20px #1DCAD4;
+  -webkit-box-shadow: 0 0 20px #1DCAD4;
+  box-shadow: 0 0 20px #1DCAD4;
+  width: 200px;
+  content: "";
+  display: block;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: absolute;
+  right: -60px;
+  top: 140px;
+  z-index: 0;
+  background-color: #1DCAD4;
+}
+@media only screen and (max-width: 960px) {
+  /* line 93, sass/getdemo.scss */
+  .page-id-127 #page-container:after {
+    top: 120px;
+  }
+}
+/* line 112, sass/getdemo.scss */
+.page-id-127 #page-container .demo-logo {
+  background: url("/wp-content/themes/hypr/assets/img/global/logo.svg") no-repeat transparent;
+  background-size: 100% auto;
+  height: 70px;
+  width: 83px;
+  text-indent: -10000px;
+  overflow: hidden;
+  display: block;
+}
+/* line 123, sass/getdemo.scss */
+.page-id-127 #page-container .logo-container {
+  padding: 40px !important;
+}
+/* line 128, sass/getdemo.scss */
+.page-id-127 #page-container .masthead {
+  margin: 0px auto 0px auto;
+  background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/Tunnel_1.jpg") no-repeat transparent scroll !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 960px) {
+  /* line 128, sass/getdemo.scss */
+  .page-id-127 #page-container .masthead {
+    background-image: none !important;
+    background-color: #011638 !important;
+    min-height: auto;
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
+/* line 144, sass/getdemo.scss */
+.page-id-127 #page-container .masthead .row {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+@media only screen and (min-width: 1920px) {
+  /* line 144, sass/getdemo.scss */
+  .page-id-127 #page-container .masthead .row {
+    max-width: 1400px;
+    width: 100%;
+  }
+}
+/* line 155, sass/getdemo.scss */
+.page-id-127 #page-container .masthead:after {
+  content: "";
+  display: block;
+  background: url("/wp-content/themes/hypr/assets/img/demo/mouse-icn.svg") no-repeat transparent scroll;
+  background-size: 100% auto;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 30px;
+  width: 20px;
+}
+@media only screen and (max-width: 960px) {
+  /* line 155, sass/getdemo.scss */
+  .page-id-127 #page-container .masthead:after {
+    display: none;
+  }
+}
+/* line 173, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos {
+  max-width: 100%;
+  width: 100%;
+}
+/* line 177, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .et_pb_section_video {
+  cursor: pointer;
+}
+/* line 181, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .et_pb_section_video_bg:after {
+  background-color: white;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  content: "";
+  color: black;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 20;
+  overflow: hidden;
+  margin: 0 !important;
+  border: 4px solid #f01b70;
+  -moz-box-shadow: 0 0 20px #f01b70;
+  -webkit-box-shadow: 0 0 20px #f01b70;
+  box-shadow: 0 0 20px #f01b70;
+  -moz-transform: translateX(-30px) translateY(-30px);
+  -ms-transform: translateX(-30px) translateY(-30px);
+  -webkit-transform: translateX(-30px) translateY(-30px);
+  transform: translateX(-30px) translateY(-30px);
+}
+/* line 206, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .et_pb_section_video_bg:before {
+  margin-left: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -6px;
+  display: block;
+  color: #f01b70;
+  background: url("/wp-content/themes/hypr/assets/img/demo/play-btn.svg") no-repeat transparent scroll;
+  background-size: 100% auto;
+  width: 40px;
+  height: 40px;
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  content: "";
+  z-index: 30;
+}
+/* line 224, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .text-module {
+  background-color: #031458;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+/* line 230, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .text-module h5, .page-id-127 #page-container .container.videos .text-module h1 {
+  color: white !important;
+}
+/* line 234, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .text-module p {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+/* line 238, sass/getdemo.scss */
+.page-id-127 #page-container .container.videos .text-module .wrap {
+  padding: 0 60px;
+}
+/* line 244, sass/getdemo.scss */
+.page-id-127 #page-container .subnav {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 20;
+  width: 100%;
+  background-color: transparent !important;
+}
+@media only screen and (max-width: 960px) {
+  /* line 244, sass/getdemo.scss */
+  .page-id-127 #page-container .subnav {
+    bottom: auto;
+    top: 0px;
+  }
+}
+/* line 264, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .row {
+  padding: 0;
+  background-color: black;
+  border: 2px solid #f01b70;
+  -moz-box-shadow: 0 0 10px #f01b70;
+  -webkit-box-shadow: 0 0 10px #f01b70;
+  box-shadow: 0 0 10px #f01b70;
+}
+/* line 272, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .col {
+  width: 33.33%;
+  display: inline-block;
+  height: 40px;
+  margin: 0 -4px 0 0;
+  position: relative;
+}
+/* line 278, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .col button, .page-id-127 #page-container .subnav .col a {
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  display: block;
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  font-weight: bold !important;
+  line-height: 24px !important;
+  font-size: 14px !important;
+  color: white !important;
+  line-height: 40px !important;
+}
+/* line 293, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .col:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: #f01b70;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 305, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .col.last:after {
+  display: none;
+}
+/* line 311, sass/getdemo.scss */
+.page-id-127 #page-container .subnav .col.active button, .page-id-127 #page-container .subnav .col.active a {
+  background-color: #f01b70;
+}
+/* line 322, sass/getdemo.scss */
+.page-id-127 #page-container #switch-content {
+  max-width: 960px;
+  height: 430px;
+  overflow: hidden;
+  position: relative;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  z-index: 20;
+}
+@media only screen and (max-width: 960px) {
+  /* line 322, sass/getdemo.scss */
+  .page-id-127 #page-container #switch-content {
+    height: auto;
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  /* line 322, sass/getdemo.scss */
+  .page-id-127 #page-container #switch-content {
+    height: 600px;
+    max-width: 100%;
+  }
+}
+/* line 346, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container {
+  width: 100%;
+  height: 430px;
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  opacity: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  color: white !important;
+}
+@media only screen and (min-width: 1600px) {
+  /* line 346, sass/getdemo.scss */
+  .page-id-127 #page-container .switch-container {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /* line 346, sass/getdemo.scss */
+  .page-id-127 #page-container .switch-container {
+    display: none;
+    height: auto;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+/* line 373, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container h4, .page-id-127 #page-container .switch-container h1 {
+  padding: 0 0px;
+  text-indent: 0px;
+  color: white !important;
+}
+@media only screen and (min-width: 1920px) {
+  /* line 380, sass/getdemo.scss */
+  .page-id-127 #page-container .switch-container h1 {
+    font-size: 120px !important;
+  }
+}
+/* line 386, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container h1.title {
+  padding-top: 60px;
+  color: white !important;
+}
+/* line 391, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container .et_pb_row {
+  width: 100%;
+  padding: 0 0px;
+}
+/* line 396, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container.active {
+  visibility: visible;
+}
+@media only screen and (max-width: 960px) {
+  /* line 396, sass/getdemo.scss */
+  .page-id-127 #page-container .switch-container.active {
+    display: block;
+  }
+}
+/* line 405, sass/getdemo.scss */
+.page-id-127 #page-container .switch-container.active.enter {
+  opacity: 1;
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+/* line 418, sass/getdemo.scss */
+.page-id-127 #page-container #one {
+  background-color: transparent;
+}
+/* line 421, sass/getdemo.scss */
+.page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+  vertical-align: top;
+}
+@media only screen and (max-width: 960px) {
+  /* line 421, sass/getdemo.scss */
+  .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
+    width: 100%;
+  }
+}
+/* line 433, sass/getdemo.scss */
+.page-id-127 #page-container #one p {
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  font-weight: normal !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: white !important;
+}
+/* line 438, sass/getdemo.scss */
+.page-id-127 #page-container #one small {
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  font-weight: normal !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: white !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+}
+/* line 444, sass/getdemo.scss */
+.page-id-127 #page-container #one .wrap {
+  padding: 0 40px 0 0;
+}
+@media only screen and (max-width: 960px) {
+  /* line 444, sass/getdemo.scss */
+  .page-id-127 #page-container #one .wrap {
+    padding: 0;
+  }
+}
+/* line 454, sass/getdemo.scss */
+.page-id-127 #page-container #experience {
+  background-color: transparent;
+  height: 100%;
+}
+/* line 458, sass/getdemo.scss */
+.page-id-127 #page-container #experience li {
+  height: 100%;
+  width: auto;
+}
+/* line 462, sass/getdemo.scss */
+.page-id-127 #page-container #experience:before {
+  content: "";
+  display: block;
+  background: url("/wp-content/themes/hypr/assets/img/demo/try-now.png") no-repeat transparent scroll;
+  background-position: center center;
+  background-size: 68% auto;
+  pointer-events: none;
+  padding: 20px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #011638;
+  width: 70px;
+  height: 86px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 484, sass/getdemo.scss */
+.page-id-127 #page-container #tour {
+  background-color: white;
+}
