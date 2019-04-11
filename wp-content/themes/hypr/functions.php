@@ -26,6 +26,11 @@ function ds_ct_loadjs() {
 
 }
 
+function wpse_enqueue_page_template_styles() {
+   
+}
+add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles');
+
 function mycustomscript_enqueue() {
     wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array ( 'jquery') );
 }
@@ -44,6 +49,10 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
 
 
+
 include('login-editor.php');
+
+
+
 
 ?>

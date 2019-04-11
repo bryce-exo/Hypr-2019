@@ -9,13 +9,32 @@ jQuery(function($){
 			demo();
 		}
 
+		if($('.page-template-resources').length){
+			resources();	
+		}
+
 
 		$('#menu-item-154').find('a.quadmenu-dropdown-toggle.hoverintent').attr('href','');
 	}
 
 	
 
+	resources = function(){
+		$('.expand-btn').click(function(){
+			
 
+			if($(this).hasClass('active')){
+				$(this).parent().parent().removeClass('expand');
+				$(this).removeClass('active');
+				$(this).text('Expand');
+			}else{
+				$(this).parent().parent().addClass('expand');
+				$(this).addClass('active');
+				$(this).text('Collapse');
+			}
+
+		});
+	}
 
 	demo = function(){
 		$('.btn-demo').click(function(){
