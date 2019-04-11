@@ -5,7 +5,9 @@
 
 
 body.page-template-resources, body.page-template-all-resources{
-
+	#main-header{
+		background-color: $secondary-2;
+	}
 	background-color: rgba(0,0,0,.05);
 
 	#page-container .masthead{
@@ -15,24 +17,59 @@ body.page-template-resources, body.page-template-all-resources{
 		h1{
 			color: white!important;
 			text-indent: 0px;
+			text-align: center!important;
+			margin: 0 auto!important;
 			@media only screen and (max-width:577px){
-				text-indent: 20px;
+				
 			}
 			
 		}
 	}
 
+	#page-container{
+		&:before{
+			@media only screen and (max-width: 980px){
+				
+					content: "";
+					display: block;
+					height: 80px;
+					position: fixed;
+					left: 0;
+					top: 0;
+					z-index: 10;
+					width: 100%;
+					background-color: $secondary-2;
+				
+			}
+		}
+	}
+
+	a.back-btn{
+		top: 90px;
+		    position: absolute;
+		    text-transform: uppercase;
+		    left: 0;
+		    top: 0px;
+		    color: white;
+		    font-weight: bold;
+		    @include h6-rajsemi($secondary-2);
+		    z-index: 10;
+		
+	}
+
 
 	.searchandfilter{
+		margin: 0 auto;
+		text-align: center;
 		
 		ul{
-			margin: 0 20px;
+			margin: 0 auto;
 		}
 		ul li{
 			display: inline-block;
 			
 			&.sf-field-search{
-				@media only screen and (max-width:577px){
+				@media only screen and (max-width:990px){
 					width: 100%;
 					label{
 						width: 100%;						
@@ -41,7 +78,7 @@ body.page-template-resources, body.page-template-all-resources{
 				}
 				input{
 					min-width: 480px;
-					@media only screen and (max-width:577px){
+					@media only screen and (max-width:990px){
 						max-width: 100%;
 						min-width: auto;
 						width: 100%;
@@ -59,6 +96,10 @@ body.page-template-resources, body.page-template-all-resources{
 
 			&.sf-field-tag{
 				margin: 0 10px;
+
+				@media only screen and (max-width:980px){
+					margin: 0 10px 0 0 ;
+				}
 				.sf-input-select {
 					display: block;
 					font-size: 14px;
@@ -150,7 +191,7 @@ body.page-template-resources, body.page-template-all-resources{
 	#page-container .container.loops{
 		padding: 20px 0;
 
-		h3{
+		h2{
 			margin: 0 20px;
 		}
 		.card-container{
@@ -161,6 +202,10 @@ body.page-template-resources, body.page-template-all-resources{
 
 			@media only screen and (max-width:980px){
 				width: 50%;
+			}
+
+			@media only screen and (max-width:480px){
+				width: 100%;
 			}
 
 			.card{
@@ -184,7 +229,7 @@ body.page-template-resources, body.page-template-all-resources{
 
 			}
 
-			h6, h4, p{
+			h6, h3, p{
 				color: $secondary-2;
 				@include transition(.2s all ease-in-out);
 			}
@@ -211,7 +256,7 @@ body.page-template-resources, body.page-template-all-resources{
 				background-color: $secondary-2;
 				@include transition(.2s all ease-in-out);
 
-				h4, p{
+				h3, p{
 					color: white!important;
 					@include transition(.2s all ease-in-out);
 				}
@@ -274,3 +319,13 @@ body.page-template-resources, body.page-template-all-resources{
 
 
 
+
+
+body.page-template-all-resources{
+	#page-container .container.loops{
+		.row.cards{
+			overflow: auto;
+			height: auto;
+		}
+	}
+}

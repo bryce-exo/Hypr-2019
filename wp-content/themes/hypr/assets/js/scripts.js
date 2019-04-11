@@ -26,11 +26,11 @@ jQuery(function($){
 			if($(this).hasClass('active')){
 				$(this).parent().parent().removeClass('expand');
 				$(this).removeClass('active');
-				$(this).text('Expand');
+				$(this).text('Show All +');
 			}else{
 				$(this).parent().parent().addClass('expand');
 				$(this).addClass('active');
-				$(this).text('Collapse');
+				$(this).text('Show Less -');
 			}
 
 		});

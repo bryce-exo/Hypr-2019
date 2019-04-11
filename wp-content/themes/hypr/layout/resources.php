@@ -48,7 +48,7 @@ get_header();
 <div class="container tag-whitepapers loops">
 	
 	<div class="row">
-		<h3>White Papers</h3>
+		<h2>White Papers</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'white-papers', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -61,7 +61,7 @@ get_header();
 				<div class="card-body">
 					
 					<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-					<h4 class="card-title"><?php the_title(); ?></h4>
+					<h3 class="card-title"><?php the_title(); ?></h3>
 					
 					
 					<span class="cta">Read White Paper</span>
@@ -83,14 +83,14 @@ get_header();
 
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 
 <hr>
 <div class="container tag-usecases loops">
 	<div class="row">
-		<h3>Use Cases</h3>
+		<h2>Use Cases</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'use-cases', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -102,7 +102,7 @@ get_header();
 			<div class="card-body">
 				
 				<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-				<h4 class="card-title"><?php the_title(); ?></h4>
+				<h3 class="card-title"><?php the_title(); ?></h3>
 				
 				
 				<span class="cta">Read Use Case</span>
@@ -119,14 +119,14 @@ get_header();
 			wp_reset_postdata();?>
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 <hr>
 
 <div class="container tag-datasheets loops">
 	<div class="row">
-		<h3>Data Sheets</h3>
+		<h2>Data Sheets</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'data-sheets', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -138,7 +138,7 @@ get_header();
 			<div class="card-body">
 				
 				<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-				<h4 class="card-title"><?php the_title(); ?></h4>
+				<h3 class="card-title"><?php the_title(); ?></h3>
 				
 				
 				<span class="cta">Read Data Sheet</span>
@@ -156,14 +156,14 @@ get_header();
 			wp_reset_postdata();?>
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 
 <hr>
 <div class="container tag-videos loops">
 	<div class="row">
-		<h3>Videos</h3>
+		<h2>Videos</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'videos', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -175,7 +175,7 @@ get_header();
 			<div class="card-body">
 				
 				<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-				<h4 class="card-title"><?php the_title(); ?></h4>
+				<h3 class="card-title"><?php the_title(); ?></h3>
 				
 				
 				<span class="cta">Watch Video</span>
@@ -192,13 +192,13 @@ get_header();
 			wp_reset_postdata();?>
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 <hr>
 <div class="container tag-successstories loops">
 	<div class="row">
-		<h3>Success Stories</h3>
+		<h2>Success Stories</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'success-stories', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -210,7 +210,7 @@ get_header();
 			<div class="card-body">
 				<?php the_tags( '', ', ', '<br />' ); ?>
 				<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-				<h4 class="card-title"><?php the_title(); ?></h4>
+				<h3 class="card-title"><?php the_title(); ?></h3>
 				
 				
 				<span class="cta">Read Success Story</span>
@@ -228,14 +228,14 @@ get_header();
 			wp_reset_postdata();?>
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 
 <hr>
 <div class="container tag-capabilities loops">
 	<div class="row">
-		<h3>Capabilities</h3>
+		<h2>Capabilities</h2>
 	</div>
 	<div class="row cards">
 			<?php $loop = new WP_Query( array( 'tag' => 'capabilities', 'numberposts' => 0,'orderby'=>'title' ) );
@@ -247,7 +247,7 @@ get_header();
 			<div class="card-body">
 				
 				<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-				<h4 class="card-title"><?php the_title(); ?></h4>
+				<h3 class="card-title"><?php the_title(); ?></h3>
 				
 				
 				<span class="cta">Read Capabilities</span>
@@ -265,7 +265,7 @@ get_header();
 			wp_reset_postdata();?>
 	</div>
 	<div class="row">
-		<span class="expand-btn">Expand</span>
+		<span class="expand-btn">Show All +</span>
 	</div>
 </div>
 

@@ -2,41 +2,76 @@
 body.page-template-resources, body.page-template-all-resources {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 11, sass/resources.scss */
+/* line 8, sass/resources.scss */
+body.page-template-resources #main-header, body.page-template-all-resources #main-header {
+  background-color: #011638;
+}
+/* line 13, sass/resources.scss */
 body.page-template-resources #page-container .masthead, body.page-template-all-resources #page-container .masthead {
   padding-top: 120px;
   background-color: #011638;
 }
-/* line 15, sass/resources.scss */
+/* line 17, sass/resources.scss */
 body.page-template-resources #page-container .masthead h1, body.page-template-all-resources #page-container .masthead h1 {
   color: white !important;
   text-indent: 0px;
+  text-align: center !important;
+  margin: 0 auto !important;
 }
-@media only screen and (max-width: 577px) {
-  /* line 15, sass/resources.scss */
-  body.page-template-resources #page-container .masthead h1, body.page-template-all-resources #page-container .masthead h1 {
-    text-indent: 20px;
+@media only screen and (max-width: 980px) {
+  /* line 30, sass/resources.scss */
+  body.page-template-resources #page-container:before, body.page-template-all-resources #page-container:before {
+    content: "";
+    display: block;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #011638;
   }
 }
-/* line 28, sass/resources.scss */
-body.page-template-resources .searchandfilter ul, body.page-template-all-resources .searchandfilter ul {
-  margin: 0 20px;
+/* line 47, sass/resources.scss */
+body.page-template-resources a.back-btn, body.page-template-all-resources a.back-btn {
+  top: 90px;
+  position: absolute;
+  text-transform: uppercase;
+  left: 0;
+  top: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: "Rajdhani", "Helvetica", sans-serif !important;
+  font-weight: bold !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+  z-index: 10;
 }
-/* line 31, sass/resources.scss */
+/* line 61, sass/resources.scss */
+body.page-template-resources .searchandfilter, body.page-template-all-resources .searchandfilter {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 65, sass/resources.scss */
+body.page-template-resources .searchandfilter ul, body.page-template-all-resources .searchandfilter ul {
+  margin: 0 auto;
+}
+/* line 68, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li, body.page-template-all-resources .searchandfilter ul li {
   display: inline-block;
 }
-@media only screen and (max-width: 577px) {
-  /* line 34, sass/resources.scss */
+@media only screen and (max-width: 990px) {
+  /* line 71, sass/resources.scss */
   body.page-template-resources .searchandfilter ul li.sf-field-search, body.page-template-all-resources .searchandfilter ul li.sf-field-search {
     width: 100%;
   }
-  /* line 37, sass/resources.scss */
+  /* line 74, sass/resources.scss */
   body.page-template-resources .searchandfilter ul li.sf-field-search label, body.page-template-all-resources .searchandfilter ul li.sf-field-search label {
     width: 100%;
   }
 }
-/* line 42, sass/resources.scss */
+/* line 79, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-search input, body.page-template-all-resources .searchandfilter ul li.sf-field-search input {
   min-width: 480px;
   border: none;
@@ -48,15 +83,15 @@ body.page-template-resources .searchandfilter ul li.sf-field-search input, body.
   font-size: 20px !important;
   color: white !important;
 }
-@media only screen and (max-width: 577px) {
-  /* line 42, sass/resources.scss */
+@media only screen and (max-width: 990px) {
+  /* line 79, sass/resources.scss */
   body.page-template-resources .searchandfilter ul li.sf-field-search input, body.page-template-all-resources .searchandfilter ul li.sf-field-search input {
     max-width: 100%;
     min-width: auto;
     width: 100%;
   }
 }
-/* line 60, sass/resources.scss */
+/* line 97, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
   margin: 0 10px;
   /* Hide arrow icon in IE browsers */
@@ -65,7 +100,13 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-temp
   /* Set options to normal weight */
   /* Support for rtl text, explicit support for Arabic and Hebrew */
 }
-/* line 62, sass/resources.scss */
+@media only screen and (max-width: 980px) {
+  /* line 97, sass/resources.scss */
+  body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
+    margin: 0 10px 0 0;
+  }
+}
+/* line 103, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select {
   display: block;
   font-size: 14px;
@@ -103,15 +144,15 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-selec
   /* icon size, then gradient */
   background-size: .65em auto, 100%;
 }
-/* line 94, sass/resources.scss */
+/* line 135, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand {
   display: none;
 }
-/* line 98, sass/resources.scss */
+/* line 139, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover {
   border-color: #888;
 }
-/* line 102, sass/resources.scss */
+/* line 143, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus {
   border-color: #aaa;
   /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
@@ -120,16 +161,16 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-selec
   color: #222;
   outline: none;
 }
-/* line 112, sass/resources.scss */
+/* line 153, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select option {
   font-weight: normal;
 }
-/* line 117, sass/resources.scss */
+/* line 158, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select {
   background-position: left .7em top 50%, 0 0;
   padding: .6em .8em .5em 1.4em;
 }
-/* line 124, sass/resources.scss */
+/* line 165, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-submit input, body.page-template-all-resources .searchandfilter ul li.sf-field-submit input {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -148,36 +189,42 @@ body.page-template-resources .searchandfilter ul li.sf-field-submit input, body.
   padding: 6px 3em 8px 3em !important;
   line-height: 27px !important;
 }
-/* line 143, sass/resources.scss */
+/* line 184, sass/resources.scss */
 body.page-template-resources .searchbox, body.page-template-all-resources .searchbox {
   background-color: #011638;
   margin-bottom: 20px;
 }
-/* line 146, sass/resources.scss */
+/* line 187, sass/resources.scss */
 body.page-template-resources .searchbox .container, body.page-template-all-resources .searchbox .container {
   padding: 40px 0px;
 }
-/* line 150, sass/resources.scss */
+/* line 191, sass/resources.scss */
 body.page-template-resources #page-container .container.loops, body.page-template-all-resources #page-container .container.loops {
   padding: 20px 0;
 }
-/* line 153, sass/resources.scss */
-body.page-template-resources #page-container .container.loops h3, body.page-template-all-resources #page-container .container.loops h3 {
+/* line 194, sass/resources.scss */
+body.page-template-resources #page-container .container.loops h2, body.page-template-all-resources #page-container .container.loops h2 {
   margin: 0 20px;
 }
-/* line 156, sass/resources.scss */
+/* line 197, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
   display: inline-block;
   width: 25%;
   margin-left: 0px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 156, sass/resources.scss */
+  /* line 197, sass/resources.scss */
   body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
     width: 50%;
   }
 }
-/* line 166, sass/resources.scss */
+@media only screen and (max-width: 480px) {
+  /* line 197, sass/resources.scss */
+  body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
+    width: 100%;
+  }
+}
+/* line 211, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card, body.page-template-all-resources #page-container .container.loops .card-container .card {
   margin: 20px;
   height: auto;
@@ -196,30 +243,30 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 179, sass/resources.scss */
+/* line 224, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card-body, body.page-template-all-resources #page-container .container.loops .card-container .card-body {
   background-color: transparent;
   overflow: hidden;
   flex: none;
   height: 220px;
 }
-/* line 187, sass/resources.scss */
-body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-resources #page-container .container.loops .card-container h4, body.page-template-resources #page-container .container.loops .card-container p, body.page-template-all-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h4, body.page-template-all-resources #page-container .container.loops .card-container p {
+/* line 232, sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-resources #page-container .container.loops .card-container h3, body.page-template-resources #page-container .container.loops .card-container p, body.page-template-all-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h3, body.page-template-all-resources #page-container .container.loops .card-container p {
   color: #011638;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 192, sass/resources.scss */
+/* line 237, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h6 {
   text-transform: uppercase;
 }
-/* line 196, sass/resources.scss */
+/* line 241, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container a:hover, body.page-template-all-resources #page-container .container.loops .card-container a:hover {
   text-decoration: none;
 }
-/* line 200, sass/resources.scss */
+/* line 245, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container span.cta, body.page-template-all-resources #page-container .container.loops .card-container span.cta {
   position: absolute;
   bottom: 20px;
@@ -230,7 +277,7 @@ body.page-template-resources #page-container .container.loops .card-container sp
   font-size: 16px !important;
   color: #011638 !important;
 }
-/* line 209, sass/resources.scss */
+/* line 254, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover, body.page-template-all-resources #page-container .container.loops .card-container .card:hover {
   cursor: pointer;
   background-color: #011638;
@@ -239,15 +286,15 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 214, sass/resources.scss */
-body.page-template-resources #page-container .container.loops .card-container .card:hover h4, body.page-template-resources #page-container .container.loops .card-container .card:hover p, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h4, body.page-template-all-resources #page-container .container.loops .card-container .card:hover p {
+/* line 259, sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-resources #page-container .container.loops .card-container .card:hover p, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-all-resources #page-container .container.loops .card-container .card:hover p {
   color: white !important;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 219, sass/resources.scss */
+/* line 264, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover h6, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h6 {
   color: rgba(255, 255, 255, 0.5) !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -255,7 +302,7 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 225, sass/resources.scss */
+/* line 270, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover span.cta, body.page-template-all-resources #page-container .container.loops .card-container .card:hover span.cta {
   color: #1DCAD4 !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -263,7 +310,7 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 233, sass/resources.scss */
+/* line 278, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .row.cards, body.page-template-all-resources #page-container .container.loops .row.cards {
   height: 320px;
   overflow: hidden;
@@ -272,7 +319,7 @@ body.page-template-resources #page-container .container.loops .row.cards, body.p
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 241, sass/resources.scss */
+/* line 286, sass/resources.scss */
 body.page-template-resources #page-container .container.loops.expand .row.cards, body.page-template-all-resources #page-container .container.loops.expand .row.cards {
   height: auto;
   -moz-transition: all 0.2s ease-in-out;
@@ -280,7 +327,7 @@ body.page-template-resources #page-container .container.loops.expand .row.cards,
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 247, sass/resources.scss */
+/* line 292, sass/resources.scss */
 body.page-template-resources #page-container .container.loops .expand-btn, body.page-template-all-resources #page-container .container.loops .expand-btn {
   cursor: pointer;
   margin: 0 20px;
@@ -291,14 +338,20 @@ body.page-template-resources #page-container .container.loops .expand-btn, body.
   color: #011638 !important;
 }
 @media only screen and (max-width: 577px) {
-  /* line 258, sass/resources.scss */
+  /* line 303, sass/resources.scss */
   body.page-template-resources #page-container .searchbox .container, body.page-template-resources #page-container .masthead .container, body.page-template-all-resources #page-container .searchbox .container, body.page-template-all-resources #page-container .masthead .container {
     padding: 20px 40px;
   }
 }
 @media only screen and (max-width: 577px) {
-  /* line 264, sass/resources.scss */
+  /* line 309, sass/resources.scss */
   body.page-template-resources #page-container .container.loops, body.page-template-all-resources #page-container .container.loops {
     padding: 0 40px;
   }
+}
+
+/* line 326, sass/resources.scss */
+body.page-template-all-resources #page-container .container.loops .row.cards {
+  overflow: auto;
+  height: auto;
 }

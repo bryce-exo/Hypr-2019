@@ -6,7 +6,7 @@
 
 
 get_header(); ?>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <div class="masthead">
 
 
@@ -32,15 +32,16 @@ get_header(); ?>
 </div>
 
 
-<div class="container">
+<div class="container loops">
 
 
 
 	
+		
 	
-	<div class="row">
+		<a class="back-btn" href="/resources/">< Back</a>
 		<?php echo do_shortcode( '[searchandfilter id="1920" show="results"]' ); ?>
-	</div>
+	
 
 	
 
