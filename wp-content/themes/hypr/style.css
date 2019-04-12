@@ -306,42 +306,48 @@ body.home .et_pb_section_first {
     margin-right: 3.5% !important;
   }
 
-  /* line 190, sass/et_pb.scss */
+  /* line 191, sass/et_pb.scss */
+  #sidebar-overlay .et_pb_section .et_pb_row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* line 199, sass/et_pb.scss */
   #s-1 {
     padding: 0 !important;
   }
-  /* line 193, sass/et_pb.scss */
+  /* line 202, sass/et_pb.scss */
   #s-1 .content-col {
     padding: 60px 60px !important;
   }
 
-  /* line 198, sass/et_pb.scss */
+  /* line 207, sass/et_pb.scss */
   .et_pb_column.content-col {
     background-image: none;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 217, sass/et_pb.scss */
+  /* line 226, sass/et_pb.scss */
   .et_pb_section .et_pb_row {
     padding: 40px !important;
     margin: 0 !important;
     width: 100% !important;
   }
-  /* line 222, sass/et_pb.scss */
+  /* line 231, sass/et_pb.scss */
   .et_pb_section .et_pb_row .et_pb_column {
     margin: 0 !important;
   }
 
-  /* line 229, sass/et_pb.scss */
+  /* line 238, sass/et_pb.scss */
   #s-1 {
     padding: 0px !important;
   }
-  /* line 232, sass/et_pb.scss */
+  /* line 241, sass/et_pb.scss */
   #s-1 .content-col {
     padding: 60px 60px !important;
   }
 }
-/* line 246, sass/et_pb.scss */
+/* line 255, sass/et_pb.scss */
 .wpls-logo-showcase.center .slick-center {
   -moz-transform: scale(0.7, 0.7) !important;
   -ms-transform: scale(0.7, 0.7) !important;
@@ -349,9 +355,37 @@ body.home .et_pb_section_first {
   transform: scale(0.7, 0.7) !important;
 }
 
-/* line 251, sass/et_pb.scss */
+/* line 260, sass/et_pb.scss */
 .wpls-logo-slider.center .slick-slide {
   opacity: 1 !important;
+}
+
+/* line 268, sass/et_pb.scss */
+.overlay-container .overlay-close {
+  background-color: white;
+  border: 2px solid #f01b70;
+  -moz-box-shadow: 0 0 10px #f01b70;
+  -webkit-box-shadow: 0 0 10px #f01b70;
+  box-shadow: 0 0 10px #f01b70;
+  height: 50px;
+  width: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 275, sass/et_pb.scss */
+.overlay-container .overlay-close span {
+  font-size: 34px;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  display: block;
+  left: 50%;
+  color: #f01b70;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* saira-extra-condensed-regular - latin */
@@ -370,7 +404,7 @@ body.home .et_pb_section_first {
 }
 
 /* line 37, sass/global.scss */
-#page-container h1 {
+#page-container h1, #sidebar-overlay h1 {
   margin-top: 10px;
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -381,27 +415,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 37, sass/global.scss */
-  #page-container h1 {
+  #page-container h1, #sidebar-overlay h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 37, sass/global.scss */
-  #page-container h1 {
+  #page-container h1, #sidebar-overlay h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 37, sass/global.scss */
-  #page-container h1 {
+  #page-container h1, #sidebar-overlay h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 42, sass/global.scss */
-#page-container h1 span {
+#page-container h1 span, #sidebar-overlay h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -411,27 +445,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 42, sass/global.scss */
-  #page-container h1 span {
+  #page-container h1 span, #sidebar-overlay h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 42, sass/global.scss */
-  #page-container h1 span {
+  #page-container h1 span, #sidebar-overlay h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 42, sass/global.scss */
-  #page-container h1 span {
+  #page-container h1 span, #sidebar-overlay h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 50, sass/global.scss */
-#page-container h1.title {
+#page-container h1.title, #sidebar-overlay h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -442,14 +476,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 50, sass/global.scss */
-  #page-container h1.title {
+  #page-container h1.title, #sidebar-overlay h1.title {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 50, sass/global.scss */
-  #page-container h1.title {
+  #page-container h1.title, #sidebar-overlay h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -458,7 +492,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 50, sass/global.scss */
-  #page-container h1.title {
+  #page-container h1.title, #sidebar-overlay h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -466,7 +500,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 52, sass/global.scss */
-#page-container h1.title span {
+#page-container h1.title span, #sidebar-overlay h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -477,14 +511,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 52, sass/global.scss */
-  #page-container h1.title span {
+  #page-container h1.title span, #sidebar-overlay h1.title span {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 52, sass/global.scss */
-  #page-container h1.title span {
+  #page-container h1.title span, #sidebar-overlay h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -493,7 +527,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 52, sass/global.scss */
-  #page-container h1.title span {
+  #page-container h1.title span, #sidebar-overlay h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -501,7 +535,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 57, sass/global.scss */
-#page-container h2 {
+#page-container h2, #sidebar-overlay h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -510,20 +544,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 57, sass/global.scss */
-  #page-container h2 {
+  #page-container h2, #sidebar-overlay h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 57, sass/global.scss */
-  #page-container h2 {
+  #page-container h2, #sidebar-overlay h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 61, sass/global.scss */
-#page-container h2 span {
+#page-container h2 span, #sidebar-overlay h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -532,20 +566,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 61, sass/global.scss */
-  #page-container h2 span {
+  #page-container h2 span, #sidebar-overlay h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 61, sass/global.scss */
-  #page-container h2 span {
+  #page-container h2 span, #sidebar-overlay h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 66, sass/global.scss */
-#page-container h3 {
+#page-container h3, #sidebar-overlay h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -553,7 +587,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 68, sass/global.scss */
-#page-container h3 span {
+#page-container h3 span, #sidebar-overlay h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -561,7 +595,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 74, sass/global.scss */
-#page-container h4 {
+#page-container h4, #sidebar-overlay h4 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -569,7 +603,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 76, sass/global.scss */
-#page-container h4 span {
+#page-container h4 span, #sidebar-overlay h4 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -577,7 +611,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 82, sass/global.scss */
-#page-container h5 {
+#page-container h5, #sidebar-overlay h5 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -585,7 +619,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 84, sass/global.scss */
-#page-container h5 span {
+#page-container h5 span, #sidebar-overlay h5 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -593,7 +627,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 90, sass/global.scss */
-#page-container h6 {
+#page-container h6, #sidebar-overlay h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -601,7 +635,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 92, sass/global.scss */
-#page-container h6 span {
+#page-container h6 span, #sidebar-overlay h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -609,7 +643,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 98, sass/global.scss */
-#page-container p {
+#page-container p, #sidebar-overlay p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -617,7 +651,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 100, sass/global.scss */
-#page-container p span {
+#page-container p span, #sidebar-overlay p span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -625,16 +659,16 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 106, sass/global.scss */
-#page-container h1, #page-container h2, #page-container h3, #page-container h4 {
+#page-container h1, #page-container h2, #page-container h3, #page-container h4, #sidebar-overlay h1, #sidebar-overlay h2, #sidebar-overlay h3, #sidebar-overlay h4 {
   margin-bottom: 20px;
 }
 /* line 110, sass/global.scss */
-#page-container .et_pb_button {
+#page-container .et_pb_button, #sidebar-overlay .et_pb_button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 /* line 117, sass/global.scss */
-#page-container .et_pb_bg_layout_light h1 {
+#page-container .et_pb_bg_layout_light h1, #sidebar-overlay .et_pb_bg_layout_light h1 {
   margin-top: 10px;
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
@@ -645,27 +679,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 117, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 {
+  #page-container .et_pb_bg_layout_light h1, #sidebar-overlay .et_pb_bg_layout_light h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 117, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 {
+  #page-container .et_pb_bg_layout_light h1, #sidebar-overlay .et_pb_bg_layout_light h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 117, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 {
+  #page-container .et_pb_bg_layout_light h1, #sidebar-overlay .et_pb_bg_layout_light h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 122, sass/global.scss */
-#page-container .et_pb_bg_layout_light h1 span {
+#page-container .et_pb_bg_layout_light h1 span, #sidebar-overlay .et_pb_bg_layout_light h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -675,27 +709,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 122, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 span {
+  #page-container .et_pb_bg_layout_light h1 span, #sidebar-overlay .et_pb_bg_layout_light h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 122, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 span {
+  #page-container .et_pb_bg_layout_light h1 span, #sidebar-overlay .et_pb_bg_layout_light h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 122, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1 span {
+  #page-container .et_pb_bg_layout_light h1 span, #sidebar-overlay .et_pb_bg_layout_light h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 130, sass/global.scss */
-#page-container .et_pb_bg_layout_light h1.title {
+#page-container .et_pb_bg_layout_light h1.title, #sidebar-overlay .et_pb_bg_layout_light h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -706,14 +740,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 130, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title {
+  #page-container .et_pb_bg_layout_light h1.title, #sidebar-overlay .et_pb_bg_layout_light h1.title {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 130, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title {
+  #page-container .et_pb_bg_layout_light h1.title, #sidebar-overlay .et_pb_bg_layout_light h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -722,7 +756,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 130, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title {
+  #page-container .et_pb_bg_layout_light h1.title, #sidebar-overlay .et_pb_bg_layout_light h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -730,7 +764,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 132, sass/global.scss */
-#page-container .et_pb_bg_layout_light h1.title span {
+#page-container .et_pb_bg_layout_light h1.title span, #sidebar-overlay .et_pb_bg_layout_light h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -741,14 +775,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 132, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title span {
+  #page-container .et_pb_bg_layout_light h1.title span, #sidebar-overlay .et_pb_bg_layout_light h1.title span {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 132, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title span {
+  #page-container .et_pb_bg_layout_light h1.title span, #sidebar-overlay .et_pb_bg_layout_light h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -757,7 +791,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 132, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h1.title span {
+  #page-container .et_pb_bg_layout_light h1.title span, #sidebar-overlay .et_pb_bg_layout_light h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -765,7 +799,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 137, sass/global.scss */
-#page-container .et_pb_bg_layout_light h2 {
+#page-container .et_pb_bg_layout_light h2, #sidebar-overlay .et_pb_bg_layout_light h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -774,20 +808,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 137, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h2 {
+  #page-container .et_pb_bg_layout_light h2, #sidebar-overlay .et_pb_bg_layout_light h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 137, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h2 {
+  #page-container .et_pb_bg_layout_light h2, #sidebar-overlay .et_pb_bg_layout_light h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 141, sass/global.scss */
-#page-container .et_pb_bg_layout_light h2 span {
+#page-container .et_pb_bg_layout_light h2 span, #sidebar-overlay .et_pb_bg_layout_light h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -796,20 +830,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 141, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h2 span {
+  #page-container .et_pb_bg_layout_light h2 span, #sidebar-overlay .et_pb_bg_layout_light h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 141, sass/global.scss */
-  #page-container .et_pb_bg_layout_light h2 span {
+  #page-container .et_pb_bg_layout_light h2 span, #sidebar-overlay .et_pb_bg_layout_light h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 146, sass/global.scss */
-#page-container .et_pb_bg_layout_light h3 {
+#page-container .et_pb_bg_layout_light h3, #sidebar-overlay .et_pb_bg_layout_light h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -817,7 +851,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 148, sass/global.scss */
-#page-container .et_pb_bg_layout_light h3 span {
+#page-container .et_pb_bg_layout_light h3 span, #sidebar-overlay .et_pb_bg_layout_light h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -825,7 +859,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 154, sass/global.scss */
-#page-container .et_pb_bg_layout_light h4 {
+#page-container .et_pb_bg_layout_light h4, #sidebar-overlay .et_pb_bg_layout_light h4 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -833,7 +867,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 156, sass/global.scss */
-#page-container .et_pb_bg_layout_light h4 span {
+#page-container .et_pb_bg_layout_light h4 span, #sidebar-overlay .et_pb_bg_layout_light h4 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -841,7 +875,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 162, sass/global.scss */
-#page-container .et_pb_bg_layout_light h5 {
+#page-container .et_pb_bg_layout_light h5, #sidebar-overlay .et_pb_bg_layout_light h5 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -849,7 +883,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 164, sass/global.scss */
-#page-container .et_pb_bg_layout_light h5 span {
+#page-container .et_pb_bg_layout_light h5 span, #sidebar-overlay .et_pb_bg_layout_light h5 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -857,7 +891,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 170, sass/global.scss */
-#page-container .et_pb_bg_layout_light h6 {
+#page-container .et_pb_bg_layout_light h6, #sidebar-overlay .et_pb_bg_layout_light h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -865,7 +899,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 172, sass/global.scss */
-#page-container .et_pb_bg_layout_light h6 span {
+#page-container .et_pb_bg_layout_light h6 span, #sidebar-overlay .et_pb_bg_layout_light h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -873,7 +907,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 178, sass/global.scss */
-#page-container .et_pb_bg_layout_light p {
+#page-container .et_pb_bg_layout_light p, #sidebar-overlay .et_pb_bg_layout_light p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -881,7 +915,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 180, sass/global.scss */
-#page-container .et_pb_bg_layout_light p span {
+#page-container .et_pb_bg_layout_light p span, #sidebar-overlay .et_pb_bg_layout_light p span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -889,7 +923,7 @@ body.home .et_pb_section_first {
   color: #011638 !important;
 }
 /* line 189, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h1.title {
+#page-container .et_pb_bg_layout_dark h1.title, #sidebar-overlay .et_pb_bg_layout_dark h1.title {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -900,14 +934,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 189, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title {
+  #page-container .et_pb_bg_layout_dark h1.title, #sidebar-overlay .et_pb_bg_layout_dark h1.title {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 189, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title {
+  #page-container .et_pb_bg_layout_dark h1.title, #sidebar-overlay .et_pb_bg_layout_dark h1.title {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -916,7 +950,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 189, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title {
+  #page-container .et_pb_bg_layout_dark h1.title, #sidebar-overlay .et_pb_bg_layout_dark h1.title {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -924,7 +958,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 191, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h1.title span {
+#page-container .et_pb_bg_layout_dark h1.title span, #sidebar-overlay .et_pb_bg_layout_dark h1.title span {
   font-size: 80px !important;
   font-weight: normal !important;
   margin: 0 !important;
@@ -935,14 +969,14 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 191, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title span {
+  #page-container .et_pb_bg_layout_dark h1.title span, #sidebar-overlay .et_pb_bg_layout_dark h1.title span {
     font-size: 100px !important;
     line-height: 110px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 191, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title span {
+  #page-container .et_pb_bg_layout_dark h1.title span, #sidebar-overlay .et_pb_bg_layout_dark h1.title span {
     font-size: 60px !important;
     text-indent: 20px;
     letter-spacing: 20px;
@@ -951,7 +985,7 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 400px) {
   /* line 191, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1.title span {
+  #page-container .et_pb_bg_layout_dark h1.title span, #sidebar-overlay .et_pb_bg_layout_dark h1.title span {
     font-size: 50px !important;
     line-height: 50px !important;
     text-indent: 10px;
@@ -959,7 +993,7 @@ body.home .et_pb_section_first {
   }
 }
 /* line 196, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h1 {
+#page-container .et_pb_bg_layout_dark h1, #sidebar-overlay .et_pb_bg_layout_dark h1 {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -969,27 +1003,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 196, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 {
+  #page-container .et_pb_bg_layout_dark h1, #sidebar-overlay .et_pb_bg_layout_dark h1 {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 196, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 {
+  #page-container .et_pb_bg_layout_dark h1, #sidebar-overlay .et_pb_bg_layout_dark h1 {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 196, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 {
+  #page-container .et_pb_bg_layout_dark h1, #sidebar-overlay .et_pb_bg_layout_dark h1 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 199, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h1 span {
+#page-container .et_pb_bg_layout_dark h1 span, #sidebar-overlay .et_pb_bg_layout_dark h1 span {
   font-family: "Saira Extra Condensed", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
@@ -999,27 +1033,27 @@ body.home .et_pb_section_first {
 }
 @media only screen and (min-width: 1920px) {
   /* line 199, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 span {
+  #page-container .et_pb_bg_layout_dark h1 span, #sidebar-overlay .et_pb_bg_layout_dark h1 span {
     font-size: 60px !important;
     line-height: 70px !important;
   }
 }
 @media only screen and (max-width: 980px) {
   /* line 199, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 span {
+  #page-container .et_pb_bg_layout_dark h1 span, #sidebar-overlay .et_pb_bg_layout_dark h1 span {
     font-size: 38px !important;
     line-height: 42px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 199, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h1 span {
+  #page-container .et_pb_bg_layout_dark h1 span, #sidebar-overlay .et_pb_bg_layout_dark h1 span {
     font-size: 20px !important;
     line-height: 26px !important;
   }
 }
 /* line 207, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h2 {
+#page-container .et_pb_bg_layout_dark h2, #sidebar-overlay .et_pb_bg_layout_dark h2 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -1028,20 +1062,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 207, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h2 {
+  #page-container .et_pb_bg_layout_dark h2, #sidebar-overlay .et_pb_bg_layout_dark h2 {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 207, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h2 {
+  #page-container .et_pb_bg_layout_dark h2, #sidebar-overlay .et_pb_bg_layout_dark h2 {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 211, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h2 span {
+#page-container .et_pb_bg_layout_dark h2 span, #sidebar-overlay .et_pb_bg_layout_dark h2 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 44px !important;
@@ -1050,20 +1084,20 @@ body.home .et_pb_section_first {
 }
 @media only screen and (max-width: 980px) {
   /* line 211, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h2 span {
+  #page-container .et_pb_bg_layout_dark h2 span, #sidebar-overlay .et_pb_bg_layout_dark h2 span {
     font-size: 34px !important;
     line-height: 38px !important;
   }
 }
 @media only screen and (max-width: 400px) {
   /* line 211, sass/global.scss */
-  #page-container .et_pb_bg_layout_dark h2 span {
+  #page-container .et_pb_bg_layout_dark h2 span, #sidebar-overlay .et_pb_bg_layout_dark h2 span {
     font-size: 24px !important;
     line-height: 28px !important;
   }
 }
 /* line 216, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h3 {
+#page-container .et_pb_bg_layout_dark h3, #sidebar-overlay .et_pb_bg_layout_dark h3 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -1071,7 +1105,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 218, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h3 span {
+#page-container .et_pb_bg_layout_dark h3 span, #sidebar-overlay .et_pb_bg_layout_dark h3 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -1079,7 +1113,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 224, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h4 {
+#page-container .et_pb_bg_layout_dark h4, #sidebar-overlay .et_pb_bg_layout_dark h4 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -1087,7 +1121,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 226, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h4 span {
+#page-container .et_pb_bg_layout_dark h4 span, #sidebar-overlay .et_pb_bg_layout_dark h4 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 32px !important;
@@ -1095,7 +1129,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 232, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h5 {
+#page-container .et_pb_bg_layout_dark h5, #sidebar-overlay .et_pb_bg_layout_dark h5 {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -1103,7 +1137,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 234, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h5 span {
+#page-container .et_pb_bg_layout_dark h5 span, #sidebar-overlay .et_pb_bg_layout_dark h5 span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -1111,7 +1145,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 240, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h6 {
+#page-container .et_pb_bg_layout_dark h6, #sidebar-overlay .et_pb_bg_layout_dark h6 {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -1119,7 +1153,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 242, sass/global.scss */
-#page-container .et_pb_bg_layout_dark h6 span {
+#page-container .et_pb_bg_layout_dark h6 span, #sidebar-overlay .et_pb_bg_layout_dark h6 span {
   font-family: "Rajdhani", "Helvetica", sans-serif !important;
   font-weight: bold !important;
   line-height: 24px !important;
@@ -1127,7 +1161,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 248, sass/global.scss */
-#page-container .et_pb_bg_layout_dark p {
+#page-container .et_pb_bg_layout_dark p, #sidebar-overlay .et_pb_bg_layout_dark p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -1135,7 +1169,7 @@ body.home .et_pb_section_first {
   color: white !important;
 }
 /* line 250, sass/global.scss */
-#page-container .et_pb_bg_layout_dark p span {
+#page-container .et_pb_bg_layout_dark p span, #sidebar-overlay .et_pb_bg_layout_dark p span {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
   line-height: 24px !important;
@@ -2561,15 +2595,20 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   display: inline-block;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  margin: 0 0 10px 0;
+  margin: 0 10px 10px 10px;
   background-position: center center;
+  background-color: black;
+  border: 1px solid white;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 @media only screen and (min-width: 960px) {
-  /* line 60, sass/getdemo.scss */
+  /* line 63, sass/getdemo.scss */
   .page-id-127 #page-container .switch {
-    width: 960px;
+    width: 1140px;
     left: 50%;
-    top: 45%;
+    top: 48%;
     position: absolute;
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -2577,7 +2616,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     transform: translate(-50%, -50%);
   }
 }
-/* line 75, sass/getdemo.scss */
+/* line 78, sass/getdemo.scss */
 .page-id-127 #page-container:before {
   height: 2px;
   -moz-box-shadow: 0 0 20px #f01b70;
@@ -2596,12 +2635,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: #f01b70;
 }
 @media only screen and (max-width: 960px) {
-  /* line 75, sass/getdemo.scss */
+  /* line 78, sass/getdemo.scss */
   .page-id-127 #page-container:before {
     top: 80px;
   }
 }
-/* line 93, sass/getdemo.scss */
+/* line 96, sass/getdemo.scss */
 .page-id-127 #page-container:after {
   height: 2px;
   -moz-box-shadow: 0 0 20px #1DCAD4;
@@ -2620,12 +2659,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: #1DCAD4;
 }
 @media only screen and (max-width: 960px) {
-  /* line 93, sass/getdemo.scss */
+  /* line 96, sass/getdemo.scss */
   .page-id-127 #page-container:after {
     top: 120px;
   }
 }
-/* line 112, sass/getdemo.scss */
+/* line 115, sass/getdemo.scss */
 .page-id-127 #page-container .demo-logo {
   background: url("/wp-content/themes/hypr/assets/img/global/logo.svg") no-repeat transparent;
   background-size: 100% auto;
@@ -2635,11 +2674,11 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   overflow: hidden;
   display: block;
 }
-/* line 123, sass/getdemo.scss */
+/* line 126, sass/getdemo.scss */
 .page-id-127 #page-container .logo-container {
-  padding: 40px !important;
+  padding: 20px 40px 40px 40px !important;
 }
-/* line 128, sass/getdemo.scss */
+/* line 131, sass/getdemo.scss */
 .page-id-127 #page-container .masthead {
   margin: 0px auto 0px auto;
   background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/Tunnel_1.jpg") no-repeat transparent scroll !important;
@@ -2648,7 +2687,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   min-height: 100vh;
 }
 @media only screen and (max-width: 960px) {
-  /* line 128, sass/getdemo.scss */
+  /* line 131, sass/getdemo.scss */
   .page-id-127 #page-container .masthead {
     background-image: none !important;
     background-color: #011638 !important;
@@ -2657,20 +2696,20 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     padding-bottom: 60px;
   }
 }
-/* line 144, sass/getdemo.scss */
+/* line 147, sass/getdemo.scss */
 .page-id-127 #page-container .masthead .row {
-  max-width: 960px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 40px;
 }
 @media only screen and (min-width: 1920px) {
-  /* line 144, sass/getdemo.scss */
+  /* line 147, sass/getdemo.scss */
   .page-id-127 #page-container .masthead .row {
     max-width: 1400px;
     width: 100%;
   }
 }
-/* line 155, sass/getdemo.scss */
+/* line 158, sass/getdemo.scss */
 .page-id-127 #page-container .masthead:after {
   content: "";
   display: block;
@@ -2687,21 +2726,21 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   width: 20px;
 }
 @media only screen and (max-width: 960px) {
-  /* line 155, sass/getdemo.scss */
+  /* line 158, sass/getdemo.scss */
   .page-id-127 #page-container .masthead:after {
     display: none;
   }
 }
-/* line 173, sass/getdemo.scss */
+/* line 176, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos {
   max-width: 100%;
   width: 100%;
 }
-/* line 177, sass/getdemo.scss */
+/* line 180, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video {
   cursor: pointer;
 }
-/* line 181, sass/getdemo.scss */
+/* line 184, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video_bg:after {
   background-color: white;
   -moz-border-radius: 100px;
@@ -2727,7 +2766,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-transform: translateX(-30px) translateY(-30px);
   transform: translateX(-30px) translateY(-30px);
 }
-/* line 206, sass/getdemo.scss */
+/* line 209, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video_bg:before {
   margin-left: 0px;
   position: absolute;
@@ -2748,26 +2787,26 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   content: "";
   z-index: 30;
 }
-/* line 224, sass/getdemo.scss */
+/* line 227, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module {
   background-color: #031458;
   color: white;
   text-align: center;
   padding-top: 60px;
 }
-/* line 230, sass/getdemo.scss */
+/* line 233, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module h5, .page-id-127 #page-container .container.videos .text-module h1 {
   color: white !important;
 }
-/* line 234, sass/getdemo.scss */
+/* line 237, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module p {
   color: rgba(255, 255, 255, 0.5) !important;
 }
-/* line 238, sass/getdemo.scss */
+/* line 241, sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module .wrap {
   padding: 0 60px;
 }
-/* line 244, sass/getdemo.scss */
+/* line 247, sass/getdemo.scss */
 .page-id-127 #page-container .subnav {
   position: absolute;
   bottom: 0px;
@@ -2781,13 +2820,13 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: transparent !important;
 }
 @media only screen and (max-width: 960px) {
-  /* line 244, sass/getdemo.scss */
+  /* line 247, sass/getdemo.scss */
   .page-id-127 #page-container .subnav {
     bottom: auto;
     top: 0px;
   }
 }
-/* line 264, sass/getdemo.scss */
+/* line 267, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .row {
   padding: 0;
   background-color: black;
@@ -2796,15 +2835,15 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-box-shadow: 0 0 10px #f01b70;
   box-shadow: 0 0 10px #f01b70;
 }
-/* line 272, sass/getdemo.scss */
+/* line 275, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col {
-  width: 33.33%;
+  width: 50%;
   display: inline-block;
   height: 40px;
   margin: 0 -4px 0 0;
   position: relative;
 }
-/* line 278, sass/getdemo.scss */
+/* line 281, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col button, .page-id-127 #page-container .subnav .col a {
   width: 100%;
   background-color: transparent;
@@ -2823,7 +2862,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: white !important;
   line-height: 40px !important;
 }
-/* line 293, sass/getdemo.scss */
+/* line 296, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col:after {
   content: "";
   display: block;
@@ -2834,18 +2873,18 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   right: 0;
   top: 0;
 }
-/* line 305, sass/getdemo.scss */
+/* line 308, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col.last:after {
   display: none;
 }
-/* line 311, sass/getdemo.scss */
+/* line 314, sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col.active button, .page-id-127 #page-container .subnav .col.active a {
   background-color: #f01b70;
 }
-/* line 322, sass/getdemo.scss */
+/* line 325, sass/getdemo.scss */
 .page-id-127 #page-container #switch-content {
-  max-width: 960px;
-  height: 430px;
+  max-width: 1140px;
+  height: 480px;
   overflow: hidden;
   position: relative;
   -moz-border-radius: 4px;
@@ -2854,20 +2893,20 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   z-index: 20;
 }
 @media only screen and (max-width: 960px) {
-  /* line 322, sass/getdemo.scss */
+  /* line 325, sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
     height: auto;
     padding-top: 80px;
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 322, sass/getdemo.scss */
+  /* line 325, sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
     height: 600px;
     max-width: 100%;
   }
 }
-/* line 346, sass/getdemo.scss */
+/* line 349, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container {
   width: 100%;
   height: 430px;
@@ -2889,13 +2928,13 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: white !important;
 }
 @media only screen and (min-width: 1600px) {
-  /* line 346, sass/getdemo.scss */
+  /* line 349, sass/getdemo.scss */
   .page-id-127 #page-container .switch-container {
     height: 600px;
   }
 }
 @media only screen and (max-width: 960px) {
-  /* line 346, sass/getdemo.scss */
+  /* line 349, sass/getdemo.scss */
   .page-id-127 #page-container .switch-container {
     display: none;
     height: auto;
@@ -2904,39 +2943,39 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     top: auto;
   }
 }
-/* line 373, sass/getdemo.scss */
+/* line 376, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container h4, .page-id-127 #page-container .switch-container h1 {
   padding: 0 0px;
   text-indent: 0px;
   color: white !important;
 }
 @media only screen and (min-width: 1920px) {
-  /* line 380, sass/getdemo.scss */
+  /* line 383, sass/getdemo.scss */
   .page-id-127 #page-container .switch-container h1 {
     font-size: 120px !important;
   }
 }
-/* line 386, sass/getdemo.scss */
+/* line 389, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container h1.title {
   padding-top: 60px;
   color: white !important;
 }
-/* line 391, sass/getdemo.scss */
+/* line 394, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container .et_pb_row {
   width: 100%;
   padding: 0 0px;
 }
-/* line 396, sass/getdemo.scss */
+/* line 399, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container.active {
   visibility: visible;
 }
 @media only screen and (max-width: 960px) {
-  /* line 396, sass/getdemo.scss */
+  /* line 399, sass/getdemo.scss */
   .page-id-127 #page-container .switch-container.active {
     display: block;
   }
 }
-/* line 405, sass/getdemo.scss */
+/* line 408, sass/getdemo.scss */
 .page-id-127 #page-container .switch-container.active.enter {
   opacity: 1;
   -moz-transform: scale(1, 1);
@@ -2952,11 +2991,11 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-/* line 418, sass/getdemo.scss */
+/* line 421, sass/getdemo.scss */
 .page-id-127 #page-container #one {
   background-color: transparent;
 }
-/* line 421, sass/getdemo.scss */
+/* line 424, sass/getdemo.scss */
 .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
   display: inline-block;
   width: 50%;
@@ -2964,12 +3003,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   vertical-align: top;
 }
 @media only screen and (max-width: 960px) {
-  /* line 421, sass/getdemo.scss */
+  /* line 424, sass/getdemo.scss */
   .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
     width: 100%;
   }
 }
-/* line 433, sass/getdemo.scss */
+/* line 436, sass/getdemo.scss */
 .page-id-127 #page-container #one p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
@@ -2977,7 +3016,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   font-size: 16px !important;
   color: white !important;
 }
-/* line 438, sass/getdemo.scss */
+/* line 441, sass/getdemo.scss */
 .page-id-127 #page-container #one small {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   font-weight: normal !important;
@@ -2987,29 +3026,28 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   font-size: 10px !important;
   line-height: 14px !important;
 }
-/* line 444, sass/getdemo.scss */
+/* line 447, sass/getdemo.scss */
 .page-id-127 #page-container #one .wrap {
   padding: 0 40px 0 0;
 }
 @media only screen and (max-width: 960px) {
-  /* line 444, sass/getdemo.scss */
+  /* line 447, sass/getdemo.scss */
   .page-id-127 #page-container #one .wrap {
     padding: 0;
   }
 }
-/* line 454, sass/getdemo.scss */
+/* line 457, sass/getdemo.scss */
 .page-id-127 #page-container #experience {
   background-color: transparent;
   height: 100%;
 }
-/* line 458, sass/getdemo.scss */
+/* line 461, sass/getdemo.scss */
 .page-id-127 #page-container #experience li {
   height: 100%;
   width: auto;
 }
-/* line 462, sass/getdemo.scss */
+/* line 465, sass/getdemo.scss */
 .page-id-127 #page-container #experience:before {
-  content: "";
   display: block;
   background: url("/wp-content/themes/hypr/assets/img/demo/try-now.png") no-repeat transparent scroll;
   background-position: center center;
@@ -3031,6 +3069,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   transform: translate(-50%, -50%);
 }
 /* line 484, sass/getdemo.scss */
+.page-id-127 #page-container #experience iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* line 493, sass/getdemo.scss */
 .page-id-127 #page-container #tour {
   background-color: white;
 }

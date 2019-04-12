@@ -36,9 +36,7 @@ get_header(); ?>
 				</li>
 
 				<li id="experience" class="switch-container active enter">
-					<a href="https://demo.hypr.com/bank/" target="blank" class="img-container">
-						<img src="/wp-content/themes/hypr/assets/img/demo/highlands-demo-screenshot.png"/>
-					</a>
+					<iframe src="http://exostudio.com/" frameborder="0"></iframe>
 				</li>
 
 
@@ -49,11 +47,9 @@ get_header(); ?>
 						<div class="col">
 							<button id="one-btn" class="btn-demo">1 on 1</button>
 						</div>
-						<div class="col active">
-							<button id="experience-btn" class="btn-demo">Experience</button>
-						</div>
+						
 						<div class="col last">
-							<a target="_blank" href="https://google.com" id="tour-btn" class="btn-demo">Tour</a>
+							<a target="_blank" href="/technology/" id="tour-btn" class="btn-demo">Tour</a>
 						</div>
 					</div>
 					</div>
@@ -62,8 +58,8 @@ get_header(); ?>
 
 			<div class="badges">
 				<div class="wrap">
-					<a class="apple-store" href="" style="background-image: url('https://dctfcu.com/wp-content/uploads/sites/63/2018/04/app-store-logo.png');"></a>
-					<a class="play-store" href="" style="background-image: url('https://static-content.4tellus.com/wp-content/uploads/2018/05/23014710/badge-play.png');"></a>
+					<a class="apple-store" href="https://itunes.apple.com/us/app/hypr/id1343368858" style="background-image: url('https://dctfcu.com/wp-content/uploads/sites/63/2018/04/app-store-logo.png');"></a>
+					<a class="play-store" href="http://play.google.com/store/apps/details?id=com.hypr.one" style="background-image: url('https://static-content.4tellus.com/wp-content/uploads/2018/05/23014710/badge-play.png');"></a>
 				</div>
 			</div>
 		</div>

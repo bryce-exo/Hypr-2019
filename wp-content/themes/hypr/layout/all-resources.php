@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="searchbox">
 	<div class="container">
 	<div class="row">
-		<?php echo do_shortcode( '[searchandfilter id="1920"]' ); ?>
+		<?php echo do_shortcode( '[searchandfilter slug="resources"]' ); ?>
 	</div>
 	</div>
 </div>
@@ -40,7 +40,7 @@ get_header(); ?>
 		
 	
 		<a class="back-btn" href="/resources/">< Back</a>
-		<?php echo do_shortcode( '[searchandfilter id="1920" show="results"]' ); ?>
+		<?php echo do_shortcode( '[searchandfilter slug="resources" show="results"]' ); ?>
 	
 
 	

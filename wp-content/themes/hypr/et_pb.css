@@ -164,42 +164,48 @@ body.home .et_pb_section_first {
     margin-right: 3.5% !important;
   }
 
-  /* line 190, sass/et_pb.scss */
+  /* line 191, sass/et_pb.scss */
+  #sidebar-overlay .et_pb_section .et_pb_row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* line 199, sass/et_pb.scss */
   #s-1 {
     padding: 0 !important;
   }
-  /* line 193, sass/et_pb.scss */
+  /* line 202, sass/et_pb.scss */
   #s-1 .content-col {
     padding: 60px 60px !important;
   }
 
-  /* line 198, sass/et_pb.scss */
+  /* line 207, sass/et_pb.scss */
   .et_pb_column.content-col {
     background-image: none;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 217, sass/et_pb.scss */
+  /* line 226, sass/et_pb.scss */
   .et_pb_section .et_pb_row {
     padding: 40px !important;
     margin: 0 !important;
     width: 100% !important;
   }
-  /* line 222, sass/et_pb.scss */
+  /* line 231, sass/et_pb.scss */
   .et_pb_section .et_pb_row .et_pb_column {
     margin: 0 !important;
   }
 
-  /* line 229, sass/et_pb.scss */
+  /* line 238, sass/et_pb.scss */
   #s-1 {
     padding: 0px !important;
   }
-  /* line 232, sass/et_pb.scss */
+  /* line 241, sass/et_pb.scss */
   #s-1 .content-col {
     padding: 60px 60px !important;
   }
 }
-/* line 246, sass/et_pb.scss */
+/* line 255, sass/et_pb.scss */
 .wpls-logo-showcase.center .slick-center {
   -moz-transform: scale(0.7, 0.7) !important;
   -ms-transform: scale(0.7, 0.7) !important;
@@ -207,7 +213,35 @@ body.home .et_pb_section_first {
   transform: scale(0.7, 0.7) !important;
 }
 
-/* line 251, sass/et_pb.scss */
+/* line 260, sass/et_pb.scss */
 .wpls-logo-slider.center .slick-slide {
   opacity: 1 !important;
+}
+
+/* line 268, sass/et_pb.scss */
+.overlay-container .overlay-close {
+  background-color: white;
+  border: 2px solid #f01b70;
+  -moz-box-shadow: 0 0 10px #f01b70;
+  -webkit-box-shadow: 0 0 10px #f01b70;
+  box-shadow: 0 0 10px #f01b70;
+  height: 50px;
+  width: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 275, sass/et_pb.scss */
+.overlay-container .overlay-close span {
+  font-size: 34px;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  display: block;
+  left: 50%;
+  color: #f01b70;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }

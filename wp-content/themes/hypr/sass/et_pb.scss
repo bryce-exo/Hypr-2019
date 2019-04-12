@@ -165,7 +165,7 @@ body.home{
 
 
 @media only screen and (max-width: 1280px){
- 
+ 	
   
   .et_pb_module.et_pb_text{
     	max-width: 100%;
@@ -186,6 +186,15 @@ body.home{
 		}
 
 	}
+
+	#sidebar-overlay{
+		.et_pb_section .et_pb_row{
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+		}
+	}
+
+
 
 	#s-1{
 		padding: 0!important;
@@ -250,4 +259,27 @@ body.home{
 
 .wpls-logo-slider.center .slick-slide{
 	opacity: 1!important;
+}
+
+
+
+//Overlay Styles
+
+.overlay-container .overlay-close{
+	background-color: white;
+	border: 2px solid $primary-1;
+	@include box-shadow(0 0 10px $primary-1);
+	height: 50px;
+	width: 50px;
+	@include border-radius(50px);
+	span{
+		font-size: 34px;
+		position: absolute;
+	    top: 50%;
+	    margin-top: -2px;
+	    display: block;
+	    left: 50%;
+	    color: $primary-1;
+	    @include transform(translate(-50%,-50%));
+	}
 }
