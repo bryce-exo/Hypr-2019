@@ -10,6 +10,8 @@
     @media only screen and (max-width: 980px){
         background-color: transparent!important;
     }
+
+    height: 100px;
     
 }
 
@@ -102,7 +104,10 @@ body.admin-bar.et_pb_pagebuilder_layout.et-fb-root-ancestor{
 
 
 
+
+
 #et-top-navigation{
+    
     @media only screen and (max-width: 980px){
         z-index: 110;
         width: 100%;
@@ -695,7 +700,11 @@ body.admin-bar{
 }
 
 .et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation{
-    padding-top: 30px!important;
+    padding-top: 38px!important;
+}
+
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation{
+  padding-top: 38px!important;
 }
 
 .et-fixed-header#top-header a{
