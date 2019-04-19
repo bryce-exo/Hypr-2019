@@ -41,8 +41,7 @@ body.page-template-resources a.back-btn, body.page-template-all-resources a.back
   top: 0px;
   color: white;
   font-weight: bold;
-  font-family: "Rajdhani", "Helvetica", sans-serif !important;
-  font-weight: bold !important;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
@@ -78,7 +77,6 @@ body.page-template-resources .searchandfilter ul li.sf-field-search input, body.
   background-color: transparent;
   border-bottom: 1px solid #1DCAD4;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  font-weight: normal !important;
   line-height: 32px !important;
   font-size: 20px !important;
   color: white !important;
@@ -122,8 +120,8 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-selec
   border: none;
   margin: 0;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  font-weight: bold !important;
   line-height: 24px !important;
+  font-weight: bold !important;
   font-size: 14px !important;
   color: #011638 !important;
   -moz-border-radius: 3px;
@@ -173,8 +171,8 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .s
 /* line 165, sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-submit input, body.page-template-all-resources .searchandfilter ul li.sf-field-submit input {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  font-weight: bold !important;
   line-height: 24px !important;
+  font-weight: bold !important;
   font-size: 14px !important;
   color: white !important;
   background-color: #1DCAD4;
@@ -271,8 +269,7 @@ body.page-template-resources #page-container .container.loops .card-container sp
   position: absolute;
   bottom: 20px;
   text-transform: uppercase;
-  font-family: "Rajdhani", "Helvetica", sans-serif !important;
-  font-weight: bold !important;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
@@ -331,8 +328,7 @@ body.page-template-resources #page-container .container.loops.expand .row.cards,
 body.page-template-resources #page-container .container.loops .expand-btn, body.page-template-all-resources #page-container .container.loops .expand-btn {
   cursor: pointer;
   margin: 0 20px;
-  font-family: "Rajdhani", "Helvetica", sans-serif !important;
-  font-weight: bold !important;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: #011638 !important;
