@@ -1,0 +1,391 @@
+/* line 7, sass/blog.scss */
+body.page-template-blog, body.page-template-press {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 8, sass/blog.scss */
+body.page-template-blog #main-header, body.page-template-press #main-header {
+  background-color: #011638;
+}
+/* line 12, sass/blog.scss */
+body.page-template-blog #custom-footer, body.page-template-press #custom-footer {
+  background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/18.png") no-repeat #011638 !important;
+  background-size: 100% auto !important;
+}
+/* line 17, sass/blog.scss */
+body.page-template-blog #custom-footer .et_pb_row_0, body.page-template-press #custom-footer .et_pb_row_0 {
+  background-color: transparent;
+  min-height: auto;
+  padding: 100px 0;
+}
+/* line 22, sass/blog.scss */
+body.page-template-blog #custom-footer .et_pb_row_0 .et_pb_text_1, body.page-template-press #custom-footer .et_pb_row_0 .et_pb_text_1 {
+  padding: 0 !important;
+}
+/* line 26, sass/blog.scss */
+body.page-template-blog #custom-footer .et_pb_row_0 .et_pb_text_0, body.page-template-press #custom-footer .et_pb_row_0 .et_pb_text_0 {
+  background: none;
+  min-height: auto !important;
+}
+/* line 34, sass/blog.scss */
+body.page-template-blog #page-container .masthead, body.page-template-press #page-container .masthead {
+  padding: 120px 0 60px 0;
+  background-color: #011638;
+}
+/* line 38, sass/blog.scss */
+body.page-template-blog #page-container .masthead h1, body.page-template-press #page-container .masthead h1 {
+  color: white !important;
+  text-indent: 0px;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+@media only screen and (max-width: 980px) {
+  /* line 51, sass/blog.scss */
+  body.page-template-blog #page-container:before, body.page-template-press #page-container:before {
+    content: "";
+    display: block;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #011638;
+  }
+}
+/* line 68, sass/blog.scss */
+body.page-template-blog a.back-btn, body.page-template-press a.back-btn {
+  top: 90px;
+  position: absolute;
+  text-transform: uppercase;
+  left: 0;
+  top: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+  z-index: 10;
+}
+/* line 82, sass/blog.scss */
+body.page-template-blog .searchandfilter, body.page-template-press .searchandfilter {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 86, sass/blog.scss */
+body.page-template-blog .searchandfilter ul, body.page-template-press .searchandfilter ul {
+  margin: 0 auto;
+}
+/* line 89, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li, body.page-template-press .searchandfilter ul li {
+  display: inline-block;
+}
+@media only screen and (max-width: 990px) {
+  /* line 92, sass/blog.scss */
+  body.page-template-blog .searchandfilter ul li.sf-field-search, body.page-template-press .searchandfilter ul li.sf-field-search {
+    width: 100%;
+  }
+  /* line 95, sass/blog.scss */
+  body.page-template-blog .searchandfilter ul li.sf-field-search label, body.page-template-press .searchandfilter ul li.sf-field-search label {
+    width: 100%;
+  }
+}
+/* line 100, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-search input, body.page-template-press .searchandfilter ul li.sf-field-search input {
+  min-width: 480px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #1DCAD4;
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 32px !important;
+  font-size: 20px !important;
+  color: white !important;
+}
+@media only screen and (max-width: 990px) {
+  /* line 100, sass/blog.scss */
+  body.page-template-blog .searchandfilter ul li.sf-field-search input, body.page-template-press .searchandfilter ul li.sf-field-search input {
+    max-width: 100%;
+    min-width: auto;
+    width: 100%;
+  }
+}
+/* line 118, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag, body.page-template-press .searchandfilter ul li.sf-field-tag {
+  margin: 0 10px;
+  /* Hide arrow icon in IE browsers */
+  /* Hover style */
+  /* Focus style */
+  /* Set options to normal weight */
+  /* Support for rtl text, explicit support for Arabic and Hebrew */
+}
+@media only screen and (max-width: 980px) {
+  /* line 118, sass/blog.scss */
+  body.page-template-blog .searchandfilter ul li.sf-field-tag, body.page-template-press .searchandfilter ul li.sf-field-tag {
+    margin: 0 10px 0 0;
+  }
+}
+/* line 124, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag .sf-input-select, body.page-template-press .searchandfilter ul li.sf-field-tag .sf-input-select {
+  display: block;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 8px 1.4em 8px .8em;
+  width: 100%;
+  max-width: 100%;
+  /* useful when width is set to anything other than 100% */
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: #011638 !important;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+  	for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+  	
+  */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat, repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right .7em top 50%, 0 0;
+  /* icon size, then gradient */
+  background-size: .65em auto, 100%;
+}
+/* line 156, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand, body.page-template-press .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand {
+  display: none;
+}
+/* line 160, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag .sf-input-select:hover, body.page-template-press .searchandfilter ul li.sf-field-tag .sf-input-select:hover {
+  border-color: #888;
+}
+/* line 164, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag .sf-input-select:focus, body.page-template-press .searchandfilter ul li.sf-field-tag .sf-input-select:focus {
+  border-color: #aaa;
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+/* line 174, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag .sf-input-select option, body.page-template-press .searchandfilter ul li.sf-field-tag .sf-input-select option {
+  font-weight: normal;
+}
+/* line 179, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-blog .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-blog .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select, body.page-template-press .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-press .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-press .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select {
+  background-position: left .7em top 50%, 0 0;
+  padding: .6em .8em .5em 1.4em;
+}
+/* line 186, sass/blog.scss */
+body.page-template-blog .searchandfilter ul li.sf-field-submit input, body.page-template-press .searchandfilter ul li.sf-field-submit input {
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: white !important;
+  background-color: #1DCAD4;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px;
+  border-radius: 4px !important;
+  border: none;
+  -moz-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+  padding: 6px 3em 8px 3em !important;
+  line-height: 27px !important;
+}
+/* line 205, sass/blog.scss */
+body.page-template-blog .searchbox, body.page-template-press .searchbox {
+  background-color: #011638;
+  margin-bottom: 20px;
+}
+/* line 208, sass/blog.scss */
+body.page-template-blog .searchbox .container, body.page-template-press .searchbox .container {
+  padding: 40px 0px;
+}
+/* line 212, sass/blog.scss */
+body.page-template-blog #page-container .container.loops, body.page-template-press #page-container .container.loops {
+  padding: 20px 0;
+}
+/* line 215, sass/blog.scss */
+body.page-template-blog #page-container .container.loops h2, body.page-template-press #page-container .container.loops h2 {
+  margin: 0 20px;
+}
+/* line 218, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container, body.page-template-press #page-container .container.loops .card-container {
+  display: inline-block;
+  width: 25%;
+  margin-left: 0px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 218, sass/blog.scss */
+  body.page-template-blog #page-container .container.loops .card-container, body.page-template-press #page-container .container.loops .card-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 218, sass/blog.scss */
+  body.page-template-blog #page-container .container.loops .card-container, body.page-template-press #page-container .container.loops .card-container {
+    width: 100%;
+  }
+}
+/* line 232, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card, body.page-template-press #page-container .container.loops .card-container .card {
+  margin: 20px;
+  height: auto;
+  min-height: 200px;
+  padding-bottom: 60px;
+  position: relative;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  -moz-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 245, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card-body, body.page-template-press #page-container .container.loops .card-container .card-body {
+  background-color: transparent;
+  overflow: hidden;
+  flex: none;
+  height: 217px;
+}
+/* line 253, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container h6, body.page-template-blog #page-container .container.loops .card-container h3, body.page-template-blog #page-container .container.loops .card-container p, body.page-template-press #page-container .container.loops .card-container h6, body.page-template-press #page-container .container.loops .card-container h3, body.page-template-press #page-container .container.loops .card-container p {
+  color: #011638;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 258, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container h6, body.page-template-press #page-container .container.loops .card-container h6 {
+  text-transform: uppercase;
+}
+/* line 262, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container a:hover, body.page-template-press #page-container .container.loops .card-container a:hover {
+  text-decoration: none;
+}
+/* line 266, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container span.cta, body.page-template-press #page-container .container.loops .card-container span.cta {
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+}
+/* line 275, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card:hover, body.page-template-press #page-container .container.loops .card-container .card:hover {
+  cursor: pointer;
+  background-color: #011638;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 280, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card:hover h3, body.page-template-blog #page-container .container.loops .card-container .card:hover p, body.page-template-press #page-container .container.loops .card-container .card:hover h3, body.page-template-press #page-container .container.loops .card-container .card:hover p {
+  color: white !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 285, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card:hover h6, body.page-template-press #page-container .container.loops .card-container .card:hover h6 {
+  color: rgba(255, 255, 255, 0.5) !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 291, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .card:hover span.cta, body.page-template-press #page-container .container.loops .card-container .card:hover span.cta {
+  color: #1DCAD4 !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 299, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .row.cards, body.page-template-press #page-container .container.loops .row.cards {
+  height: 960px;
+  overflow: hidden;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 307, sass/blog.scss */
+body.page-template-blog #page-container .container.loops.expand .row.cards, body.page-template-press #page-container .container.loops.expand .row.cards {
+  height: auto;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 313, sass/blog.scss */
+body.page-template-blog #page-container .container.loops .expand-btn, body.page-template-press #page-container .container.loops .expand-btn {
+  cursor: pointer;
+  margin: 0 20px;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+}
+@media only screen and (max-width: 577px) {
+  /* line 324, sass/blog.scss */
+  body.page-template-blog #page-container .searchbox .container, body.page-template-blog #page-container .masthead .container, body.page-template-press #page-container .searchbox .container, body.page-template-press #page-container .masthead .container {
+    padding: 20px 40px;
+  }
+}
+@media only screen and (max-width: 577px) {
+  /* line 330, sass/blog.scss */
+  body.page-template-blog #page-container .container.loops, body.page-template-press #page-container .container.loops {
+    padding: 0 40px;
+  }
+}
+
+/* line 343, sass/blog.scss */
+body.single #main-header {
+  background-color: #011638 !important;
+}
+/* line 349, sass/blog.scss */
+body.single #sidebar, body.single #recent-comments, body.single #comment-wrap, body.single .comments-number {
+  display: none;
+}
+/* line 353, sass/blog.scss */
+body.single #left-area {
+  width: 100%;
+  float: none;
+  padding: 100px 0;
+}
+/* line 363, sass/blog.scss */
+body.single #main-content {
+  min-height: 800px;
+}
+
+/* line 370, sass/blog.scss */
+.et_right_sidebar #main-content .container:before {
+  display: none;
+}

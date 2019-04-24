@@ -10,7 +10,15 @@ jQuery(function($){
 		}
 
 		if($('.page-template-resources').length){
-			resources();	
+			expandlisting();	
+		}
+
+		if($('.page-template-blog').length){
+			expandlisting();	
+		}
+
+		if($('.page-template-press').length){
+			expandlisting();	
 		}
 
 
@@ -19,7 +27,7 @@ jQuery(function($){
 
 	
 
-	resources = function(){
+	expandlisting = function(){
 		$('.expand-btn').click(function(){
 			
 
