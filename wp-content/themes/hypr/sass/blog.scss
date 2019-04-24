@@ -12,7 +12,7 @@ body.page-template-blog, body.page-template-press{
 	#custom-footer{
 		background: url('https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/18.png') no-repeat $secondary-2!important;
 		
-		background-size: 100% auto!important;
+		background-size: cover!important;
 
 		.et_pb_row_0{
 			background-color: transparent;
@@ -353,7 +353,7 @@ body.single{
 	#left-area{
 		width: 100%;
 		float: none;
-		padding: 100px 0;
+		
 	}
 
 	#custom-footer{

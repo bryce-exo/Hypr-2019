@@ -658,26 +658,45 @@ body.home.pageload{
 }
 
 #quadmenu .quadmenu-navbar-nav{
-    margin-top: 4px!important;
+    margin-top: 0px!important;
 }
 
 .quadmenu-navbar-nav li.quadmenu-item-object-button .quadmenu-item-content{
-    padding: 4px 20px 6px 20px!important;
-    margin-top: 8px;
-    background-color: $primary-1!important;
+    text-transform: uppercase!important;
+    font-family: "Saira Extra Condensed", "Helvetica", sans-serif!important;
     
-    @include h5-titilliumsemi(white);
+    font-size: 22px!important;
+    background-color: transparent!important;
+    
+    color: white!important;
     @include border-radius(2px);
-    border: 1px solid #F47FBD;
-    @include box-shadow(0 0 5px $primary-1);
-    @include transition(.2s all ease-in-out!important);
-    line-height: 27px!important;
+    border: none!important;
+    
+    
+    
 
     &:hover{
-    @include box-shadow(0 0 13px #F13E9D);    
-    @include transition(.2s all ease-in-out!important);
+    
 
     }
+}
+
+.quadmenu-item-content{
+  @media only screen and (max-width: 980px){
+  padding: 0!important;
+  }
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-button>a{
+  @media only screen and (max-width: 980px){
+  text-align: left!important;
+  }
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-button{
+  @media only screen and (max-width: 980px){
+  padding: 0!important;
+  }
 }
 
 
@@ -815,4 +834,11 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header{
 
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item>a>.quadmenu-item-content>.quadmenu-caret:before{
     color: #1FF1FC;
+}
+
+
+.quadmenu-dropdown-toggle.hoverintent{
+  text-transform: uppercase!important;
+  font-family: "Saira Extra Condensed", "Helvetica", sans-serif!important;
+  font-size: 22px!important;
 }

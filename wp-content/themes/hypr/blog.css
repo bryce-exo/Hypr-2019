@@ -9,7 +9,7 @@ body.page-template-blog #main-header, body.page-template-press #main-header {
 /* line 12, sass/blog.scss */
 body.page-template-blog #custom-footer, body.page-template-press #custom-footer {
   background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/18.png") no-repeat #011638 !important;
-  background-size: 100% auto !important;
+  background-size: cover !important;
 }
 /* line 17, sass/blog.scss */
 body.page-template-blog #custom-footer .et_pb_row_0, body.page-template-press #custom-footer .et_pb_row_0 {
@@ -378,7 +378,6 @@ body.single #sidebar, body.single #recent-comments, body.single #comment-wrap, b
 body.single #left-area {
   width: 100%;
   float: none;
-  padding: 100px 0;
 }
 /* line 363, sass/blog.scss */
 body.single #main-content {
