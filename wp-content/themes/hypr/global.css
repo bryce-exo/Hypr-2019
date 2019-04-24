@@ -1096,8 +1096,11 @@ body #page-container .et_pb_button.et_pb_bg_layout_dark, body .et_pb_button.et_p
   -moz-box-shadow: 0 0 5px #1DCAD4;
   -webkit-box-shadow: 0 0 5px #1DCAD4;
   box-shadow: 0 0 5px #1DCAD4;
+  -moz-border-radius: 2px !important;
+  -webkit-border-radius: 2px;
+  border-radius: 2px !important;
 }
-/* line 528, sass/global.scss */
+/* line 529, sass/global.scss */
 body #page-container .et_pb_button.et_pb_bg_layout_light, body .et_pb_button.et_pb_bg_layout_light {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   line-height: 24px !important;
@@ -1109,4 +1112,7 @@ body #page-container .et_pb_button.et_pb_bg_layout_light, body .et_pb_button.et_
   -moz-box-shadow: 0 0 0px #011638;
   -webkit-box-shadow: 0 0 0px #011638;
   box-shadow: 0 0 0px #011638;
+  -moz-border-radius: 2px !important;
+  -webkit-border-radius: 2px;
+  border-radius: 2px !important;
 }

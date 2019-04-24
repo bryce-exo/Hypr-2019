@@ -102,13 +102,13 @@ body.home{
     @include box-shadow(0 0 20px $primary-1);
     @include transform(translateX(-30px)translateY(-30px));
 
-	    &:before{
-	    	margin-left: 0px;
-	    	display: block;
-	    	color: $primary-1;
-	    	@include transform(translateY(0px)translateX(2px));
-	    	content: "\45";
-	    }
+    &:before{
+    	margin-left: 0px;
+    	display: block;
+    	color: $primary-1;
+    	@include transform(translateY(0px)translateX(2px));
+    	content: "\45";
+    }
 }
 
 @media only screen and (min-width: 768px) {

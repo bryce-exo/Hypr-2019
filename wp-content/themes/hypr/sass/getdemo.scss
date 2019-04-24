@@ -11,6 +11,7 @@
 .page-id-127 #page-container{
 
 	overflow-x: hidden;
+	position: relative;
 	#main-header, #top-header{
 		display: none;
 	}
@@ -20,7 +21,72 @@
 	}
 
 	
+	.hbspt-form{
+		@media only screen and (max-width: 640px){
+			margin: 60px 0!important;
+		}
+		form{
+			
+			
+			.field{
+				display: inline-block;
+				width: 50%;
+				vertical-align: top;
+				margin: 0 0 40px 0;
+
+				
+					span{
+						display: none;
+					}
+				.input{
+					padding-right: 20px;
+					input{
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.hs-input{
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid rgba(255,255,255,1);
+			outline: none;
+			display: block;
+
+
+		}
+
+
+
+		.hs-error-msgs{
+			background-color: black;
+			@include border-radius(4px);
+			border: 1px solid $primary-1;
+			padding: 5px;
+			margin: 10px 10px 10px 0;
+
+
+			label{
+				color: $primary-1;
+				@include h5-titilliumsemi($primary-1);
+				font-size: 12px!important;
+			}
+		}
+
+		.hs-button{
+			margin-top: 10px;
+			@include h5-titilliumsemi(white);
+			@include border-radius(2px);
+			background-color: $primary-2!important;
+			padding: 5px 20px;
+			border: 1px solid #92EBF0!important;
+			@include box-shadow(0 0 5px $primary-2);
+		}
+
 		
+	}	
+	
 	
 
 
@@ -85,7 +151,7 @@
 		position: absolute;
 		left:-60px;
 		top: 80px;
-		z-index: 0;
+		z-index: 20;
 		background-color: $primary-1;
 
 		@media only screen and (max-width: 960px){
@@ -134,6 +200,7 @@
 		 background-position: center center!important;
 		 background-size: cover!important;
 		 min-height: 100vh;
+		 position: relative;
 
 		 @media only screen and (max-width: 960px){
 		 	background-image: none!important;
@@ -161,7 +228,7 @@
 		 	background: url('/wp-content/themes/hypr/assets/img/demo/mouse-icn.svg')no-repeat transparent scroll;
 		 	background-size: 100% auto;
 		 	position: absolute;
-		 	bottom: 20px;
+		 	bottom: 50px;
 		 	left: 50%;
 		 	@include transform(translateX(-50%));
 		 	height: 30px;
@@ -273,11 +340,22 @@
 			
 		}
 		.col{
-			width: 50%;
+			width: 33.333%;
 			display: inline-block;
 			height: 40px;
 			margin: 0 -4px 0 0;
 			position: relative;
+			@media only screen and (max-width: 960px){
+				width: 50%;
+
+				&.experience{
+					display: none;
+				}
+
+				&.one{
+					background-color: $primary-1;
+				}
+			}
 			button,a{
 				width: 100%;
 				background-color: transparent;
@@ -314,6 +392,10 @@
 				button, a{
 					background-color: $primary-1;
 
+					@media only screen and (max-width: 960px){
+						background-color: transparent;
+					}
+
 				}
 			}
 		}
@@ -325,6 +407,8 @@
 	#switch-content{
 		max-width: 1140px;
 		height: 480px;
+
+
 		
 		overflow: hidden;
 		
@@ -341,6 +425,18 @@
 		@media only screen and (min-width:1600px){
 			height: 600px;
 			max-width: 100%;
+		}
+
+		@media only screen and (max-height:900px)and(min-width: 960px){
+			height: 480px;
+			max-width: 960px;
+			margin: 0 auto;
+		}
+
+		@media only screen and (max-height:800px)and(min-width: 960px){
+			height: 320px;
+			max-width: 720px;
+			margin: 0 auto;
 		}
 
 
@@ -421,6 +517,27 @@
 	#one{
 		background-color: transparent;
 
+		@media only screen and (max-width: 960px){
+			visibility: visible;
+			display: block;
+			opacity: 1;
+			@include transform(scale(1,1));
+			@include transition(.5s all ease-in-out);
+			@include transition-delay(.3s);
+
+		}
+
+
+		@media only screen and (max-height:800px)and(min-width: 960px){
+			
+			.col-2{
+			overflow: scroll;
+			padding-bottom: 200px;
+			height: 100%;
+	
+			}
+		}
+
 		.col-1,.col-2{
 			display: inline-block;
 			width: 50%;
@@ -435,6 +552,7 @@
 
 		p{
 			@include p-titilliumreg(white);
+			
 
 		} 
 
@@ -457,6 +575,9 @@
 	#experience{
 		background-color: transparent; 
 		height: 100%;
+		@media only screen and (max-width:960px){
+			display: none;
+		}
 
 		li{
 			height: 100%;
