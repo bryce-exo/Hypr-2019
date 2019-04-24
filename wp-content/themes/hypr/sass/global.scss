@@ -372,6 +372,16 @@ body.home{
 	margin: 0 10px;
 }
 
+.wpls-fix-box{
+	height: 100%;
+	padding: 20px;
+
+	img{
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
 .wpls-logo-showcase{
 	padding: 0!important;
 }
