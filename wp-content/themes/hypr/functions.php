@@ -49,26 +49,7 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
 add_action('init', function() {
 
-  register_post_type( 'Team', array(
-    'labels'  => array(
-      'name' => "Team",
-      'singular_name'=> "Team"
-    ),
-    'public' => true,
-    'has_archive' => true,
-    'menu_icon'   => 'dashicons-book',
-    'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'custom-fields')
-  ));
-
-  register_taxonomy(
-    'team-category',
-    'team',
-    array(
-      'label' => __( 'Team Category' ),
-      'rewrite' => array( 'slug' => 'job_category' ),
-      'hierarchical' => true,
-    )
-  );
+  
 
   register_post_type( 'resource', array(
     'labels'  => array(
@@ -97,6 +78,7 @@ add_action('init', function() {
     array('resource'),
     array(
       'label' => __( 'Category' ),
+      'show_admin_column' => true,
       'rewrite' => array( 'slug' => 'uc-category' ),
       'hierarchical' => true,
     )
@@ -107,6 +89,7 @@ add_action('init', function() {
     array('resource'),
     array(
       'label' => __( 'Tag' ),
+      'show_admin_column' => true,
       'rewrite' => array( 'slug' => 'uc-tag' ),
       'hierarchical' => false,
     )
