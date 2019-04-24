@@ -29,14 +29,25 @@ get_header(); ?>
 					</div>
 					<div class="col-2">
 						<div class="wrap">
-						<?php echo do_shortcode('[showmodule id="1907"]'); ?>
-						<small>HYPR may retain your contact information for future communications. For more information on our privacy practices, please review our Privacy Policy.</small>
+						<!--[if lte IE 8]>
+						 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+						 <![endif]-->
+						 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+						<script>
+						 hbspt.forms.create({
+						   portalId: '2670073',
+						   formId: '7421469d-f91b-4319-aaa6-8997d3abad2d',
+						   css: '',
+						   
+						 });
+						</script>
+						
 						</div>
 					</div>
 				</li>
 
 				<li id="experience" class="switch-container active enter">
-					<iframe src="https://hyprstaging.wpengine.com" frameborder="0"></iframe>
+					<iframe src="http://hypr:8888/" frameborder="0"></iframe>
 				</li>
 
 
@@ -44,12 +55,16 @@ get_header(); ?>
 				<div class="subnav">
 					<div class="wrap">
 					<div class="row">
-						<div class="col">
+						<div class="col one">
 							<button id="one-btn" class="btn-demo">1 on 1</button>
 						</div>
+						<div class="col experience active">
+							<button id="experience-btn" class="btn-demo">Experience</button>
+						</div>
+
 						
 						<div class="col last">
-							<a target="_blank" href="/technology/" id="tour-btn" class="btn-demo">Tour</a>
+							<a target="_blank" href="/authentication-platform/" id="tour-btn" class="btn-demo">Tour</a>
 						</div>
 					</div>
 					</div>
