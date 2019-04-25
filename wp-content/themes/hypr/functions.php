@@ -34,19 +34,6 @@ wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/css/s
 add_action( 'wp_enqueue_scripts', 'my_scripts_and_styles', 10000);
 
 
-
-
-
-function ds_ct_loadjs() {
-
-	wp_enqueue_script( 'ds-theme-script', get_stylesheet_directory_uri() . '/ds-script.js',
-
-        array( 'jquery' )
-
-    );
-
-}
-
 function wpse_enqueue_page_template_styles() {
    
 }
