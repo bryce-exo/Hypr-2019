@@ -1,1 +1,353 @@
-body.page-template-resources,body.page-template-all-resources{background-color:rgba(0,0,0,0.05)}body.page-template-resources #main-header,body.page-template-all-resources #main-header{background-color:#011638}body.page-template-resources #page-container .masthead,body.page-template-all-resources #page-container .masthead{padding-top:120px;background-color:#011638}body.page-template-resources #page-container .masthead h1,body.page-template-all-resources #page-container .masthead h1{color:#fff !important;text-indent:0px;text-align:center !important;margin:0 auto !important}@media only screen and (max-width: 980px){body.page-template-resources #page-container:before,body.page-template-all-resources #page-container:before{content:"";display:block;height:80px;position:fixed;left:0;top:0;z-index:10;width:100%;background-color:#011638}}body.page-template-resources a.back-btn,body.page-template-all-resources a.back-btn{top:90px;position:absolute;text-transform:uppercase;left:0;top:0px;color:white;font-weight:bold;font-family:"Rajdhani Bold","Helvetica",sans-serif !important;line-height:24px !important;font-size:16px !important;color:#011638 !important;z-index:10}body.page-template-resources .searchandfilter,body.page-template-all-resources .searchandfilter{margin:0 auto;text-align:center}body.page-template-resources .searchandfilter ul,body.page-template-all-resources .searchandfilter ul{margin:0 auto}body.page-template-resources .searchandfilter ul li,body.page-template-all-resources .searchandfilter ul li{display:inline-block}@media only screen and (max-width: 990px){body.page-template-resources .searchandfilter ul li.sf-field-search,body.page-template-all-resources .searchandfilter ul li.sf-field-search{width:100%}body.page-template-resources .searchandfilter ul li.sf-field-search label,body.page-template-all-resources .searchandfilter ul li.sf-field-search label{width:100%}}body.page-template-resources .searchandfilter ul li.sf-field-search input,body.page-template-all-resources .searchandfilter ul li.sf-field-search input{min-width:480px;border:none;background-color:transparent;border-bottom:1px solid #1DCAD4;font-family:"Titillium Web","Helvetica",sans-serif !important;line-height:32px !important;font-size:20px !important;color:#fff !important}@media only screen and (max-width: 990px){body.page-template-resources .searchandfilter ul li.sf-field-search input,body.page-template-all-resources .searchandfilter ul li.sf-field-search input{max-width:100%;min-width:auto;width:100%}}body.page-template-resources .searchandfilter ul li.sf-field-tag,body.page-template-all-resources .searchandfilter ul li.sf-field-tag{margin:0 10px}@media only screen and (max-width: 980px){body.page-template-resources .searchandfilter ul li.sf-field-tag,body.page-template-all-resources .searchandfilter ul li.sf-field-tag{margin:0 10px 0 0}}body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select,body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select{display:block;font-size:14px;font-family:sans-serif;font-weight:700;color:#444;line-height:1.3;padding:8px 1.4em 8px .8em;width:100%;max-width:100%;box-sizing:border-box;border:none;margin:0;font-family:"Titillium Web","Helvetica",sans-serif !important;line-height:24px !important;font-weight:bold !important;font-size:14px !important;color:#011638 !important;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-appearance:none;-webkit-appearance:none;appearance:none;background-color:#fff;background-image:url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat, repeat;background-position:right .7em top 50%, 0 0;background-size:.65em auto, 100%}body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand,body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand{display:none}body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover,body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover{border-color:#888}body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus,body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus{border-color:#aaa;box-shadow:0 0 1px 3px rgba(59,153,252,0.7);box-shadow:0 0 0 3px -moz-mac-focusring;color:#222;outline:none}body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select option,body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select option{font-weight:normal}body.page-template-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select,body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select,body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select,body.page-template-all-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select,body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select,body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select{background-position:left .7em top 50%, 0 0;padding:.6em .8em .5em 1.4em}body.page-template-resources .searchandfilter ul li.sf-field-submit input,body.page-template-all-resources .searchandfilter ul li.sf-field-submit input{font-family:"Titillium Web","Helvetica",sans-serif !important;line-height:24px !important;font-weight:bold !important;font-size:14px !important;color:#fff !important;background-color:#1DCAD4;-moz-border-radius:4px !important;-webkit-border-radius:4px;border-radius:4px !important;border:none;-moz-transition:all .2s !important;-o-transition:all .2s !important;-webkit-transition:all .2s !important;transition:all .2s !important;padding:6px 3em 8px 3em !important;line-height:27px !important}body.page-template-resources .searchbox,body.page-template-all-resources .searchbox{background-color:#011638;margin-bottom:20px}body.page-template-resources .searchbox .container,body.page-template-all-resources .searchbox .container{padding:40px 0px}body.page-template-resources #page-container .container.loops,body.page-template-all-resources #page-container .container.loops{padding:20px 0}body.page-template-resources #page-container .container.loops h2,body.page-template-all-resources #page-container .container.loops h2{margin:0 20px}body.page-template-resources #page-container .container.loops .card-container,body.page-template-all-resources #page-container .container.loops .card-container{display:inline-block;width:25%;margin-left:0px}@media only screen and (max-width: 980px){body.page-template-resources #page-container .container.loops .card-container,body.page-template-all-resources #page-container .container.loops .card-container{width:50%}}@media only screen and (max-width: 480px){body.page-template-resources #page-container .container.loops .card-container,body.page-template-all-resources #page-container .container.loops .card-container{width:100%}}body.page-template-resources #page-container .container.loops .card-container .card,body.page-template-all-resources #page-container .container.loops .card-container .card{margin:20px;height:auto;min-height:200px;padding-bottom:60px;position:relative;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;border:none;-moz-box-shadow:0 2px 12px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 12px rgba(0,0,0,0.2);box-shadow:0 2px 12px rgba(0,0,0,0.2);-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .card-container .card-body,body.page-template-all-resources #page-container .container.loops .card-container .card-body{background-color:transparent;overflow:hidden;flex:none;height:220px}body.page-template-resources #page-container .container.loops .card-container h6,body.page-template-resources #page-container .container.loops .card-container h3,body.page-template-resources #page-container .container.loops .card-container p,body.page-template-all-resources #page-container .container.loops .card-container h6,body.page-template-all-resources #page-container .container.loops .card-container h3,body.page-template-all-resources #page-container .container.loops .card-container p{color:#011638;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .card-container h6,body.page-template-all-resources #page-container .container.loops .card-container h6{text-transform:uppercase}body.page-template-resources #page-container .container.loops .card-container a:hover,body.page-template-all-resources #page-container .container.loops .card-container a:hover{text-decoration:none}body.page-template-resources #page-container .container.loops .card-container span.cta,body.page-template-all-resources #page-container .container.loops .card-container span.cta{position:absolute;bottom:20px;text-transform:uppercase;font-family:"Rajdhani Bold","Helvetica",sans-serif !important;line-height:24px !important;font-size:16px !important;color:#011638 !important}body.page-template-resources #page-container .container.loops .card-container .card:hover,body.page-template-all-resources #page-container .container.loops .card-container .card:hover{cursor:pointer;background-color:#011638;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .card-container .card:hover h3,body.page-template-resources #page-container .container.loops .card-container .card:hover p,body.page-template-all-resources #page-container .container.loops .card-container .card:hover h3,body.page-template-all-resources #page-container .container.loops .card-container .card:hover p{color:#fff !important;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .card-container .card:hover h6,body.page-template-all-resources #page-container .container.loops .card-container .card:hover h6{color:rgba(255,255,255,0.5) !important;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .card-container .card:hover span.cta,body.page-template-all-resources #page-container .container.loops .card-container .card:hover span.cta{color:#1DCAD4 !important;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .row.cards,body.page-template-all-resources #page-container .container.loops .row.cards{height:320px;overflow:hidden;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops.expand .row.cards,body.page-template-all-resources #page-container .container.loops.expand .row.cards{height:auto;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}body.page-template-resources #page-container .container.loops .expand-btn,body.page-template-all-resources #page-container .container.loops .expand-btn{cursor:pointer;margin:0 20px;font-family:"Rajdhani Bold","Helvetica",sans-serif !important;line-height:24px !important;font-size:16px !important;color:#011638 !important}@media only screen and (max-width: 577px){body.page-template-resources #page-container .searchbox .container,body.page-template-resources #page-container .masthead .container,body.page-template-all-resources #page-container .searchbox .container,body.page-template-all-resources #page-container .masthead .container{padding:20px 40px}}@media only screen and (max-width: 577px){body.page-template-resources #page-container .container.loops,body.page-template-all-resources #page-container .container.loops{padding:0 40px}}body.page-template-all-resources #page-container .container.loops .row.cards{overflow:auto;height:auto}
+/* line 7, ../sass/resources.scss */
+body.page-template-resources, body.page-template-all-resources {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 8, ../sass/resources.scss */
+body.page-template-resources #main-header, body.page-template-all-resources #main-header {
+  background-color: #011638;
+}
+/* line 13, ../sass/resources.scss */
+body.page-template-resources #page-container .masthead, body.page-template-all-resources #page-container .masthead {
+  padding-top: 120px;
+  background-color: #011638;
+}
+/* line 17, ../sass/resources.scss */
+body.page-template-resources #page-container .masthead h1, body.page-template-all-resources #page-container .masthead h1 {
+  color: white !important;
+  text-indent: 0px;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+@media only screen and (max-width: 980px) {
+  /* line 30, ../sass/resources.scss */
+  body.page-template-resources #page-container:before, body.page-template-all-resources #page-container:before {
+    content: "";
+    display: block;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #011638;
+  }
+}
+/* line 47, ../sass/resources.scss */
+body.page-template-resources a.back-btn, body.page-template-all-resources a.back-btn {
+  top: 90px;
+  position: absolute;
+  text-transform: uppercase;
+  left: 0;
+  top: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+  z-index: 10;
+}
+/* line 61, ../sass/resources.scss */
+body.page-template-resources .searchandfilter, body.page-template-all-resources .searchandfilter {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 65, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul, body.page-template-all-resources .searchandfilter ul {
+  margin: 0 auto;
+}
+/* line 68, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li, body.page-template-all-resources .searchandfilter ul li {
+  display: inline-block;
+}
+@media only screen and (max-width: 990px) {
+  /* line 71, ../sass/resources.scss */
+  body.page-template-resources .searchandfilter ul li.sf-field-search, body.page-template-all-resources .searchandfilter ul li.sf-field-search {
+    width: 100%;
+  }
+  /* line 74, ../sass/resources.scss */
+  body.page-template-resources .searchandfilter ul li.sf-field-search label, body.page-template-all-resources .searchandfilter ul li.sf-field-search label {
+    width: 100%;
+  }
+}
+/* line 79, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-search input, body.page-template-all-resources .searchandfilter ul li.sf-field-search input {
+  min-width: 480px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #1DCAD4;
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 32px !important;
+  font-size: 20px !important;
+  color: white !important;
+}
+@media only screen and (max-width: 990px) {
+  /* line 79, ../sass/resources.scss */
+  body.page-template-resources .searchandfilter ul li.sf-field-search input, body.page-template-all-resources .searchandfilter ul li.sf-field-search input {
+    max-width: 100%;
+    min-width: auto;
+    width: 100%;
+  }
+}
+/* line 97, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
+  margin: 0 10px;
+  /* Hide arrow icon in IE browsers */
+  /* Hover style */
+  /* Focus style */
+  /* Set options to normal weight */
+  /* Support for rtl text, explicit support for Arabic and Hebrew */
+}
+@media only screen and (max-width: 980px) {
+  /* line 97, ../sass/resources.scss */
+  body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
+    margin: 0 10px 0 0;
+  }
+}
+/* line 103, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select {
+  display: block;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: 8px 1.4em 8px .8em;
+  width: 100%;
+  max-width: 100%;
+  /* useful when width is set to anything other than 100% */
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: #011638 !important;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+  	for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+  	
+  */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat, repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right .7em top 50%, 0 0;
+  /* icon size, then gradient */
+  background-size: .65em auto, 100%;
+}
+/* line 135, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand {
+  display: none;
+}
+/* line 139, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover {
+  border-color: #888;
+}
+/* line 143, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus {
+  border-color: #aaa;
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+/* line 153, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select option {
+  font-weight: normal;
+}
+/* line 158, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select {
+  background-position: left .7em top 50%, 0 0;
+  padding: .6em .8em .5em 1.4em;
+}
+/* line 165, ../sass/resources.scss */
+body.page-template-resources .searchandfilter ul li.sf-field-submit input, body.page-template-all-resources .searchandfilter ul li.sf-field-submit input {
+  font-family: "Titillium Web", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  color: white !important;
+  background-color: #1DCAD4;
+  -moz-border-radius: 4px !important;
+  -webkit-border-radius: 4px;
+  border-radius: 4px !important;
+  border: none;
+  -moz-transition: all 0.2s !important;
+  -o-transition: all 0.2s !important;
+  -webkit-transition: all 0.2s !important;
+  transition: all 0.2s !important;
+  padding: 6px 3em 8px 3em !important;
+  line-height: 27px !important;
+}
+/* line 184, ../sass/resources.scss */
+body.page-template-resources .searchbox, body.page-template-all-resources .searchbox {
+  background-color: #011638;
+  margin-bottom: 20px;
+}
+/* line 187, ../sass/resources.scss */
+body.page-template-resources .searchbox .container, body.page-template-all-resources .searchbox .container {
+  padding: 40px 0px;
+}
+/* line 191, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops, body.page-template-all-resources #page-container .container.loops {
+  padding: 20px 0;
+}
+/* line 194, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops h2, body.page-template-all-resources #page-container .container.loops h2 {
+  margin: 0 20px;
+}
+/* line 197, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
+  display: inline-block;
+  width: 25%;
+  margin-left: 0px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 197, ../sass/resources.scss */
+  body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 197, ../sass/resources.scss */
+  body.page-template-resources #page-container .container.loops .card-container, body.page-template-all-resources #page-container .container.loops .card-container {
+    width: 100%;
+  }
+}
+/* line 211, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card, body.page-template-all-resources #page-container .container.loops .card-container .card {
+  margin: 20px;
+  height: auto;
+  min-height: 200px;
+  padding-bottom: 60px;
+  position: relative;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  -moz-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 224, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card-body, body.page-template-all-resources #page-container .container.loops .card-container .card-body {
+  background-color: transparent;
+  overflow: hidden;
+  flex: none;
+  height: 220px;
+}
+/* line 232, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-resources #page-container .container.loops .card-container h3, body.page-template-resources #page-container .container.loops .card-container p, body.page-template-all-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h3, body.page-template-all-resources #page-container .container.loops .card-container p {
+  color: #011638;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 237, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h6 {
+  text-transform: uppercase;
+}
+/* line 241, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container a:hover, body.page-template-all-resources #page-container .container.loops .card-container a:hover {
+  text-decoration: none;
+}
+/* line 245, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container span.cta, body.page-template-all-resources #page-container .container.loops .card-container span.cta {
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+}
+/* line 254, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover, body.page-template-all-resources #page-container .container.loops .card-container .card:hover {
+  cursor: pointer;
+  background-color: #011638;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 259, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-resources #page-container .container.loops .card-container .card:hover p, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-all-resources #page-container .container.loops .card-container .card:hover p {
+  color: white !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 264, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover h6, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h6 {
+  color: rgba(255, 255, 255, 0.5) !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 270, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover span.cta, body.page-template-all-resources #page-container .container.loops .card-container .card:hover span.cta {
+  color: #1DCAD4 !important;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 278, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .row.cards, body.page-template-all-resources #page-container .container.loops .row.cards {
+  height: 320px;
+  overflow: hidden;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 286, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops.expand .row.cards, body.page-template-all-resources #page-container .container.loops.expand .row.cards {
+  height: auto;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 292, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .expand-btn, body.page-template-all-resources #page-container .container.loops .expand-btn {
+  cursor: pointer;
+  margin: 0 20px;
+  font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+  color: #011638 !important;
+}
+@media only screen and (max-width: 577px) {
+  /* line 303, ../sass/resources.scss */
+  body.page-template-resources #page-container .searchbox .container, body.page-template-resources #page-container .masthead .container, body.page-template-all-resources #page-container .searchbox .container, body.page-template-all-resources #page-container .masthead .container {
+    padding: 20px 40px;
+  }
+}
+@media only screen and (max-width: 577px) {
+  /* line 309, ../sass/resources.scss */
+  body.page-template-resources #page-container .container.loops, body.page-template-all-resources #page-container .container.loops {
+    padding: 0 40px;
+  }
+}
+
+/* line 326, ../sass/resources.scss */
+body.page-template-all-resources #page-container .container.loops .row.cards {
+  overflow: auto;
+  height: auto;
+}
