@@ -12,7 +12,28 @@ if (!defined('ABSPATH')) die();
 
 
 
-function ds_ct_enqueue_parent() { wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' ); }
+function ds_ct_enqueue_parent() { 
+
+  
+
+  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+
+
+  
+
+
+}
+
+function my_scripts_and_styles(){
+
+$cache_buster = date("YmdHi", filemtime( get_stylesheet_directory() . '/assets/css/screen.css'));
+wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/css/screen.css', array(), $cache_buster, 'all' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'my_scripts_and_styles', 10000);
+
+
 
 
 
