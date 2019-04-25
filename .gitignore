@@ -17,6 +17,7 @@ wp-content/mu-plugins/*
 wp-content/uploads/*
 wp-content/themes/archive/*
 wp-content/themes/Divi/*
+wp-content/themes/hypr/.sass-cache/*
 wp-content/themes/index.php
 wp-content/advanced-cache.php
 wp-content/index.php
