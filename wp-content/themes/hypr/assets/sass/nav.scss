@@ -678,6 +678,10 @@ body.home.pageload{
     }
 }
 
+#top-menu-nav #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav > li > a {
+  padding-bottom: 10px;
+}
+
 .quadmenu-item-content{
   @media only screen and (max-width: 980px){
   padding: 0!important;

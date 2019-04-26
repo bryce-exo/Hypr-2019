@@ -2402,69 +2402,74 @@ body.home.pageload #et-secondary-menu {
   line-height: 27px !important;
 }
 
+/* line 681, ../sass/nav.scss */
+#top-menu-nav #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav > li > a {
+  padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 980px) {
-  /* line 681, ../sass/nav.scss */
+  /* line 685, ../sass/nav.scss */
   .quadmenu-item-content {
     padding: 0 !important;
   }
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 687, ../sass/nav.scss */
+  /* line 691, ../sass/nav.scss */
   #quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-button > a {
     text-align: left !important;
   }
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 693, ../sass/nav.scss */
+  /* line 697, ../sass/nav.scss */
   #quadmenu .quadmenu-navbar-nav li.quadmenu-item-type-button {
     padding: 0 !important;
   }
 }
 
-/* line 702, ../sass/nav.scss */
+/* line 706, ../sass/nav.scss */
 #top-header .container {
   padding-top: 0px;
 }
 
-/* line 706, ../sass/nav.scss */
+/* line 710, ../sass/nav.scss */
 .et-fixed-header {
   top: 0px !important;
   background-color: #082452 !important;
 }
 
-/* line 713, ../sass/nav.scss */
+/* line 717, ../sass/nav.scss */
 body.admin-bar .et-fixed-header {
   top: 32px !important;
 }
 
-/* line 718, ../sass/nav.scss */
+/* line 722, ../sass/nav.scss */
 .et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
   padding-top: 38px !important;
 }
 
-/* line 722, ../sass/nav.scss */
+/* line 726, ../sass/nav.scss */
 .et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
   padding-top: 38px !important;
 }
 
-/* line 726, ../sass/nav.scss */
+/* line 730, ../sass/nav.scss */
 .et-fixed-header#top-header a {
   color: white !important;
 }
 
-/* line 730, ../sass/nav.scss */
+/* line 734, ../sass/nav.scss */
 #top-menu-nav {
   padding-top: 10px !important;
 }
 
-/* line 738, ../sass/nav.scss */
+/* line 742, ../sass/nav.scss */
 body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 0px !important;
 }
 @media only screen and (max-width: 980px) {
-  /* line 738, ../sass/nav.scss */
+  /* line 742, ../sass/nav.scss */
   body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     height: 90px;
     width: 100%;
@@ -2474,7 +2479,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 }
 
 @media only screen and (max-width: 980px) {
-  /* line 751, ../sass/nav.scss */
+  /* line 755, ../sass/nav.scss */
   #main-header.et-fixed-header {
     height: 70px;
     width: 100%;
@@ -2483,28 +2488,28 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   }
 }
 
-/* line 760, ../sass/nav.scss */
+/* line 764, ../sass/nav.scss */
 body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   top: 32px !important;
 }
 @media only screen and (max-width: 960px) {
-  /* line 760, ../sass/nav.scss */
+  /* line 764, ../sass/nav.scss */
   body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     top: 0px !important;
   }
 }
 
-/* line 770, ../sass/nav.scss */
+/* line 774, ../sass/nav.scss */
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item > .quadmenu-dropdown-menu {
   background-color: transparent;
 }
 
-/* line 774, ../sass/nav.scss */
+/* line 778, ../sass/nav.scss */
 #quadmenu * {
   color: white;
 }
 
-/* line 782, ../sass/nav.scss */
+/* line 786, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:after {
   position: absolute;
   bottom: 0px;
@@ -2528,14 +2533,14 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   display: block;
 }
 
-/* line 797, ../sass/nav.scss */
+/* line 801, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 800, ../sass/nav.scss */
+/* line 804, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover:after {
   background-color: #f01b70;
   -moz-transition: all 0.2s ease-in-out;
@@ -2548,39 +2553,39 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   transform: scaleX(1);
 }
 
-/* line 807, ../sass/nav.scss */
+/* line 811, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
   color: white !important;
 }
 
-/* line 811, ../sass/nav.scss */
+/* line 815, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu:not(.quadmenu-is-horizontal) .quadmenu-navbar-nav li.quadmenu-item.open > a > .quadmenu-item-content > .quadmenu-caret {
   color: white !important;
   background-color: black !important;
 }
 
-/* line 816, ../sass/nav.scss */
+/* line 820, ../sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > .quadmenu-dropdown-menu > ul {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 820, ../sass/nav.scss */
+/* line 824, ../sass/nav.scss */
 #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav li.quadmenu-item > a.hoverintent > .quadmenu-item-content > .quadmenu-caret {
   color: #1FF1FC;
 }
 
-/* line 824, ../sass/nav.scss */
+/* line 828, ../sass/nav.scss */
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
   padding: 10px 10px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 824, ../sass/nav.scss */
+  /* line 828, ../sass/nav.scss */
   #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content {
     padding: 10px 40px;
   }
 }
 
-/* line 832, ../sass/nav.scss */
+/* line 836, ../sass/nav.scss */
 #quadmenu .quadmenu-navbar-nav li.quadmenu-item > a > .quadmenu-item-content > .quadmenu-caret:before {
   color: #1FF1FC;
 }
