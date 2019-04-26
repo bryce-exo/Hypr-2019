@@ -90,7 +90,7 @@ body.page-template-resources .searchandfilter ul li.sf-field-search input, body.
   }
 }
 /* line 97, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder {
   margin: 0 10px;
   /* Hide arrow icon in IE browsers */
   /* Hover style */
@@ -100,12 +100,12 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-temp
 }
 @media only screen and (max-width: 980px) {
   /* line 97, ../sass/resources.scss */
-  body.page-template-resources .searchandfilter ul li.sf-field-tag, body.page-template-all-resources .searchandfilter ul li.sf-field-tag {
+  body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder {
     margin: 0 10px 0 0;
   }
 }
 /* line 103, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select {
   display: block;
   font-size: 14px;
   font-family: sans-serif;
@@ -143,15 +143,15 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-selec
   background-size: .65em auto, 100%;
 }
 /* line 135, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select::-ms-expand {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select::-ms-expand {
   display: none;
 }
 /* line 139, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:hover {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:hover {
   border-color: #888;
 }
 /* line 143, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select:focus {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:focus {
   border-color: #aaa;
   /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
   box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
@@ -160,11 +160,11 @@ body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-selec
   outline: none;
 }
 /* line 153, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-tag .sf-input-select option {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select option {
   font-weight: normal;
 }
 /* line 158, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-tag :root:lang(iw) .sf-input-select {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(iw) .sf-input-select {
   background-position: left .7em top 50%, 0 0;
   padding: .6em .8em .5em 1.4em;
 }
@@ -209,6 +209,7 @@ body.page-template-resources #page-container .container.loops .card-container, b
   display: inline-block;
   width: 25%;
   margin-left: 0px;
+  margin-right: -4px;
 }
 @media only screen and (max-width: 980px) {
   /* line 197, ../sass/resources.scss */
@@ -222,7 +223,7 @@ body.page-template-resources #page-container .container.loops .card-container, b
     width: 100%;
   }
 }
-/* line 211, ../sass/resources.scss */
+/* line 212, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card, body.page-template-all-resources #page-container .container.loops .card-container .card {
   margin: 20px;
   height: auto;
@@ -241,14 +242,70 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 224, ../sass/resources.scss */
+/* line 225, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card-body, body.page-template-all-resources #page-container .container.loops .card-container .card-body {
   background-color: transparent;
   overflow: hidden;
   flex: none;
   height: 220px;
 }
-/* line 232, ../sass/resources.scss */
+/* line 233, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat, body.page-template-all-resources #page-container .container.loops .card-container div.cat {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  color: #011638;
+  background-repeat: no-repeat;
+  background-size: 48px auto;
+  margin-top: 40px;
+}
+/* line 243, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Capabilities, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Capabilities {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Computer-Network-2.svg");
+}
+/* line 247, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Data.Sheets, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Data.Sheets {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Browser-Lock-135.svg");
+}
+/* line 251, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Videos, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Videos {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Target-Media.svg");
+}
+/* line 255, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Technology, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Technology {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Circuit-19.svg");
+}
+/* line 259, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Success.Stories, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Success.Stories {
+  background-image: url("/wp-content/uploads/2019/04/Navy_User-Profile.svg");
+}
+/* line 263, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.White.Papers, body.page-template-all-resources #page-container .container.loops .card-container div.cat.White.Papers {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Locked-Document.svg");
+}
+/* line 267, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Use.Cases, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Use.Cases {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Bulb-On.svg");
+}
+/* line 271, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.FIDO.Architecture, body.page-template-all-resources #page-container .container.loops .card-container div.cat.FIDO.Architecture {
+  background-image: url("/wp-content/uploads/2019/04/fido-dark-icn.svg");
+}
+/* line 275, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Biometrics, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Biometrics {
+  background-image: url("/wp-content/uploads/2019/04/Navy_Fingerprint.svg");
+}
+/* line 279, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container div.cat.Security, body.page-template-all-resources #page-container .container.loops .card-container div.cat.Security {
+  background-image: url("/wp-content/uploads/2019/04/lock-dark-icn.svg");
+}
+/* line 285, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .date, body.page-template-all-resources #page-container .container.loops .card-container .date {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+/* line 295, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-resources #page-container .container.loops .card-container h3, body.page-template-resources #page-container .container.loops .card-container p, body.page-template-all-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h3, body.page-template-all-resources #page-container .container.loops .card-container p {
   color: #011638;
   -moz-transition: all 0.2s ease-in-out;
@@ -256,15 +313,15 @@ body.page-template-resources #page-container .container.loops .card-container h6
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 237, ../sass/resources.scss */
+/* line 300, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container h6, body.page-template-all-resources #page-container .container.loops .card-container h6 {
   text-transform: uppercase;
 }
-/* line 241, ../sass/resources.scss */
+/* line 304, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container a:hover, body.page-template-all-resources #page-container .container.loops .card-container a:hover {
   text-decoration: none;
 }
-/* line 245, ../sass/resources.scss */
+/* line 308, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container span.cta, body.page-template-all-resources #page-container .container.loops .card-container span.cta {
   position: absolute;
   bottom: 20px;
@@ -274,7 +331,7 @@ body.page-template-resources #page-container .container.loops .card-container sp
   font-size: 16px !important;
   color: #011638 !important;
 }
-/* line 254, ../sass/resources.scss */
+/* line 317, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover, body.page-template-all-resources #page-container .container.loops .card-container .card:hover {
   cursor: pointer;
   background-color: #011638;
@@ -283,7 +340,7 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 259, ../sass/resources.scss */
+/* line 322, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-resources #page-container .container.loops .card-container .card:hover p, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h3, body.page-template-all-resources #page-container .container.loops .card-container .card:hover p {
   color: white !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -291,7 +348,7 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 264, ../sass/resources.scss */
+/* line 327, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover h6, body.page-template-all-resources #page-container .container.loops .card-container .card:hover h6 {
   color: rgba(255, 255, 255, 0.5) !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -299,7 +356,7 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 270, ../sass/resources.scss */
+/* line 333, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .card-container .card:hover span.cta, body.page-template-all-resources #page-container .container.loops .card-container .card:hover span.cta {
   color: #1DCAD4 !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -307,16 +364,57 @@ body.page-template-resources #page-container .container.loops .card-container .c
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 278, ../sass/resources.scss */
+/* line 341, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Capabilities, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Capabilities {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Computer-Network-2.svg");
+}
+/* line 345, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Data.Sheets, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Data.Sheets {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Browser-Lock-135.svg");
+}
+/* line 349, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Videos, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Videos {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Target-Media.svg");
+}
+/* line 353, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Technology, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Technology {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Circuit-19.svg");
+}
+/* line 357, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Success.Stories, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Success.Stories {
+  background-image: url("/wp-content/uploads/2019/04/Blue_User-Profile.svg");
+}
+/* line 361, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.White.Papers, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.White.Papers {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Locked-Document.svg");
+}
+/* line 365, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Use.Cases, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Use.Cases {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Bulb-On.svg");
+}
+/* line 369, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.FIDO.Architecture, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.FIDO.Architecture {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Fido.svg");
+}
+/* line 373, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Biometrics, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Biometrics {
+  background-image: url("/wp-content/uploads/2019/04/Blue_Fingerprint.svg");
+}
+/* line 377, ../sass/resources.scss */
+body.page-template-resources #page-container .container.loops .card-container .card:hover div.cat.Security, body.page-template-all-resources #page-container .container.loops .card-container .card:hover div.cat.Security {
+  background-image: url("/wp-content/uploads/2019/04/lock-icn.svg");
+}
+/* line 386, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .row.cards, body.page-template-all-resources #page-container .container.loops .row.cards {
-  height: 320px;
+  height: auto;
+  display: block;
   overflow: hidden;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 286, ../sass/resources.scss */
+/* line 395, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops.expand .row.cards, body.page-template-all-resources #page-container .container.loops.expand .row.cards {
   height: auto;
   -moz-transition: all 0.2s ease-in-out;
@@ -324,7 +422,7 @@ body.page-template-resources #page-container .container.loops.expand .row.cards,
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 292, ../sass/resources.scss */
+/* line 401, ../sass/resources.scss */
 body.page-template-resources #page-container .container.loops .expand-btn, body.page-template-all-resources #page-container .container.loops .expand-btn {
   cursor: pointer;
   margin: 0 20px;
@@ -334,19 +432,19 @@ body.page-template-resources #page-container .container.loops .expand-btn, body.
   color: #011638 !important;
 }
 @media only screen and (max-width: 577px) {
-  /* line 303, ../sass/resources.scss */
+  /* line 412, ../sass/resources.scss */
   body.page-template-resources #page-container .searchbox .container, body.page-template-resources #page-container .masthead .container, body.page-template-all-resources #page-container .searchbox .container, body.page-template-all-resources #page-container .masthead .container {
     padding: 20px 40px;
   }
 }
 @media only screen and (max-width: 577px) {
-  /* line 309, ../sass/resources.scss */
+  /* line 418, ../sass/resources.scss */
   body.page-template-resources #page-container .container.loops, body.page-template-all-resources #page-container .container.loops {
     padding: 0 40px;
   }
 }
 
-/* line 326, ../sass/resources.scss */
+/* line 435, ../sass/resources.scss */
 body.page-template-all-resources #page-container .container.loops .row.cards {
   overflow: auto;
   height: auto;

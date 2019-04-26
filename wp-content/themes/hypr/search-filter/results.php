@@ -29,7 +29,34 @@ if ( $query->have_posts() )
 	
 	
 	<div class="row pagination">
-		<h2>Found <?php echo $query->found_posts; ?> Results</h2>
+		
+
+		<h2><?php
+			global $searchandfilter;
+			$sf_current_query = $searchandfilter->get(16989)->current_query();
+			
+
+
+			$args = array(
+					"str" 					=> '%2$s', 
+					"delim" 				=> array(", ", " - "), 
+					"field_delim"				=> ', ', 
+					"show_all_if_empty"			=> false 
+				);
+				
+				echo $sf_current_query->get_fields_html(
+					array("_sft_resource_folder"), 
+					$args
+				);
+
+		?></h2>
+
+
+
+
+		
+
+
 		
 		
 	</div>
@@ -41,19 +68,33 @@ if ( $query->have_posts() )
 		
 		?>
 		<div class="card-container">
+			<a href="<?php the_permalink() ?>">
 					<div class="card">
-					
+
 					<div class="card-body">
 						
-						<h6><?php echo get_the_date( 'F j, Y' ); ?></h6>
-						<h3 class="card-title"><?php the_title(); ?></h3>
 						
+						
+						<?php
+						$terms = get_the_terms( $post->ID , 'uc_category' );
+						foreach ( $terms as $term ) {
+						echo "<div class='cat ";
+						echo $term->name;
+						echo "'>";
+						
+						echo "</div>";
+						}
+						?>
+						<h3 class="card-title"><?php the_title(); ?></h3>
+
+						<h6 class="date"><?php echo get_the_date( 'F j, Y' ); ?></h6>
 						
 						<span class="cta">Read</span>
 					</div>
 
 					</div>
 					</div>
+				</a>
 		<?php
 	}
 	?>
@@ -78,6 +119,6 @@ if ( $query->have_posts() )
 }
 else
 {
-	echo "No Results Found";
+	echo "<div class='row'><h2>No Results Found</h2></row>";
 }
 ?>

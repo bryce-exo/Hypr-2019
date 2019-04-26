@@ -94,7 +94,7 @@ body.page-template-resources, body.page-template-all-resources{
 
 			}
 
-			&.sf-field-tag{
+			&.sf-field-taxonomy-resource_folder{
 				margin: 0 10px;
 
 				@media only screen and (max-width:980px){
@@ -199,6 +199,7 @@ body.page-template-resources, body.page-template-all-resources{
 			width: 25%;
 			
 			margin-left: 0px;
+			margin-right: -4px;
 
 			@media only screen and (max-width:980px){
 				width: 50%;
@@ -227,6 +228,68 @@ body.page-template-resources, body.page-template-all-resources{
 				flex: none;
 				height: 220px;
 
+			}
+
+			div.cat{
+				display: inline-block;
+				height: 48px;
+				width: 48px;
+				color: $secondary-2;
+				background-repeat: no-repeat;
+				background-size: 48px auto;
+				
+				margin-top: 40px;
+
+				&.Capabilities{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Computer-Network-2.svg');
+				}
+
+				&.Data.Sheets{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Browser-Lock-135.svg');
+				}
+
+				&.Videos{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Target-Media.svg');
+				}
+
+				&.Technology{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Circuit-19.svg');
+				}
+
+				&.Success.Stories{
+					background-image: url('/wp-content/uploads/2019/04/Navy_User-Profile.svg');
+				}
+
+				&.White.Papers{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Locked-Document.svg');
+				}
+
+				&.Use.Cases{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Bulb-On.svg');
+				}
+
+				&.FIDO.Architecture{
+					background-image: url('/wp-content/uploads/2019/04/fido-dark-icn.svg');
+				}
+
+				&.Biometrics{
+					background-image: url('/wp-content/uploads/2019/04/Navy_Fingerprint.svg');
+				}
+
+				&.Security{
+					background-image: url('/wp-content/uploads/2019/04/lock-dark-icn.svg');
+				}
+
+			}
+
+			.date{
+				position: absolute;
+				left: 20px;
+				top: 30px;
+			}
+
+			.card-title{
+				
 			}
 
 			h6, h3, p{
@@ -271,12 +334,58 @@ body.page-template-resources, body.page-template-all-resources{
 					color: $primary-2!important;
 					@include transition(.2s all ease-in-out);
 				}
+
+				div.cat{
+					
+
+					&.Capabilities{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Computer-Network-2.svg');
+					}
+
+					&.Data.Sheets{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Browser-Lock-135.svg');
+					}
+
+					&.Videos{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Target-Media.svg');
+					}
+
+					&.Technology{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Circuit-19.svg');
+					}
+
+					&.Success.Stories{
+						background-image: url('/wp-content/uploads/2019/04/Blue_User-Profile.svg');
+					}
+
+					&.White.Papers{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Locked-Document.svg');
+					}
+
+					&.Use.Cases{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Bulb-On.svg');
+					}
+
+					&.FIDO.Architecture{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Fido.svg');
+					}
+
+					&.Biometrics{
+						background-image: url('/wp-content/uploads/2019/04/Blue_Fingerprint.svg');
+					}
+
+					&.Security{
+						background-image: url('/wp-content/uploads/2019/04/lock-icn.svg');
+					}
+
+				}
 			}
 		}
 
 
 		.row.cards{
-			height: 320px;
+			height: auto;
+			display: block;
 			overflow: hidden;
 			@include transition(.2s all ease-in-out);
 			

@@ -1,51 +1,52 @@
-@media only screen and (max-width: 640px) {
-  /* line 8, ../sass/contact.scss */
-  .page-id-142 #page-container .hbspt-form {
-    margin: 60px 0 !important;
-  }
-}
-/* line 14, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form .legal-consent-container p {
+/* line 9, ../sass/contact.scss */
+#page-container .legal-consent-container p {
   color: white !important;
   margin: 20px 0;
 }
-/* line 22, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text {
+
+@media only screen and (max-width: 640px) {
+  /* line 15, ../sass/contact.scss */
+  .hbspt-form {
+    margin: 60px 0 !important;
+  }
+}
+/* line 24, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-text {
   display: inline-block;
   width: 50%;
   vertical-align: top;
   margin: 0 -4px 40px 0;
 }
-/* line 29, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text span {
+/* line 31, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-text span {
   display: none;
 }
-/* line 32, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input {
+/* line 34, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-text .input {
   padding-right: 20px;
 }
-/* line 34, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input {
+/* line 36, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-text .input input {
   width: 100%;
   color: white;
 }
-/* line 38, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input::placeholder {
+/* line 40, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-text .input input::placeholder {
   color: white;
 }
-/* line 45, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea {
+/* line 47, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-textarea {
   display: inline-block;
   width: 100%;
   vertical-align: top;
   margin: 0px 0 0 0;
 }
-/* line 51, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea span {
+/* line 53, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-textarea span {
   display: none;
 }
-/* line 55, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea {
+/* line 57, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-textarea textarea {
   width: 100%;
   min-height: 240px;
   background-color: #011638;
@@ -53,20 +54,20 @@
   color: white;
   padding: 20px;
 }
-/* line 63, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea::placeholder {
+/* line 65, ../sass/contact.scss */
+.hbspt-form form .hs-fieldtype-textarea textarea::placeholder {
   color: white;
 }
-/* line 70, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form .hs-input {
+/* line 72, ../sass/contact.scss */
+.hbspt-form .hs-input {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
   outline: none;
   display: block;
 }
-/* line 82, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form .hs-error-msgs {
+/* line 84, ../sass/contact.scss */
+.hbspt-form .hs-error-msgs {
   background-color: black;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -76,8 +77,8 @@
   margin: 10px 10px 10px 0;
   list-style-type: none;
 }
-/* line 91, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form .hs-error-msgs label {
+/* line 93, ../sass/contact.scss */
+.hbspt-form .hs-error-msgs label {
   color: #f01b70;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   line-height: 24px !important;
@@ -86,8 +87,8 @@
   color: #f01b70 !important;
   font-size: 12px !important;
 }
-/* line 98, ../sass/contact.scss */
-.page-id-142 #page-container .hbspt-form .hs-button {
+/* line 100, ../sass/contact.scss */
+.hbspt-form .hs-button {
   margin-top: 10px;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   line-height: 24px !important;

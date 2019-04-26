@@ -865,9 +865,9 @@ body.home.pageload #et-secondary-menu {
   -moz-box-shadow: 0 0 5px #f01b70;
   -webkit-box-shadow: 0 0 5px #f01b70;
   box-shadow: 0 0 5px #f01b70;
-  -moz-border-radius: 2px !important;
-  -webkit-border-radius: 2px;
-  border-radius: 2px !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px !important;
   margin-top: 7px;
   padding: 4px 10px 6px 10px !important;
   line-height: 27px !important;

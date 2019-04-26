@@ -75,7 +75,25 @@
 
 
 #page-container, #sidebar-overlay{
+	
+	.entry-content{
+		p a{
+			color: $secondary-1;
+			font-weight: bold!important;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
 
+		p{
+			margin: 10px 0;
+			strong{
+				font-weight: bold;
+			}
+		}
+	}
+
+	
 	h1{
 		margin-top: 10px;
 		
@@ -142,7 +160,11 @@
 		span{
 			@include p-titilliumreg($secondary-2);
 		}
+
+		
 	}
+
+	
 
 
 	h1,h2,h3,h4{
@@ -222,6 +244,8 @@
 			span{
 				@include p-titilliumreg($secondary-2);
 			}
+
+			
 		}
 
 
@@ -292,6 +316,8 @@
 			span{
 				@include p-titilliumreg(white);
 			}
+
+			
 		}
 	}	
 }
@@ -308,10 +334,15 @@
 
 
 
-#custom-footer{
+#page-container .entry-content #custom-footer, #custom-footer{
 	p{
 		color: white!important;
 		span{
+			color: white!important;
+		}
+
+		a{
+			font-weight: normal!important;
 			color: white!important;
 		}
 	}
@@ -533,7 +564,7 @@ body #page-container .et_pb_button, body .et_pb_button{
         background-color: $primary-2!important;
         border: 1px solid #92EBF0!important;
         @include box-shadow(0 0 5px $primary-2);
-        @include border-radius(2px!important);
+        @include border-radius(3px!important);
     }
 
     &.et_pb_bg_layout_light{
@@ -541,6 +572,6 @@ body #page-container .et_pb_button, body .et_pb_button{
         background-color: $secondary-2!important;
         border: 1px solid $secondary-2!important;
         @include box-shadow(0 0 0px $secondary-2);
-        @include border-radius(2px!important);
+        @include border-radius(3px!important);
     }
 }

@@ -8,7 +8,10 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 ?>
 
+
+
 <div id="main-content">
+
 	<?php
 		if ( et_builder_is_product_tour_enabled() ):
 			// load fullwidth page in Product Tour mode
@@ -27,6 +30,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 		else:
 	?>
 	<div class="container">
+
 		<div id="content-area" class="clearfix">
 			<div id="left-area">
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -42,6 +46,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 					<?php if ( ( 'off' !== $show_default_title && $is_page_builder_used ) || ! $is_page_builder_used ) { ?>
 						<div class="et_post_meta_wrapper">
 							<h1 class="entry-title"><?php the_title(); ?></h1>
+							
 
 						<?php
 							if ( ! post_password_required() ) :
