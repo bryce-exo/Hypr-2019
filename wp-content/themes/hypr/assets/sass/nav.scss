@@ -11,7 +11,7 @@
         background-color: transparent!important;
     }
 
-    height: 100px;
+    height: 90px;
     
 }
 
@@ -662,17 +662,14 @@ body.home.pageload{
 }
 
 .quadmenu-navbar-nav li.quadmenu-item-object-button .quadmenu-item-content{
-    text-transform: uppercase!important;
-    font-family: "Saira Extra Condensed", "Helvetica", sans-serif!important;
-    
-    font-size: 22px!important;
-    background-color: transparent!important;
-    
-    color: white!important;
-    @include border-radius(2px);
-    border: none!important;
-    
-    
+    @include h5-titilliumsemi(white);
+    background-color: $primary-1!important;
+    border: 1px solid $primary-1!important;
+    @include box-shadow(0 0 5px $primary-1);
+    @include border-radius(2px!important);
+    margin-top: 7px;
+    padding: 4px 10px 6px 10px!important;
+    line-height: 27px!important;
     
 
     &:hover{
@@ -742,7 +739,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header{
     top: 0px!important;
 
     @media only screen and (max-width: 980px){
-            height: 80px;
+            height: 90px;
             width: 100%;
             position: fixed;
             background-color: transparent!important;
@@ -753,7 +750,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header{
 
 #main-header.et-fixed-header{
     @media only screen and (max-width: 980px){
-            height: 80px;
+            height: 70px;
             width: 100%;
             position: fixed;
             background-color: black!important;
@@ -838,7 +835,5 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header{
 
 
 .quadmenu-dropdown-toggle.hoverintent{
-  text-transform: uppercase!important;
-  font-family: "Saira Extra Condensed", "Helvetica", sans-serif!important;
-  font-size: 22px!important;
+  
 }

@@ -41,6 +41,7 @@ get_header();
 			while ( $loop->have_posts() ) : $loop->the_post(); ?>
 				
 			<div class="card-container">
+
 				<?php if(get_field('url')!=''): ?>
 					<a target="_blank" href="<?php the_field('url'); ?>">
 				<?php endif; ?>
@@ -50,6 +51,14 @@ get_header();
 				<?php endif; ?>
 
 			<div class="card">
+				<div class="cover-container">
+				<div class="cover" style="background-image:url('<?php 
+
+								$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' );
+								echo $url ?>');">
+									
+								</div>
+							</div>
 			
 			<div class="card-body">
 				

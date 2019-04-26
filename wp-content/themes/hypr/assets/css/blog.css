@@ -230,6 +230,18 @@ body.page-template-blog #page-container .container.loops .card-container, body.p
   width: 25%;
   margin-left: 0px;
 }
+/* line 224, ../sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .cover, body.page-template-press #page-container .container.loops .card-container .cover {
+  background-size: cover;
+  background-position: center center;
+  height: 180px;
+  overflow: hidden;
+}
+/* line 231, ../sass/blog.scss */
+body.page-template-blog #page-container .container.loops .card-container .cover-container, body.page-template-press #page-container .container.loops .card-container .cover-container {
+  position: relative;
+  background-color: white;
+}
 @media only screen and (max-width: 980px) {
   /* line 218, ../sass/blog.scss */
   body.page-template-blog #page-container .container.loops .card-container, body.page-template-press #page-container .container.loops .card-container {
@@ -242,7 +254,7 @@ body.page-template-blog #page-container .container.loops .card-container, body.p
     width: 100%;
   }
 }
-/* line 232, ../sass/blog.scss */
+/* line 250, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card, body.page-template-press #page-container .container.loops .card-container .card {
   margin: 20px;
   height: auto;
@@ -261,14 +273,14 @@ body.page-template-blog #page-container .container.loops .card-container .card, 
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 245, ../sass/blog.scss */
+/* line 263, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card-body, body.page-template-press #page-container .container.loops .card-container .card-body {
   background-color: transparent;
   overflow: hidden;
   flex: none;
   height: 217px;
 }
-/* line 253, ../sass/blog.scss */
+/* line 271, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container h6, body.page-template-blog #page-container .container.loops .card-container h3, body.page-template-blog #page-container .container.loops .card-container p, body.page-template-press #page-container .container.loops .card-container h6, body.page-template-press #page-container .container.loops .card-container h3, body.page-template-press #page-container .container.loops .card-container p {
   color: #011638;
   -moz-transition: all 0.2s ease-in-out;
@@ -276,15 +288,15 @@ body.page-template-blog #page-container .container.loops .card-container h6, bod
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 258, ../sass/blog.scss */
+/* line 276, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container h6, body.page-template-press #page-container .container.loops .card-container h6 {
   text-transform: uppercase;
 }
-/* line 262, ../sass/blog.scss */
+/* line 280, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container a:hover, body.page-template-press #page-container .container.loops .card-container a:hover {
   text-decoration: none;
 }
-/* line 266, ../sass/blog.scss */
+/* line 284, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container span.cta, body.page-template-press #page-container .container.loops .card-container span.cta {
   position: absolute;
   bottom: 20px;
@@ -294,7 +306,7 @@ body.page-template-blog #page-container .container.loops .card-container span.ct
   font-size: 16px !important;
   color: #011638 !important;
 }
-/* line 275, ../sass/blog.scss */
+/* line 293, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card:hover, body.page-template-press #page-container .container.loops .card-container .card:hover {
   cursor: pointer;
   background-color: #011638;
@@ -303,7 +315,7 @@ body.page-template-blog #page-container .container.loops .card-container .card:h
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 280, ../sass/blog.scss */
+/* line 298, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card:hover h3, body.page-template-blog #page-container .container.loops .card-container .card:hover p, body.page-template-press #page-container .container.loops .card-container .card:hover h3, body.page-template-press #page-container .container.loops .card-container .card:hover p {
   color: white !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -311,7 +323,7 @@ body.page-template-blog #page-container .container.loops .card-container .card:h
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 285, ../sass/blog.scss */
+/* line 303, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card:hover h6, body.page-template-press #page-container .container.loops .card-container .card:hover h6 {
   color: rgba(255, 255, 255, 0.5) !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -319,7 +331,7 @@ body.page-template-blog #page-container .container.loops .card-container .card:h
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 291, ../sass/blog.scss */
+/* line 309, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .card-container .card:hover span.cta, body.page-template-press #page-container .container.loops .card-container .card:hover span.cta {
   color: #1DCAD4 !important;
   -moz-transition: all 0.2s ease-in-out;
@@ -327,16 +339,16 @@ body.page-template-blog #page-container .container.loops .card-container .card:h
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 299, ../sass/blog.scss */
+/* line 317, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .row.cards, body.page-template-press #page-container .container.loops .row.cards {
-  height: 960px;
+  height: 990px;
   overflow: hidden;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 307, ../sass/blog.scss */
+/* line 325, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops.expand .row.cards, body.page-template-press #page-container .container.loops.expand .row.cards {
   height: auto;
   -moz-transition: all 0.2s ease-in-out;
@@ -344,7 +356,7 @@ body.page-template-blog #page-container .container.loops.expand .row.cards, body
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 313, ../sass/blog.scss */
+/* line 331, ../sass/blog.scss */
 body.page-template-blog #page-container .container.loops .expand-btn, body.page-template-press #page-container .container.loops .expand-btn {
   cursor: pointer;
   margin: 0 20px;
@@ -354,37 +366,37 @@ body.page-template-blog #page-container .container.loops .expand-btn, body.page-
   color: #011638 !important;
 }
 @media only screen and (max-width: 577px) {
-  /* line 324, ../sass/blog.scss */
+  /* line 342, ../sass/blog.scss */
   body.page-template-blog #page-container .searchbox .container, body.page-template-blog #page-container .masthead .container, body.page-template-press #page-container .searchbox .container, body.page-template-press #page-container .masthead .container {
     padding: 20px 40px;
   }
 }
 @media only screen and (max-width: 577px) {
-  /* line 330, ../sass/blog.scss */
+  /* line 348, ../sass/blog.scss */
   body.page-template-blog #page-container .container.loops, body.page-template-press #page-container .container.loops {
     padding: 0 40px;
   }
 }
 
-/* line 343, ../sass/blog.scss */
+/* line 361, ../sass/blog.scss */
 body.single #main-header {
   background-color: #011638 !important;
 }
-/* line 349, ../sass/blog.scss */
+/* line 367, ../sass/blog.scss */
 body.single #sidebar, body.single #recent-comments, body.single #comment-wrap, body.single .comments-number {
   display: none;
 }
-/* line 353, ../sass/blog.scss */
+/* line 371, ../sass/blog.scss */
 body.single #left-area {
   width: 100%;
   float: none;
 }
-/* line 363, ../sass/blog.scss */
+/* line 381, ../sass/blog.scss */
 body.single #main-content {
   min-height: 800px;
 }
 
-/* line 370, ../sass/blog.scss */
+/* line 388, ../sass/blog.scss */
 .et_right_sidebar #main-content .container:before {
   display: none;
 }

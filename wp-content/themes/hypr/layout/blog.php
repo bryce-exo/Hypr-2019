@@ -35,7 +35,7 @@ get_header();
 
 
 <div class="container loops">
-		<div class="row cards">
+		<div class="row cards blog">
 			<?php $loop = new WP_Query( array( 'category_name' => 'news', 'posts_per_page' => -1, 'orderby'=>'date' ) );
 			if ( $loop->have_posts() ) :
 			while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -50,6 +50,14 @@ get_header();
 				<?php endif; ?>
 
 			<div class="card">
+				<div class="cover-container">
+								<div class="cover" style="background-image:url('<?php 
+
+												$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' );
+												echo $url ?>');">
+													
+												</div>
+											</div>
 			
 			<div class="card-body">
 				

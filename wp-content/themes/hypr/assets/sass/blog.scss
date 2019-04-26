@@ -221,6 +221,24 @@ body.page-template-blog, body.page-template-press{
 			
 			margin-left: 0px;
 
+			.cover{
+				background-size: cover;
+				background-position: center center;
+				height: 180px;
+				    overflow: hidden;
+			}
+
+			.cover-container{
+					
+				    position: relative;
+				    
+				    background-color: white;
+
+
+				    
+				
+			}
+
 			@media only screen and (max-width:980px){
 				width: 50%;
 			}
@@ -297,7 +315,7 @@ body.page-template-blog, body.page-template-press{
 
 
 		.row.cards{
-			height: 960px;
+			height: 990px;
 			overflow: hidden;
 			@include transition(.2s all ease-in-out);
 			
