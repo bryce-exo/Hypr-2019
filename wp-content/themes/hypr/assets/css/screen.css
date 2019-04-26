@@ -2599,9 +2599,14 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
 }
 /* line 43, ../sass/getdemo.scss */
 .page-id-127 #page-container .hbspt-form form .field .input input {
+  color: white;
   width: 100%;
 }
-/* line 50, ../sass/getdemo.scss */
+/* line 46, ../sass/getdemo.scss */
+.page-id-127 #page-container .hbspt-form form .field .input input::placeholder {
+  color: white;
+}
+/* line 54, ../sass/getdemo.scss */
 .page-id-127 #page-container .hbspt-form .hs-input {
   background-color: transparent;
   border: none;
@@ -2609,7 +2614,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   outline: none;
   display: block;
 }
-/* line 62, ../sass/getdemo.scss */
+/* line 66, ../sass/getdemo.scss */
 .page-id-127 #page-container .hbspt-form .hs-error-msgs {
   background-color: black;
   -moz-border-radius: 4px;
@@ -2619,7 +2624,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   padding: 5px;
   margin: 10px 10px 10px 0;
 }
-/* line 70, ../sass/getdemo.scss */
+/* line 74, ../sass/getdemo.scss */
 .page-id-127 #page-container .hbspt-form .hs-error-msgs label {
   color: #f01b70;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
@@ -2629,7 +2634,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: #f01b70 !important;
   font-size: 12px !important;
 }
-/* line 77, ../sass/getdemo.scss */
+/* line 81, ../sass/getdemo.scss */
 .page-id-127 #page-container .hbspt-form .hs-button {
   margin-top: 10px;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
@@ -2647,7 +2652,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-box-shadow: 0 0 5px #1DCAD4;
   box-shadow: 0 0 5px #1DCAD4;
 }
-/* line 93, ../sass/getdemo.scss */
+/* line 97, ../sass/getdemo.scss */
 .page-id-127 #page-container .badges {
   position: absolute;
   bottom: -80px;
@@ -2661,7 +2666,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   transform: translate(-50%, 0%);
 }
 @media only screen and (max-width: 960px) {
-  /* line 93, ../sass/getdemo.scss */
+  /* line 97, ../sass/getdemo.scss */
   .page-id-127 #page-container .badges {
     position: relative;
     bottom: auto;
@@ -2673,18 +2678,18 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     transform: translate(0, 0);
   }
 }
-/* line 111, ../sass/getdemo.scss */
+/* line 115, ../sass/getdemo.scss */
 .page-id-127 #page-container .badges .wrap {
   text-align: center;
 }
-/* line 114, ../sass/getdemo.scss */
+/* line 118, ../sass/getdemo.scss */
 .page-id-127 #page-container .badges a {
   height: 40px;
   width: 150px;
   display: inline-block;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  margin: 0 10px 10px 10px;
+  margin: 0 20px 10px 20px;
   background-position: center center;
   background-color: black;
   border: 1px solid white;
@@ -2693,7 +2698,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   border-radius: 2px;
 }
 @media only screen and (min-width: 960px) {
-  /* line 129, ../sass/getdemo.scss */
+  /* line 133, ../sass/getdemo.scss */
   .page-id-127 #page-container .switch {
     width: 1140px;
     left: 50%;
@@ -2705,7 +2710,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     transform: translate(-50%, -50%);
   }
 }
-/* line 144, ../sass/getdemo.scss */
+/* line 148, ../sass/getdemo.scss */
 .page-id-127 #page-container:before {
   height: 2px;
   -moz-box-shadow: 0 0 20px #f01b70;
@@ -2724,12 +2729,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: #f01b70;
 }
 @media only screen and (max-width: 960px) {
-  /* line 144, ../sass/getdemo.scss */
+  /* line 148, ../sass/getdemo.scss */
   .page-id-127 #page-container:before {
     top: 80px;
   }
 }
-/* line 162, ../sass/getdemo.scss */
+/* line 166, ../sass/getdemo.scss */
 .page-id-127 #page-container:after {
   height: 2px;
   -moz-box-shadow: 0 0 20px #1DCAD4;
@@ -2748,12 +2753,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: #1DCAD4;
 }
 @media only screen and (max-width: 960px) {
-  /* line 162, ../sass/getdemo.scss */
+  /* line 166, ../sass/getdemo.scss */
   .page-id-127 #page-container:after {
     top: 120px;
   }
 }
-/* line 181, ../sass/getdemo.scss */
+/* line 185, ../sass/getdemo.scss */
 .page-id-127 #page-container .demo-logo {
   background: url("/wp-content/themes/hypr/assets/img/global/logo.svg") no-repeat transparent;
   background-size: 100% auto;
@@ -2763,11 +2768,11 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   overflow: hidden;
   display: block;
 }
-/* line 192, ../sass/getdemo.scss */
+/* line 196, ../sass/getdemo.scss */
 .page-id-127 #page-container .logo-container {
   padding: 20px 40px 40px 40px !important;
 }
-/* line 197, ../sass/getdemo.scss */
+/* line 201, ../sass/getdemo.scss */
 .page-id-127 #page-container .masthead {
   margin: 0px auto 0px auto;
   background: url("https://hyprstaging.wpengine.com/wp-content/uploads/2019/03/Tunnel_1.jpg") no-repeat transparent scroll !important;
@@ -2777,7 +2782,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   position: relative;
 }
 @media only screen and (max-width: 960px) {
-  /* line 197, ../sass/getdemo.scss */
+  /* line 201, ../sass/getdemo.scss */
   .page-id-127 #page-container .masthead {
     background-image: none !important;
     background-color: #011638 !important;
@@ -2786,20 +2791,20 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     padding-bottom: 60px;
   }
 }
-/* line 214, ../sass/getdemo.scss */
+/* line 218, ../sass/getdemo.scss */
 .page-id-127 #page-container .masthead .row {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 40px;
 }
 @media only screen and (min-width: 1920px) {
-  /* line 214, ../sass/getdemo.scss */
+  /* line 218, ../sass/getdemo.scss */
   .page-id-127 #page-container .masthead .row {
     max-width: 1400px;
     width: 100%;
   }
 }
-/* line 225, ../sass/getdemo.scss */
+/* line 229, ../sass/getdemo.scss */
 .page-id-127 #page-container .masthead:after {
   content: "";
   display: block;
@@ -2816,21 +2821,21 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   width: 20px;
 }
 @media only screen and (max-width: 960px) {
-  /* line 225, ../sass/getdemo.scss */
+  /* line 229, ../sass/getdemo.scss */
   .page-id-127 #page-container .masthead:after {
     display: none;
   }
 }
-/* line 243, ../sass/getdemo.scss */
+/* line 247, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos {
   max-width: 100%;
   width: 100%;
 }
-/* line 247, ../sass/getdemo.scss */
+/* line 251, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video {
   cursor: pointer;
 }
-/* line 251, ../sass/getdemo.scss */
+/* line 255, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video_bg:after {
   background-color: white;
   -moz-border-radius: 100px;
@@ -2856,7 +2861,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-transform: translateX(-30px) translateY(-30px);
   transform: translateX(-30px) translateY(-30px);
 }
-/* line 276, ../sass/getdemo.scss */
+/* line 280, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .et_pb_section_video_bg:before {
   margin-left: 0px;
   position: absolute;
@@ -2877,26 +2882,26 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   content: "";
   z-index: 30;
 }
-/* line 294, ../sass/getdemo.scss */
+/* line 298, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module {
   background-color: #031458;
   color: white;
   text-align: center;
   padding-top: 60px;
 }
-/* line 300, ../sass/getdemo.scss */
+/* line 304, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module h5, .page-id-127 #page-container .container.videos .text-module h1 {
   color: white !important;
 }
-/* line 304, ../sass/getdemo.scss */
+/* line 308, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module p {
   color: rgba(255, 255, 255, 0.5) !important;
 }
-/* line 308, ../sass/getdemo.scss */
+/* line 312, ../sass/getdemo.scss */
 .page-id-127 #page-container .container.videos .text-module .wrap {
   padding: 0 60px;
 }
-/* line 314, ../sass/getdemo.scss */
+/* line 318, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav {
   position: absolute;
   bottom: 0px;
@@ -2910,13 +2915,13 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   background-color: transparent !important;
 }
 @media only screen and (max-width: 960px) {
-  /* line 314, ../sass/getdemo.scss */
+  /* line 318, ../sass/getdemo.scss */
   .page-id-127 #page-container .subnav {
     bottom: auto;
     top: 0px;
   }
 }
-/* line 334, ../sass/getdemo.scss */
+/* line 338, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .row {
   padding: 0;
   background-color: black;
@@ -2925,7 +2930,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-box-shadow: 0 0 10px #f01b70;
   box-shadow: 0 0 10px #f01b70;
 }
-/* line 342, ../sass/getdemo.scss */
+/* line 346, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col {
   width: 33.333%;
   display: inline-block;
@@ -2934,20 +2939,20 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   position: relative;
 }
 @media only screen and (max-width: 960px) {
-  /* line 342, ../sass/getdemo.scss */
+  /* line 346, ../sass/getdemo.scss */
   .page-id-127 #page-container .subnav .col {
     width: 50%;
   }
-  /* line 351, ../sass/getdemo.scss */
+  /* line 355, ../sass/getdemo.scss */
   .page-id-127 #page-container .subnav .col.experience {
     display: none;
   }
-  /* line 355, ../sass/getdemo.scss */
+  /* line 359, ../sass/getdemo.scss */
   .page-id-127 #page-container .subnav .col.one {
     background-color: #f01b70;
   }
 }
-/* line 359, ../sass/getdemo.scss */
+/* line 363, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col button, .page-id-127 #page-container .subnav .col a {
   width: 100%;
   background-color: transparent;
@@ -2966,7 +2971,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: white !important;
   line-height: 40px !important;
 }
-/* line 374, ../sass/getdemo.scss */
+/* line 378, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col:after {
   content: "";
   display: block;
@@ -2977,21 +2982,21 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   right: 0;
   top: 0;
 }
-/* line 386, ../sass/getdemo.scss */
+/* line 390, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col.last:after {
   display: none;
 }
-/* line 392, ../sass/getdemo.scss */
+/* line 396, ../sass/getdemo.scss */
 .page-id-127 #page-container .subnav .col.active button, .page-id-127 #page-container .subnav .col.active a {
   background-color: #f01b70;
 }
 @media only screen and (max-width: 960px) {
-  /* line 392, ../sass/getdemo.scss */
+  /* line 396, ../sass/getdemo.scss */
   .page-id-127 #page-container .subnav .col.active button, .page-id-127 #page-container .subnav .col.active a {
     background-color: transparent;
   }
 }
-/* line 407, ../sass/getdemo.scss */
+/* line 411, ../sass/getdemo.scss */
 .page-id-127 #page-container #switch-content {
   max-width: 1140px;
   height: 480px;
@@ -3003,36 +3008,36 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   z-index: 20;
 }
 @media only screen and (max-width: 960px) {
-  /* line 407, ../sass/getdemo.scss */
+  /* line 411, ../sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
     height: auto;
     padding-top: 80px;
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 407, ../sass/getdemo.scss */
+  /* line 411, ../sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
     height: 600px;
     max-width: 100%;
   }
 }
 @media only screen and (max-height: 900px) and (min-width: 960px) {
-  /* line 407, ../sass/getdemo.scss */
+  /* line 411, ../sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
     height: 480px;
     max-width: 960px;
     margin: 0 auto;
   }
 }
-@media only screen and (max-height: 800px) and (min-width: 960px) {
-  /* line 407, ../sass/getdemo.scss */
+@media only screen and (max-height: 650px) and (min-width: 960px) {
+  /* line 411, ../sass/getdemo.scss */
   .page-id-127 #page-container #switch-content {
-    height: 320px;
+    height: 400px;
     max-width: 720px;
     margin: 0 auto;
   }
 }
-/* line 445, ../sass/getdemo.scss */
+/* line 449, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container {
   width: 100%;
   height: 430px;
@@ -3054,13 +3059,13 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: white !important;
 }
 @media only screen and (min-width: 1600px) {
-  /* line 445, ../sass/getdemo.scss */
+  /* line 449, ../sass/getdemo.scss */
   .page-id-127 #page-container .switch-container {
     height: 600px;
   }
 }
 @media only screen and (max-width: 960px) {
-  /* line 445, ../sass/getdemo.scss */
+  /* line 449, ../sass/getdemo.scss */
   .page-id-127 #page-container .switch-container {
     display: none;
     height: auto;
@@ -3069,39 +3074,39 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     top: auto;
   }
 }
-/* line 472, ../sass/getdemo.scss */
+/* line 476, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container h4, .page-id-127 #page-container .switch-container h1 {
   padding: 0 0px;
   text-indent: 0px;
   color: white !important;
 }
 @media only screen and (min-width: 1920px) {
-  /* line 479, ../sass/getdemo.scss */
+  /* line 483, ../sass/getdemo.scss */
   .page-id-127 #page-container .switch-container h1 {
     font-size: 120px !important;
   }
 }
-/* line 485, ../sass/getdemo.scss */
+/* line 489, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container h1.title {
   padding-top: 60px;
   color: white !important;
 }
-/* line 490, ../sass/getdemo.scss */
+/* line 494, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container .et_pb_row {
   width: 100%;
   padding: 0 0px;
 }
-/* line 495, ../sass/getdemo.scss */
+/* line 499, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container.active {
   visibility: visible;
 }
 @media only screen and (max-width: 960px) {
-  /* line 495, ../sass/getdemo.scss */
+  /* line 499, ../sass/getdemo.scss */
   .page-id-127 #page-container .switch-container.active {
     display: block;
   }
 }
-/* line 504, ../sass/getdemo.scss */
+/* line 508, ../sass/getdemo.scss */
 .page-id-127 #page-container .switch-container.active.enter {
   opacity: 1;
   -moz-transform: scale(1, 1);
@@ -3117,12 +3122,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-/* line 517, ../sass/getdemo.scss */
+/* line 521, ../sass/getdemo.scss */
 .page-id-127 #page-container #one {
   background-color: transparent;
 }
 @media only screen and (max-width: 960px) {
-  /* line 517, ../sass/getdemo.scss */
+  /* line 521, ../sass/getdemo.scss */
   .page-id-127 #page-container #one {
     visibility: visible;
     display: block;
@@ -3142,14 +3147,14 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   }
 }
 @media only screen and (max-height: 800px) and (min-width: 960px) {
-  /* line 533, ../sass/getdemo.scss */
+  /* line 537, ../sass/getdemo.scss */
   .page-id-127 #page-container #one .col-2 {
     overflow: scroll;
     padding-bottom: 200px;
     height: 100%;
   }
 }
-/* line 541, ../sass/getdemo.scss */
+/* line 545, ../sass/getdemo.scss */
 .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
   display: inline-block;
   width: 50%;
@@ -3157,19 +3162,19 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   vertical-align: top;
 }
 @media only screen and (max-width: 960px) {
-  /* line 541, ../sass/getdemo.scss */
+  /* line 545, ../sass/getdemo.scss */
   .page-id-127 #page-container #one .col-1, .page-id-127 #page-container #one .col-2 {
     width: 100%;
   }
 }
-/* line 553, ../sass/getdemo.scss */
+/* line 557, ../sass/getdemo.scss */
 .page-id-127 #page-container #one p {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   line-height: 24px !important;
   font-size: 16px !important;
   color: white !important;
 }
-/* line 559, ../sass/getdemo.scss */
+/* line 563, ../sass/getdemo.scss */
 .page-id-127 #page-container #one small {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
   line-height: 24px !important;
@@ -3178,33 +3183,33 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   font-size: 10px !important;
   line-height: 14px !important;
 }
-/* line 565, ../sass/getdemo.scss */
+/* line 569, ../sass/getdemo.scss */
 .page-id-127 #page-container #one .wrap {
   padding: 0 40px 0 0;
 }
 @media only screen and (max-width: 960px) {
-  /* line 565, ../sass/getdemo.scss */
+  /* line 569, ../sass/getdemo.scss */
   .page-id-127 #page-container #one .wrap {
     padding: 0;
   }
 }
-/* line 575, ../sass/getdemo.scss */
+/* line 579, ../sass/getdemo.scss */
 .page-id-127 #page-container #experience {
   background-color: transparent;
   height: 100%;
 }
 @media only screen and (max-width: 960px) {
-  /* line 575, ../sass/getdemo.scss */
+  /* line 579, ../sass/getdemo.scss */
   .page-id-127 #page-container #experience {
     display: none;
   }
 }
-/* line 582, ../sass/getdemo.scss */
+/* line 586, ../sass/getdemo.scss */
 .page-id-127 #page-container #experience li {
   height: 100%;
   width: auto;
 }
-/* line 586, ../sass/getdemo.scss */
+/* line 590, ../sass/getdemo.scss */
 .page-id-127 #page-container #experience:before {
   display: block;
   background: url("/wp-content/themes/hypr/assets/img/demo/try-now.png") no-repeat transparent scroll;
@@ -3226,13 +3231,13 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 605, ../sass/getdemo.scss */
+/* line 609, ../sass/getdemo.scss */
 .page-id-127 #page-container #experience iframe {
   width: 100%;
   height: 100%;
   display: block;
 }
-/* line 614, ../sass/getdemo.scss */
+/* line 618, ../sass/getdemo.scss */
 .page-id-127 #page-container #tour {
   background-color: white;
 }
@@ -3266,26 +3271,37 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
 /* line 34, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input {
   width: 100%;
+  color: white;
 }
-/* line 40, ../sass/contact.scss */
+/* line 38, ../sass/contact.scss */
+.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input::placeholder {
+  color: white;
+}
+/* line 45, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea {
   display: inline-block;
   width: 100%;
   vertical-align: top;
   margin: 0px 0 0 0;
 }
-/* line 46, ../sass/contact.scss */
+/* line 51, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea span {
   display: none;
 }
-/* line 50, ../sass/contact.scss */
+/* line 55, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea {
   width: 100%;
   min-height: 240px;
   background-color: #011638;
   border: none;
+  color: white;
+  padding: 20px;
 }
-/* line 59, ../sass/contact.scss */
+/* line 63, ../sass/contact.scss */
+.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea::placeholder {
+  color: white;
+}
+/* line 70, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-input {
   background-color: transparent;
   border: none;
@@ -3293,7 +3309,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   outline: none;
   display: block;
 }
-/* line 71, ../sass/contact.scss */
+/* line 82, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-error-msgs {
   background-color: black;
   -moz-border-radius: 4px;
@@ -3304,7 +3320,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   margin: 10px 10px 10px 0;
   list-style-type: none;
 }
-/* line 80, ../sass/contact.scss */
+/* line 91, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-error-msgs label {
   color: #f01b70;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
@@ -3314,7 +3330,7 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   color: #f01b70 !important;
   font-size: 12px !important;
 }
-/* line 87, ../sass/contact.scss */
+/* line 98, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-button {
   margin-top: 10px;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;

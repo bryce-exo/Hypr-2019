@@ -47,7 +47,7 @@ get_header(); ?>
 				</li>
 
 				<li id="experience" class="switch-container active enter">
-					<iframe src="http://hypr:8888/" frameborder="0"></iframe>
+					<iframe src="https://demo.hypr.com/bank/" frameborder="0"></iframe>
 				</li>
 
 
@@ -64,7 +64,7 @@ get_header(); ?>
 
 						
 						<div class="col last">
-							<a target="_blank" href="/authentication-platform/" id="tour-btn" class="btn-demo">Tour</a>
+							<a href="/authentication-platform/" id="tour-btn" class="btn-demo">Tour</a>
 						</div>
 					</div>
 					</div>

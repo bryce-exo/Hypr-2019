@@ -69,6 +69,20 @@ jQuery(function($){
 			}
 					
 		});
+
+		var loc = window.location.hash;
+		
+
+		if(loc=='#exp'){
+			$('.btn-demo').parent().removeClass('active');
+			demoexperience();
+		}
+
+		if(loc=='#schedule'){
+			$('.btn-demo').parent().removeClass('active');
+			demoone();
+		}
+		
 	}
 
 	demoslides = function(slide){
@@ -107,7 +121,7 @@ jQuery(function($){
 		var slide = $('#one');
 		console.log('demoone');
 		demoslides(slide);
-		
+		window.location.hash = 'schedule';
 		
 	}
 
@@ -116,6 +130,7 @@ jQuery(function($){
 		$('#experience-btn').parent().addClass('active');
 
 		$('#experience').addClass('enter');
+		window.location.hash = 'exp';
 
 
 		var slide = $('#experience');
@@ -126,6 +141,8 @@ jQuery(function($){
 
 	demotour = function(){
 		$('#experience-btn').parent().addClass('active');
+		window.location.hash = 'tour';
+
 	}
 
 	

@@ -27,26 +27,37 @@
 /* line 34, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input {
   width: 100%;
+  color: white;
 }
-/* line 40, ../sass/contact.scss */
+/* line 38, ../sass/contact.scss */
+.page-id-142 #page-container .hbspt-form form .hs-fieldtype-text .input input::placeholder {
+  color: white;
+}
+/* line 45, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea {
   display: inline-block;
   width: 100%;
   vertical-align: top;
   margin: 0px 0 0 0;
 }
-/* line 46, ../sass/contact.scss */
+/* line 51, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea span {
   display: none;
 }
-/* line 50, ../sass/contact.scss */
+/* line 55, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea {
   width: 100%;
   min-height: 240px;
   background-color: #011638;
   border: none;
+  color: white;
+  padding: 20px;
 }
-/* line 59, ../sass/contact.scss */
+/* line 63, ../sass/contact.scss */
+.page-id-142 #page-container .hbspt-form form .hs-fieldtype-textarea textarea::placeholder {
+  color: white;
+}
+/* line 70, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-input {
   background-color: transparent;
   border: none;
@@ -54,7 +65,7 @@
   outline: none;
   display: block;
 }
-/* line 71, ../sass/contact.scss */
+/* line 82, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-error-msgs {
   background-color: black;
   -moz-border-radius: 4px;
@@ -65,7 +76,7 @@
   margin: 10px 10px 10px 0;
   list-style-type: none;
 }
-/* line 80, ../sass/contact.scss */
+/* line 91, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-error-msgs label {
   color: #f01b70;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
@@ -75,7 +86,7 @@
   color: #f01b70 !important;
   font-size: 12px !important;
 }
-/* line 87, ../sass/contact.scss */
+/* line 98, ../sass/contact.scss */
 .page-id-142 #page-container .hbspt-form .hs-button {
   margin-top: 10px;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;

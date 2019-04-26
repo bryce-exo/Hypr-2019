@@ -15,8 +15,8 @@ if (!defined('ABSPATH')) die();
 function ds_ct_enqueue_parent() { 
 
   
-
-  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+  $cache_buster = date("YmdHi", filemtime( get_template_directory_uri() . '/style.css'));
+  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', array(), $cache_buster, 'all' );
 
 
   
