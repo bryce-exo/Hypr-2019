@@ -661,13 +661,13 @@ body.home.pageload{
     margin-top: 0px!important;
 }
 
-.quadmenu-navbar-nav li.quadmenu-item-object-button .quadmenu-item-content{
+.quadmenu-navbar-nav li.quadmenu-item-level-0:last-child .quadmenu-item-content{
     @include h5-titilliumsemi(white);
     background-color: $primary-1!important;
     border: 1px solid $primary-1!important;
     @include box-shadow(0 0 5px $primary-1);
     @include border-radius(3px!important);
-    margin-top: 7px;
+    margin-top: -7px;
     padding: 4px 10px 6px 10px!important;
     line-height: 27px!important;
     
