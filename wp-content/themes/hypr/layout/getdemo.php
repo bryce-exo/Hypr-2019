@@ -86,13 +86,7 @@ get_header(); ?>
 </div>
 
 <div class="container videos">
-	<div class="row text-module">
-		<div class="wrap">
-		<h5>HOW WE'RE DIFFERENT</h5>
-		<h1>Watch</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
-	</div>
+	
 
 	<?php echo do_shortcode('[showmodule id="1911"]'); ?>
 </div>
