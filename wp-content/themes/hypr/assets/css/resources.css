@@ -42,8 +42,8 @@ body.page-template-resources a.back-btn, body.page-template-all-resources a.back
   color: white;
   font-weight: bold;
   font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
-  line-height: 24px !important;
-  font-size: 16px !important;
+  line-height: 1.5em !important;
+  font-size: 1em !important;
   color: #011638 !important;
   z-index: 10;
 }
@@ -77,8 +77,8 @@ body.page-template-resources .searchandfilter ul li.sf-field-search input, body.
   background-color: transparent;
   border-bottom: 1px solid #1DCAD4;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  line-height: 32px !important;
-  font-size: 20px !important;
+  line-height: 1.28em !important;
+  font-size: 1.25em !important;
   color: white !important;
 }
 @media only screen and (max-width: 990px) {
@@ -124,9 +124,9 @@ body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_f
   border: none;
   margin: 0;
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  line-height: 24px !important;
+  line-height: 1.5em !important;
   font-weight: bold !important;
-  font-size: 14px !important;
+  font-size: 1em !important;
   color: #011638 !important;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -175,9 +175,9 @@ body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_f
 /* line 168, ../sass/resources.scss */
 body.page-template-resources .searchandfilter ul li.sf-field-submit input, body.page-template-all-resources .searchandfilter ul li.sf-field-submit input {
   font-family: "Titillium Web", "Helvetica", sans-serif !important;
-  line-height: 24px !important;
+  line-height: 1.5em !important;
   font-weight: bold !important;
-  font-size: 14px !important;
+  font-size: 1em !important;
   color: white !important;
   background-color: #1DCAD4;
   -moz-border-radius: 4px !important;
@@ -331,8 +331,8 @@ body.page-template-resources #page-container .container.loops .card-container sp
   bottom: 20px;
   text-transform: uppercase;
   font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
-  line-height: 24px !important;
-  font-size: 16px !important;
+  line-height: 1.5em !important;
+  font-size: 1em !important;
   color: #011638 !important;
 }
 /* line 320, ../sass/resources.scss */
@@ -431,8 +431,8 @@ body.page-template-resources #page-container .container.loops .expand-btn, body.
   cursor: pointer;
   margin: 0 20px;
   font-family: "Rajdhani Bold", "Helvetica", sans-serif !important;
-  line-height: 24px !important;
-  font-size: 16px !important;
+  line-height: 1.5em !important;
+  font-size: 1em !important;
   color: #011638 !important;
 }
 @media only screen and (max-width: 577px) {

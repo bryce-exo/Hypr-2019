@@ -155,10 +155,6 @@ body.home .et_pb_section_first {
     margin: 0 auto !important;
     width: 100% !important;
   }
-  /* line 183, ../sass/et_pb.scss */
-  .et_pb_section .et_pb_row .et_pb_column {
-    margin: 0 !important;
-  }
   /* line 186, ../sass/et_pb.scss */
   .et_pb_section .et_pb_row .et_pb_column.et_pb_column_1_5 {
     margin-right: 3.5% !important;

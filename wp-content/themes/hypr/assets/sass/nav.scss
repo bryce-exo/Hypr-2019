@@ -157,11 +157,38 @@ body.admin-bar.et_pb_pagebuilder_layout.et-fb-root-ancestor{
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
 .et_fullwidth_nav #main-header .container{
     padding-right: 12%;
     padding-left: 12%;
     max-width: 100%;
     width: 100%;
+
+    &:before{
+      content: "";
+      display: none;
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90px;
+      z-index: 20;
+    }
+}
+
+.et_fullwidth_nav #main-header.open .container{
+   
+
+    &:before{
+      content: "";
+      display: block;
+      
+    }
 }
 
 
@@ -552,6 +579,25 @@ body.home.pageload{
 
 #top-header{
     background-color: transparent;
+    @media only screen and (max-width: 980px){
+    position: fixed!important;
+    display: none!important;
+        top: auto!important;
+        /* bottom: 0; */
+        height: 156px;
+        bottom: 0;
+        
+        background-color: black!important;
+        width: 100%;
+
+      .container{
+        width: 100%;
+      }
+    }
+
+    &.open{
+      display: block!important;
+    }
 }
 
 #et-secondary-menu{
@@ -566,16 +612,83 @@ body.home.pageload{
 
 #et-secondary-nav{
     max-width: 100%;
-        margin: 0 12.7%;
-        display: block;
-        text-align: right;
+    margin: 0 11.7%;
+    display: block;
+    text-align: right;
+
+    li{
+      margin-right: 0px;
+      margin-left: 40px;
+
+      @media only screen and (max-width: 980px){
+        margin: 0px 0 0 -4px;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        
+        padding-top: 10px;
+        
+        
+        a{
+          border: 1px solid $primary-2;
+          @include border-radius(3px);
+          height: 100%;
+          width: 100%;
+          display: block;
+          padding: 10px 20px;
+
+          text-transform: capitalize!important;
+          
+        }
+
+        &:first-child{
+          a{
+            border: 1px solid $primary-1;
+            background-color: $primary-1;
+          }
+        }
+
+        &:nth-child(2n+2){
+          padding-right: 5px
+        }
+
+        &:nth-child(2n+3){
+          padding-left: 5px;
+        }
+
+      } 
+    }
+
+    @media only screen and (max-width: 980px){
+      display: block!important;
+      
+      margin: 0 20px!important;
+      padding: 0!important;
+
+    #menu-item-19649{
+      width: 100%;
+
+      }  
+
+    }
+}
+
+#et-secondary-menu{
+  @media only screen and (max-width: 980px){
+    display: block!important;
+
+
+
+  }
 }
 
 
 
 #et_mobile_nav_menu{
     .et_mobile_menu{
-        background-color: black!important;
+        background: url('/wp-content/uploads/2019/03/Globe_7.jpg') no-repeat black!important;
+        background-size: cover;
         top: 0px;
         border: none;
         display: block;
@@ -633,6 +746,7 @@ body.home.pageload{
                 @include transform(translateY(0));
                 opacity: 1;
                 @include transition(.3s all ease-in-out);
+                padding-bottom: 200px;
                 #quadmenu{
                     opacity: 1;
                     
@@ -676,6 +790,32 @@ body.home.pageload{
     
 
     }
+
+    @media only screen and (max-width:980px){
+      text-align: center;
+      margin-top: 10px;
+     
+
+    }
+}
+
+.quadmenu-navbar-nav li.quadmenu-item-level-0:last-child{
+ @media only screen and (max-width:980px){
+  position: fixed!important;
+  bottom: 0px!important;
+  width: 100%!important;
+  display: none!important;
+  top: auto!important;
+  height: 200px!important;
+ } 
+}
+
+
+
+.quadmenu-navbar-nav li.quadmenu-item{
+  @media only screen and (max-width: 980px){
+    padding: 10px 0 0 0!important;
+  }
 }
 
 #top-menu-nav #quadmenu.quadmenu-is-horizontal .quadmenu-navbar-nav > li > a {
@@ -754,7 +894,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header{
 
 #main-header.et-fixed-header{
     @media only screen and (max-width: 980px){
-            height: 70px;
+            height: 90px;
             width: 100%;
             position: fixed;
             background-color: black!important;
@@ -796,6 +936,18 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header{
         content: "";
         display: block;
     }
+}
+
+
+@media only screen and (max-width:980px){
+  .quadmenu-item-level-1 .quadmenu-text{
+    color: rgba(255,255,255,.7)!important;
+    
+  }
+
+  .quadmenu-item-level-1{
+    margin-left: 10px!important;
+  }
 }
 
 #quadmenu.quadmenu-divi_primary_menu .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.quadmenu-has-link:hover{
