@@ -52,17 +52,20 @@ jQuery(function($){
 			if($(this).parent().hasClass('active')){
 				current.removeClass('active');
 			}else{
-				$('.btn-demo').parent().removeClass('active');
+				
 
 				if (btn.attr("id") == "tour-btn") {
 					demotour();
 				}
 
 				if (btn.attr("id") == "experience-btn") {
+					$('.btn-demo').parent().removeClass('active');
 					demoexperience();
+
 				}
 
 				if (btn.attr("id") == "one-btn") {
+					$('.btn-demo').parent().removeClass('active');
 					demoone();
 				}
 
@@ -140,8 +143,8 @@ jQuery(function($){
 	}
 
 	demotour = function(){
-		$('#experience-btn').parent().addClass('active');
-		window.location.hash = 'tour';
+		
+		
 
 	}
 

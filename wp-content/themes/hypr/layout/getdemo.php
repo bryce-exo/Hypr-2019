@@ -47,7 +47,7 @@ get_header(); ?>
 				</li>
 
 				<li id="experience" class="switch-container active enter">
-					<a href="https://demo.hypr.com/bank/">
+					<a target="_blank" href="https://demo.hypr.com/bank/">
 						
 					</a>
 				</li>

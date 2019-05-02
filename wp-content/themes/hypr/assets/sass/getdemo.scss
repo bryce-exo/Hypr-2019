@@ -588,7 +588,7 @@
 			width: auto;
 		}
 		&:before{
-			
+			content: "";
 			display: block;
 			background: url('/wp-content/themes/hypr/assets/img/demo/try-now.png') no-repeat transparent scroll;
 			background-position: center center;
@@ -606,10 +606,13 @@
 
 		}
 
-		iframe{
+		a{
 			width: 100%;
 			height: 100%;
 			display: block;
+			background: url('/wp-content/themes/hypr/assets/img/demo/highlands-demo-screenshot.png');
+			background-position: top center;
+			background-size: cover;
 		}
 
 
