@@ -47,7 +47,9 @@ get_header(); ?>
 				</li>
 
 				<li id="experience" class="switch-container active enter">
-					<iframe src="https://demo.hypr.com/bank/" frameborder="0"></iframe>
+					<a href="https://demo.hypr.com/bank/">
+						
+					</a>
 				</li>
 
 
