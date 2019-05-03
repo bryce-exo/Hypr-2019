@@ -55,54 +55,7 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_enqueue_parent' );
 
 add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
-add_action('init', function() {
 
-  
-
-  register_post_type( 'resource', array(
-    'labels'  => array(
-      'name' => "Resources",
-      'singular_name'=> "Resource"
-    ),
-    'public' => true,
-    'has_archive' => true,
-    'menu_icon'   => 'dashicons-book',
-    'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'custom-fields')
-  ));
-
-
-  register_taxonomy(
-    'uc_type',
-    array('resource'),
-    array(
-      'label' => __( 'Type' ),
-      'rewrite' => array( 'slug' => 'uc-type' ),
-      'hierarchical' => true,
-    )
-  );  
-
-  register_taxonomy(
-    'uc_category',
-    array('resource'),
-    array(
-      'label' => __( 'Category' ),
-      'show_admin_column' => true,
-      'rewrite' => array( 'slug' => 'uc-category' ),
-      'hierarchical' => true,
-    )
-  );
-
-  register_taxonomy(
-    'uc_tag',
-    array('resource'),
-    array(
-      'label' => __( 'Tag' ),
-      'show_admin_column' => true,
-      'rewrite' => array( 'slug' => 'uc-tag' ),
-      'hierarchical' => false,
-    )
-  );
-});
 
 
 function myprefix_redirect_attachment_page() {

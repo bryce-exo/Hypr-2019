@@ -621,6 +621,13 @@ body.home.pageload{
       margin-right: 0px;
       margin-left: 40px;
 
+      &:first-child{
+        display: none;
+        @media only screen and (max-width: 980px){
+          display: inline-block;
+        }
+      }
+
       @media only screen and (max-width: 980px){
         margin: 0px 0 0 -4px;
         width: 50%;
