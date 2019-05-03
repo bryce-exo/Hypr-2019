@@ -21,6 +21,11 @@ jQuery(function($){
 			expandlisting();	
 		}
 
+		//Check for table
+		if($('table').length){
+			$('table').wrap('<div class=table-wrap>');
+		}
+
 
 		$('#menu-item-154').find('a.quadmenu-dropdown-toggle.hoverintent').attr('href','');
 

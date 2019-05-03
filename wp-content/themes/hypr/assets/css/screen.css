@@ -1378,6 +1378,13 @@ body #page-container .et_pb_button.et_pb_bg_layout_light, body .et_pb_button.et_
   border-radius: 3px !important;
 }
 
+/* line 613, ../sass/global.scss */
+.table-wrap {
+  width: 100%;
+  overflow-x: scroll;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* line 9, ../sass/nav.scss */
 #main-header {
   height: 90px;
