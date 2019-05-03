@@ -74,6 +74,6 @@ get_header();
 
 
 
-
+<?php echo do_shortcode('[showmodule id="392"]'); ?>
 
 <?php get_footer(); ?>
