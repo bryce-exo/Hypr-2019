@@ -76,7 +76,7 @@ if ( $query->have_posts() )
 						
 						
 						<?php
-						$terms = get_the_terms( $post->ID , 'uc_category' );
+						$terms = get_the_terms( $post->ID , 'folder' );
 						foreach ( $terms as $term ) {
 						echo "<div class='cat ";
 						echo $term->name;

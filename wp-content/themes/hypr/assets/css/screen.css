@@ -3491,7 +3491,7 @@ body.page-template-resources .searchandfilter ul li.sf-field-search input::place
   color: white;
 }
 /* line 100, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder {
   margin: 0 10px;
   /* Hide arrow icon in IE browsers */
   /* Hover style */
@@ -3501,12 +3501,12 @@ body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_f
 }
 @media only screen and (max-width: 980px) {
   /* line 100, ../sass/resources.scss */
-  body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder {
+  body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder {
     margin: 0 10px 0 0;
   }
 }
 /* line 106, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select {
   display: block;
   font-size: 14px;
   font-family: sans-serif;
@@ -3544,15 +3544,15 @@ body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_f
   background-size: .65em auto, 100%;
 }
 /* line 138, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select::-ms-expand {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select::-ms-expand, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select::-ms-expand {
   display: none;
 }
 /* line 142, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:hover {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select:hover, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select:hover {
   border-color: #888;
 }
 /* line 146, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select:focus {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select:focus, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select:focus {
   border-color: #aaa;
   /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
   box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
@@ -3561,11 +3561,11 @@ body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_f
   outline: none;
 }
 /* line 156, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder .sf-input-select option {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select option, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder .sf-input-select option {
   font-weight: normal;
 }
 /* line 161, ../sass/resources.scss */
-body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-resource_folder :root:lang(iw) .sf-input-select {
+body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder *[dir="rtl"] .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder :root:lang(ar) .sf-input-select, body.page-template-resources .searchandfilter ul li.sf-field-taxonomy-folder :root:lang(iw) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder *[dir="rtl"] .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder :root:lang(ar) .sf-input-select, body.page-template-all-resources .searchandfilter ul li.sf-field-taxonomy-folder :root:lang(iw) .sf-input-select {
   background-position: left .7em top 50%, 0 0;
   padding: .6em .8em .5em 1.4em;
 }
