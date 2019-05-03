@@ -85,6 +85,7 @@
 			background-color: $primary-2!important;
 			padding: 5px 20px;
 			border: 1px solid #92EBF0!important;
+			text-transform: capitalize!important;
 			@include box-shadow(0 0 5px $primary-2);
 		}
 

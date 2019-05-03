@@ -93,7 +93,7 @@
 			}
 		}
 
-		
+
 	}
 
 	
@@ -349,6 +349,33 @@
 			color: white!important;
 		}
 	}
+
+	.hs_error_rollup{
+		display: none;
+	}
+
+	.hbspt-form form .hs-fieldtype-text {
+		
+		display: block;
+		
+		
+
+		
+
+		@media only screen and (max-width: 980px){
+			width: 75%;
+		}
+
+		@media only screen and (max-width: 480px){
+			width: 100%;
+		}
+	}
+
+
+	.hs-button{
+		
+		margin-top: -10px!important;
+	}
 }
 
 
@@ -545,6 +572,8 @@ body #page-container .et_pb_button, body .et_pb_button{
     padding: 6px 3em 8px 3em!important;
     line-height: 27px!important;
     text-transform: capitalize;
+    min-width: 180px;
+    text-align: center;
 
    &:after{
     content: "\45";
