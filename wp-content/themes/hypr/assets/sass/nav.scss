@@ -21,6 +21,7 @@ html, body{
 
 body.et_fixed_nav.et_secondary_nav_enabled #main-header, body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header{
     top: 0px!important;
+    @include transform(translate3d(0,0,0));
 
 
 }

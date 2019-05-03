@@ -265,6 +265,12 @@
       top: 50%;
 
         @include transform(translateX(-30px)translateY(-30px));
+
+        @media only screen and (max-width: 980px){
+          @include transform(translateX(-50%)translateY(150%));          
+        }
     }
   }
 }
+
+

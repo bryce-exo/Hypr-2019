@@ -62,7 +62,7 @@ body.home{
 //Slider Styles
 .et_pb_slider{
 	@media only screen and (max-width: 980px){
-		max-width: 80%!important;
+		max-width: 100%!important;
 
 		.et_pb_slide_description{
 			
@@ -275,6 +275,7 @@ body.home{
 	@include box-shadow(0 0 10px $primary-1);
 	height: 50px;
 	width: 50px;
+	padding: 0;
 	@include border-radius(50px);
 	span{
 		font-size: 34px;
@@ -288,6 +289,12 @@ body.home{
 	}
 }
 
+
+.overlay-container{
+	.et_pb_row_7.et_pb_row{
+		padding-top: 0px!important;
+	}
+}
 
 #et-main-area{
 	overflow-x: hidden;

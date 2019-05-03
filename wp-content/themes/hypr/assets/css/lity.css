@@ -298,3 +298,12 @@
   -webkit-transform: translateX(-30px) translateY(-30px);
   transform: translateX(-30px) translateY(-30px);
 }
+@media only screen and (max-width: 980px) {
+  /* line 262, ../sass/lity.scss */
+  #s11 .et_pb_text_inner .lity-play-btn, #s10 .et_pb_text_inner .lity-play-btn, #s12 .et_pb_text_inner .lity-play-btn, #s9 .et_pb_text_inner .lity-play-btn {
+    -moz-transform: translateX(-50%) translateY(150%);
+    -ms-transform: translateX(-50%) translateY(150%);
+    -webkit-transform: translateX(-50%) translateY(150%);
+    transform: translateX(-50%) translateY(150%);
+  }
+}
